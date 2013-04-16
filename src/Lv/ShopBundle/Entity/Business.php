@@ -43,7 +43,7 @@ class Business
     /**
      * Get businessId
      *
-     * @return integer 
+     * @return integer
      */
     public function getBusinessId()
     {
@@ -59,14 +59,14 @@ class Business
     public function setBusinessName($businessName)
     {
         $this->businessName = $businessName;
-    
+
         return $this;
     }
 
     /**
      * Get businessName
      *
-     * @return string 
+     * @return string
      */
     public function getBusinessName()
     {
@@ -82,14 +82,14 @@ class Business
     public function setSortNo($sortNo)
     {
         $this->sortNo = $sortNo;
-    
+
         return $this;
     }
 
     /**
      * Get sortNo
      *
-     * @return integer 
+     * @return integer
      */
     public function getSortNo()
     {
@@ -105,14 +105,14 @@ class Business
     public function setUpdated($updated)
     {
         $this->updated = $updated;
-    
+
         return $this;
     }
 
     /**
      * Get updated
      *
-     * @return \DateTime 
+     * @return \DateTime
      */
     public function getUpdated()
     {
@@ -128,14 +128,14 @@ class Business
     public function setCreated($created)
     {
         $this->created = $created;
-    
+
         return $this;
     }
 
     /**
      * Get created
      *
-     * @return \DateTime 
+     * @return \DateTime
      */
     public function getCreated()
     {
@@ -151,17 +151,26 @@ class Business
     public function setDeleted($deleted)
     {
         $this->deleted = $deleted;
-    
+
         return $this;
     }
 
     /**
      * Get deleted
      *
-     * @return \DateTime 
+     * @return \DateTime
      */
     public function getDeleted()
     {
         return $this->deleted;
+    }
+
+    /**
+     * 
+     * @return string
+     */
+    public function __toString()
+    {
+        return $this->getBusinessName();
     }
 }

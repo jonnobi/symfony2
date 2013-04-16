@@ -1,3 +1,7 @@
 lv_shop_homepage:
     pattern:  /hello/{name}
     defaults: { _controller: LvShopBundle:Default:index }
+
+lv_shop_shop:
+    resource: "@LvShopBundle/Resources/config/routing/shop.yml"
+    prefix: /shop

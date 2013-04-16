@@ -53,7 +53,7 @@ class Prefecture
     /**
      * Get prefectureId
      *
-     * @return integer 
+     * @return integer
      */
     public function getPrefectureId()
     {
@@ -69,14 +69,14 @@ class Prefecture
     public function setPrefectureName($prefectureName)
     {
         $this->prefectureName = $prefectureName;
-    
+
         return $this;
     }
 
     /**
      * Get prefectureName
      *
-     * @return string 
+     * @return string
      */
     public function getPrefectureName()
     {
@@ -92,14 +92,14 @@ class Prefecture
     public function setAreaId($areaId)
     {
         $this->areaId = $areaId;
-    
+
         return $this;
     }
 
     /**
      * Get areaId
      *
-     * @return integer 
+     * @return integer
      */
     public function getAreaId()
     {
@@ -115,14 +115,14 @@ class Prefecture
     public function setAreaSort($areaSort)
     {
         $this->areaSort = $areaSort;
-    
+
         return $this;
     }
 
     /**
      * Get areaSort
      *
-     * @return integer 
+     * @return integer
      */
     public function getAreaSort()
     {
@@ -138,14 +138,14 @@ class Prefecture
     public function setUpdated($updated)
     {
         $this->updated = $updated;
-    
+
         return $this;
     }
 
     /**
      * Get updated
      *
-     * @return \DateTime 
+     * @return \DateTime
      */
     public function getUpdated()
     {
@@ -161,14 +161,14 @@ class Prefecture
     public function setCreated($created)
     {
         $this->created = $created;
-    
+
         return $this;
     }
 
     /**
      * Get created
      *
-     * @return \DateTime 
+     * @return \DateTime
      */
     public function getCreated()
     {
@@ -184,14 +184,14 @@ class Prefecture
     public function setDeleted($deleted)
     {
         $this->deleted = $deleted;
-    
+
         return $this;
     }
 
     /**
      * Get deleted
      *
-     * @return \DateTime 
+     * @return \DateTime
      */
     public function getDeleted()
     {
@@ -207,17 +207,26 @@ class Prefecture
     public function setArea(\Lv\ShopBundle\Entity\Area $area = null)
     {
         $this->area = $area;
-    
+
         return $this;
     }
 
     /**
      * Get area
      *
-     * @return \Lv\ShopBundle\Entity\Area 
+     * @return \Lv\ShopBundle\Entity\Area
      */
     public function getArea()
     {
         return $this->area;
+    }
+
+    /**
+     *
+     * @return string
+     */
+    public function __toString()
+    {
+        return $this->getPrefectureName();
     }
 }

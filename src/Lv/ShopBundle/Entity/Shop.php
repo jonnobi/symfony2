@@ -93,7 +93,7 @@ class Shop
     /**
      * Get shopId
      *
-     * @return integer 
+     * @return integer
      */
     public function getShopId()
     {
@@ -109,14 +109,14 @@ class Shop
     public function setShopAccountId($shopAccountId)
     {
         $this->shopAccountId = $shopAccountId;
-    
+
         return $this;
     }
 
     /**
      * Get shopAccountId
      *
-     * @return integer 
+     * @return integer
      */
     public function getShopAccountId()
     {
@@ -132,14 +132,14 @@ class Shop
     public function setBusinessId($businessId)
     {
         $this->businessId = $businessId;
-    
+
         return $this;
     }
 
     /**
      * Get businessId
      *
-     * @return integer 
+     * @return integer
      */
     public function getBusinessId()
     {
@@ -155,14 +155,14 @@ class Shop
     public function setCompanyName($companyName)
     {
         $this->companyName = $companyName;
-    
+
         return $this;
     }
 
     /**
      * Get companyName
      *
-     * @return string 
+     * @return string
      */
     public function getCompanyName()
     {
@@ -178,14 +178,14 @@ class Shop
     public function setPrefectureId($prefectureId)
     {
         $this->prefectureId = $prefectureId;
-    
+
         return $this;
     }
 
     /**
      * Get prefectureId
      *
-     * @return integer 
+     * @return integer
      */
     public function getPrefectureId()
     {
@@ -201,14 +201,14 @@ class Shop
     public function setMunicipalityCd($municipalityCd)
     {
         $this->municipalityCd = $municipalityCd;
-    
+
         return $this;
     }
 
     /**
      * Get municipalityCd
      *
-     * @return string 
+     * @return string
      */
     public function getMunicipalityCd()
     {
@@ -224,14 +224,14 @@ class Shop
     public function setAddress($address)
     {
         $this->address = $address;
-    
+
         return $this;
     }
 
     /**
      * Get address
      *
-     * @return string 
+     * @return string
      */
     public function getAddress()
     {
@@ -247,14 +247,14 @@ class Shop
     public function setBuildingName($buildingName)
     {
         $this->buildingName = $buildingName;
-    
+
         return $this;
     }
 
     /**
      * Get buildingName
      *
-     * @return string 
+     * @return string
      */
     public function getBuildingName()
     {
@@ -270,14 +270,14 @@ class Shop
     public function setMail($mail)
     {
         $this->mail = $mail;
-    
+
         return $this;
     }
 
     /**
      * Get mail
      *
-     * @return string 
+     * @return string
      */
     public function getMail()
     {
@@ -293,14 +293,14 @@ class Shop
     public function setTel($tel)
     {
         $this->tel = $tel;
-    
+
         return $this;
     }
 
     /**
      * Get tel
      *
-     * @return string 
+     * @return string
      */
     public function getTel()
     {
@@ -316,14 +316,14 @@ class Shop
     public function setUpdated($updated)
     {
         $this->updated = $updated;
-    
+
         return $this;
     }
 
     /**
      * Get updated
      *
-     * @return \DateTime 
+     * @return \DateTime
      */
     public function getUpdated()
     {
@@ -339,14 +339,14 @@ class Shop
     public function setCreated($created)
     {
         $this->created = $created;
-    
+
         return $this;
     }
 
     /**
      * Get created
      *
-     * @return \DateTime 
+     * @return \DateTime
      */
     public function getCreated()
     {
@@ -362,14 +362,14 @@ class Shop
     public function setDeleted($deleted)
     {
         $this->deleted = $deleted;
-    
+
         return $this;
     }
 
     /**
      * Get deleted
      *
-     * @return \DateTime 
+     * @return \DateTime
      */
     public function getDeleted()
     {
@@ -385,14 +385,14 @@ class Shop
     public function setShopAccount(\Lv\ShopBundle\Entity\ShopAccount $shopAccount = null)
     {
         $this->shopAccount = $shopAccount;
-    
+
         return $this;
     }
 
     /**
      * Get shopAccount
      *
-     * @return \Lv\ShopBundle\Entity\ShopAccount 
+     * @return \Lv\ShopBundle\Entity\ShopAccount
      */
     public function getShopAccount()
     {
@@ -408,14 +408,14 @@ class Shop
     public function setBusiness(\Lv\ShopBundle\Entity\Business $business = null)
     {
         $this->business = $business;
-    
+
         return $this;
     }
 
     /**
      * Get business
      *
-     * @return \Lv\ShopBundle\Entity\Business 
+     * @return \Lv\ShopBundle\Entity\Business
      */
     public function getBusiness()
     {
@@ -431,17 +431,37 @@ class Shop
     public function setPrefecture(\Lv\ShopBundle\Entity\Prefecture $prefecture = null)
     {
         $this->prefecture = $prefecture;
-    
+
         return $this;
     }
 
     /**
      * Get prefecture
      *
-     * @return \Lv\ShopBundle\Entity\Prefecture 
+     * @return \Lv\ShopBundle\Entity\Prefecture
      */
     public function getPrefecture()
     {
         return $this->prefecture;
     }
+
+    /**
+     * @ORM\PrePersist
+     */
+    public function setCreatedValue()
+    {
+        if(!$this->getCreated())
+        {
+            $this->created = new \DateTime();
+        }
+    }
+
+    /**
+     * @ORM\PreUpdate
+     */
+    public function setUpdatedValue()
+    {
+        $this->updated = new \DateTime();
+    }
+
 }

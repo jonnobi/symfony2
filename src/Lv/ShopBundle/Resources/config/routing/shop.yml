@@ -1,0 +1,16 @@
+lv_shop:
+    pattern:  /
+    defaults: { _controller: "LvShopBundle:Shop:index" }
+
+lv_shop_show:
+    pattern:  /{shop_id}/show
+    defaults: { _controller: "LvShopBundle:Shop:show" }
+
+lv_shop_new:
+    pattern:  /new
+    defaults: { _controller: "LvShopBundle:Shop:new" }
+
+lv_shop_create:
+    pattern:  /create
+    defaults: { _controller: "LvShopBundle:Shop:create" }
+    requirements: { _method: post }

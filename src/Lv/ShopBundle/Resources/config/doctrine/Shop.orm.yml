@@ -79,3 +79,7 @@ Lv\ShopBundle\Entity\Shop:
       joinColumns:
         prefecture_id:
           referencedColumnName: prefecture_id
+  #
+  lifecycleCallbacks:
+    prePersist: [ setCreatedValue, setUpdatedValue ]
+    preUpdate: [ setUpdatedValue ]

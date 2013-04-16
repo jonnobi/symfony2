@@ -1,0 +1,16 @@
+<h1>Shop creation</h1>
+
+<form action="{{ path('lv_shop_create') }}" method="post" {{ form_enctype(form) }}>
+    {{ form_widget(form) }}
+    <p>
+        <button type="submit">登録</button>
+    </p>
+</form>
+
+<ul class="record_actions">
+    <li>
+        <a href="{{ path('lv_shop') }}">
+            一覧に戻る
+        </a>
+    </li>
+</ul>

@@ -1,0 +1,65 @@
+<h1>店舗詳細</h1>
+
+<table class="record_properties">
+    <tbody>
+{#
+        <tr>
+            <th>店舗ID</th>
+            <td>{{ entity.shop_id }}</td>
+        </tr>
+#}
+        <tr>
+            <th>業態</th>
+            <td>{{ entity.business }}</td>
+        </tr>
+        <tr>
+            <th>店舗名</th>
+            <td>{{ entity.companyName }}</td>
+        </tr>
+        <tr>
+            <th>住所</th>
+            <td>{{ entity.prefecture }}{{ entity.address}}</td>
+        </tr>
+        <tr>
+            <th>ビル名</th>
+            <td>{{ entity.buildingName }}</td>
+        </tr>
+        <tr>
+            <th>電話番号</th>
+            <td>{{ entity.tel }}</td>
+        </tr>
+        <tr>
+            <th>メールアドレス</th>
+            <td>{{ entity.mail }}</td>
+        </tr>
+        <tr>
+            <th>作成日</th>
+            <td>{{ entity.created|date('Y-m-d H:i:s') }}</td>
+        </tr>
+        <tr>
+            <th>最終更新日</th>
+            <td>{{ entity.updated|date('Y-m-d H:i:s') }}</td>
+        </tr>
+    </tbody>
+</table>
+
+{#
+<ul class="record_actions">
+    <li>
+        <a href="{{ path('ens_job') }}">
+            Back to the list
+        </a>
+    </li>
+    <li>
+        <a href="{{ path('ens_job_edit', { 'id': entity.id }) }}">
+            Edit
+        </a>
+    </li>
+    <li>
+        <form action="{{ path('ens_job_delete', { 'id': entity.id }) }}" method="post">
+            {{ form_widget(delete_form) }}
+            <button type="submit">Delete</button>
+        </form>
+    </li>
+</ul>
+#}

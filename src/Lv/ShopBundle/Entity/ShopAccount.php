@@ -38,7 +38,7 @@ class ShopAccount
     /**
      * Get shopAccountId
      *
-     * @return integer 
+     * @return integer
      */
     public function getShopAccountId()
     {
@@ -54,14 +54,14 @@ class ShopAccount
     public function setShopAccountName($shopAccountName)
     {
         $this->shopAccountName = $shopAccountName;
-    
+
         return $this;
     }
 
     /**
      * Get shopAccountName
      *
-     * @return string 
+     * @return string
      */
     public function getShopAccountName()
     {
@@ -77,14 +77,14 @@ class ShopAccount
     public function setUpdated($updated)
     {
         $this->updated = $updated;
-    
+
         return $this;
     }
 
     /**
      * Get updated
      *
-     * @return \DateTime 
+     * @return \DateTime
      */
     public function getUpdated()
     {
@@ -100,14 +100,14 @@ class ShopAccount
     public function setCreated($created)
     {
         $this->created = $created;
-    
+
         return $this;
     }
 
     /**
      * Get created
      *
-     * @return \DateTime 
+     * @return \DateTime
      */
     public function getCreated()
     {
@@ -123,17 +123,26 @@ class ShopAccount
     public function setDeleted($deleted)
     {
         $this->deleted = $deleted;
-    
+
         return $this;
     }
 
     /**
      * Get deleted
      *
-     * @return \DateTime 
+     * @return \DateTime
      */
     public function getDeleted()
     {
         return $this->deleted;
+    }
+
+   /**
+    *
+    * @return string
+    */
+    public function __toString()
+    {
+        return $this->getShopAccountName();
     }
 }
