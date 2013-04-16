@@ -185,57 +185,6 @@
         ]
     },
     {
-        "name": "twig/twig",
-        "version": "v1.12.2",
-        "version_normalized": "1.12.2.0",
-        "source": {
-            "type": "git",
-            "url": "git://github.com/fabpot/Twig.git",
-            "reference": "v1.12.2"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/fabpot/Twig/zipball/v1.12.2",
-            "reference": "v1.12.2",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.2.4"
-        },
-        "time": "2013-02-09 18:21:53",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "1.12-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-0": {
-                "Twig_": "lib/"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "BSD-3"
-        ],
-        "authors": [
-            {
-                "name": "Fabien Potencier",
-                "email": "fabien@symfony.com"
-            },
-            {
-                "name": "Armin Ronacher",
-                "email": "armin.ronacher@active-4.com"
-            }
-        ],
-        "description": "Twig, the flexible, fast, and secure template language for PHP",
-        "homepage": "http://twig.sensiolabs.org",
-        "keywords": [
-            "templating"
-        ]
-    },
-    {
         "name": "symfony/symfony",
         "version": "v2.1.9",
         "version_normalized": "2.1.9.0",
@@ -892,79 +841,6 @@
         ]
     },
     {
-        "name": "kriswallsmith/assetic",
-        "version": "dev-master",
-        "version_normalized": "9999999-dev",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/kriswallsmith/assetic.git",
-            "reference": "50a24301b40cd7df29a7da4efd5573a9ef4622f8"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/kriswallsmith/assetic/zipball/50a24301b40cd7df29a7da4efd5573a9ef4622f8",
-            "reference": "50a24301b40cd7df29a7da4efd5573a9ef4622f8",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.3.1",
-            "symfony/process": ">=2.1,<3.0"
-        },
-        "require-dev": {
-            "cssmin/cssmin": "*",
-            "joliclic/javascript-packer": "*",
-            "kamicane/packager": "*",
-            "leafo/lessphp": "*",
-            "leafo/scssphp": "*",
-            "leafo/scssphp-compass": "*",
-            "mrclay/minify": "*",
-            "phpunit/phpunit": "3.7.*",
-            "ptachoire/cssembed": "*",
-            "twig/twig": ">=1.6.0,<2.0"
-        },
-        "suggest": {
-            "leafo/lessphp": "Assetic provides the integration with the lessphp LESS compiler",
-            "leafo/scssphp": "Assetic provides the integration with the scssphp SCSS compiler",
-            "leafo/scssphp-compass": "Assetic provides the integration with the SCSS compass plugin",
-            "ptachoire/cssembed": "Assetic provides the integration with phpcssembed to embed data uris",
-            "twig/twig": "Assetic provides the integration with the Twig templating engine"
-        },
-        "time": "2013-03-25 20:14:55",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "1.1-dev"
-            }
-        },
-        "installation-source": "source",
-        "autoload": {
-            "psr-0": {
-                "Assetic": "src/"
-            },
-            "files": [
-                "src/functions.php"
-            ]
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Kris Wallsmith",
-                "email": "kris.wallsmith@gmail.com",
-                "homepage": "http://kriswallsmith.net/"
-            }
-        ],
-        "description": "Asset Management for PHP",
-        "homepage": "https://github.com/kriswallsmith/assetic",
-        "keywords": [
-            "assets",
-            "compression",
-            "minification"
-        ]
-    },
-    {
         "name": "symfony/assetic-bundle",
         "version": "v2.1.2",
         "version_normalized": "2.1.2.0",
@@ -1085,67 +961,6 @@
         ],
         "description": "Symfony SwiftmailerBundle",
         "homepage": "http://symfony.com"
-    },
-    {
-        "name": "symfony/monolog-bundle",
-        "version": "v2.1.8",
-        "version_normalized": "2.1.8.0",
-        "target-dir": "Symfony/Bundle/MonologBundle",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/symfony/MonologBundle.git",
-            "reference": "v2.1.8"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/symfony/MonologBundle/zipball/v2.1.8",
-            "reference": "v2.1.8",
-            "shasum": ""
-        },
-        "require": {
-            "monolog/monolog": ">=1.0,<1.3-dev",
-            "php": ">=5.3.2",
-            "symfony/config": ">=2.1.0,<2.3-dev",
-            "symfony/dependency-injection": ">=2.1.0,<2.3-dev",
-            "symfony/monolog-bridge": "2.1.*"
-        },
-        "require-dev": {
-            "symfony/config": ">=2.1.0,<2.3-dev",
-            "symfony/yaml": ">=2.1.0,<2.3-dev"
-        },
-        "time": "2013-01-28 10:06:42",
-        "type": "symfony-bundle",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "2.1.x-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-0": {
-                "Symfony\\Bundle\\MonologBundle": ""
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Fabien Potencier",
-                "email": "fabien@symfony.com"
-            },
-            {
-                "name": "Symfony Community",
-                "homepage": "http://symfony.com/contributors"
-            }
-        ],
-        "description": "Symfony MonologBundle",
-        "homepage": "http://symfony.com",
-        "keywords": [
-            "log",
-            "logging"
-        ]
     },
     {
         "name": "sensio/distribution-bundle",
@@ -1293,5 +1108,452 @@
             }
         ],
         "description": "This bundle generates code for you"
+    },
+    {
+        "name": "twig/twig",
+        "version": "v1.12.3",
+        "version_normalized": "1.12.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/fabpot/Twig.git",
+            "reference": "v1.12.3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/fabpot/Twig/zipball/v1.12.3",
+            "reference": "v1.12.3",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2.4"
+        },
+        "time": "2013-04-08 12:40:11",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.12-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Twig_": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Armin Ronacher",
+                "email": "armin.ronacher@active-4.com"
+            }
+        ],
+        "description": "Twig, the flexible, fast, and secure template language for PHP",
+        "homepage": "http://twig.sensiolabs.org",
+        "keywords": [
+            "templating"
+        ]
+    },
+    {
+        "name": "symfony/monolog-bundle",
+        "version": "v2.1.9",
+        "version_normalized": "2.1.9.0",
+        "target-dir": "Symfony/Bundle/MonologBundle",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/MonologBundle.git",
+            "reference": "v2.1.9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/MonologBundle/zipball/v2.1.9",
+            "reference": "v2.1.9",
+            "shasum": ""
+        },
+        "require": {
+            "monolog/monolog": ">=1.0,<1.3-dev",
+            "php": ">=5.3.2",
+            "symfony/config": ">=2.1.0,<2.3-dev",
+            "symfony/dependency-injection": ">=2.1.0,<2.3-dev",
+            "symfony/monolog-bridge": "2.1.*"
+        },
+        "require-dev": {
+            "symfony/config": ">=2.1.0,<2.3-dev",
+            "symfony/yaml": ">=2.1.0,<2.3-dev"
+        },
+        "time": "2013-01-28 10:06:42",
+        "type": "symfony-bundle",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.1.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Symfony\\Bundle\\MonologBundle": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "http://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony MonologBundle",
+        "homepage": "http://symfony.com",
+        "keywords": [
+            "log",
+            "logging"
+        ]
+    },
+    {
+        "name": "gedmo/doctrine-extensions",
+        "version": "v2.3.5",
+        "version_normalized": "2.3.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/l3pp4rd/DoctrineExtensions.git",
+            "reference": "v2.3.5"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/l3pp4rd/DoctrineExtensions/zipball/v2.3.5",
+            "reference": "v2.3.5",
+            "shasum": ""
+        },
+        "require": {
+            "doctrine/common": ">=2.2,<2.5-dev",
+            "php": ">=5.3.2"
+        },
+        "require-dev": {
+            "doctrine/dbal": ">=2.2",
+            "doctrine/mongodb": "1.0.1",
+            "doctrine/mongodb-odm": "1.0.0-BETA7",
+            "doctrine/orm": ">=2.2",
+            "symfony/yaml": "2.*"
+        },
+        "suggest": {
+            "doctrine/dbal": ">=2.3.2",
+            "doctrine/mongodb": ">=1.0.1",
+            "doctrine/mongodb-odm": ">=1.0.0-BETA7",
+            "doctrine/orm": ">=2.3.2"
+        },
+        "time": "2013-03-05 06:32:22",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.3.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Gedmo": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "David Buchmann",
+                "email": "david@liip.ch"
+            },
+            {
+                "name": "Gediminas Morkevicius",
+                "email": "gediminas.morkevicius@gmail.com"
+            },
+            {
+                "name": "Gustavo Falco",
+                "email": "comfortablynumb84@gmail.com"
+            }
+        ],
+        "description": "Doctrine2 behavioral extensions",
+        "homepage": "http://gediminasm.org/",
+        "keywords": [
+            "Blameable",
+            "behaviors",
+            "doctrine2",
+            "extensions",
+            "gedmo",
+            "loggable",
+            "nestedset",
+            "sluggable",
+            "sortable",
+            "timestampable",
+            "translatable",
+            "tree",
+            "uploadable"
+        ]
+    },
+    {
+        "name": "stof/doctrine-extensions-bundle",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "target-dir": "Stof/DoctrineExtensionsBundle",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/stof/StofDoctrineExtensionsBundle.git",
+            "reference": "62b1dd67fadb6fdd72d6606cafa6260c18896b61"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/stof/StofDoctrineExtensionsBundle/zipball/62b1dd67fadb6fdd72d6606cafa6260c18896b61",
+            "reference": "62b1dd67fadb6fdd72d6606cafa6260c18896b61",
+            "shasum": ""
+        },
+        "require": {
+            "gedmo/doctrine-extensions": "2.3.*",
+            "php": ">=5.3.2",
+            "symfony/framework-bundle": ">=2.1,<3.0"
+        },
+        "suggest": {
+            "doctrine/doctrine-bundle": "to use the ORM extensions",
+            "doctrine/mongodb-odm-bundle": "to use the MongoDB ODM extensions"
+        },
+        "time": "2013-04-07 18:16:23",
+        "type": "symfony-bundle",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.1.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Stof\\DoctrineExtensionsBundle": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Christophe Coevoet",
+                "email": "stof@notk.org"
+            }
+        ],
+        "description": "Integration of the gedmo/doctrine-extensions with Symfony2",
+        "homepage": "https://github.com/stof/StofDoctrineExtensionsBundle",
+        "keywords": [
+            "behaviors",
+            "doctrine2",
+            "extensions",
+            "gedmo",
+            "loggable",
+            "nestedset",
+            "sluggable",
+            "sortable",
+            "timestampable",
+            "translatable",
+            "tree"
+        ]
+    },
+    {
+        "name": "doctrine/data-fixtures",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/doctrine/data-fixtures.git",
+            "reference": "6924952026b77ff492da559b04ad166d25c611cb"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/doctrine/data-fixtures/zipball/6924952026b77ff492da559b04ad166d25c611cb",
+            "reference": "6924952026b77ff492da559b04ad166d25c611cb",
+            "shasum": ""
+        },
+        "require": {
+            "doctrine/common": ">=2.2,<2.5-dev",
+            "php": ">=5.3.2"
+        },
+        "require-dev": {
+            "doctrine/orm": ">=2.2,<2.5-dev"
+        },
+        "suggest": {
+            "doctrine/mongodb-odm": "For loading MongoDB ODM fixtures",
+            "doctrine/orm": "For loading ORM fixtures",
+            "doctrine/phpcr-odm": "For loading PHPCR ODM fixtures"
+        },
+        "time": "2013-04-11 23:14:04",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Doctrine\\Common\\DataFixtures": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jonathan Wage",
+                "email": "jonwage@gmail.com",
+                "homepage": "http://www.jwage.com/"
+            }
+        ],
+        "description": "Data Fixtures for all Doctrine Object Managers",
+        "homepage": "http://www.doctrine-project.org",
+        "keywords": [
+            "database"
+        ]
+    },
+    {
+        "name": "doctrine/doctrine-fixtures-bundle",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "target-dir": "Doctrine/Bundle/FixturesBundle",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/doctrine/DoctrineFixturesBundle.git",
+            "reference": "275540d96599baec19fa3292c4d06c5cd4eefd06"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/doctrine/DoctrineFixturesBundle/zipball/275540d96599baec19fa3292c4d06c5cd4eefd06",
+            "reference": "275540d96599baec19fa3292c4d06c5cd4eefd06",
+            "shasum": ""
+        },
+        "require": {
+            "doctrine/data-fixtures": "*",
+            "doctrine/doctrine-bundle": ">=1.0,<2.0",
+            "php": ">=5.3.2",
+            "symfony/doctrine-bridge": ">=2.1.0,<2.3-dev"
+        },
+        "time": "2013-02-12 11:13:27",
+        "type": "symfony-bundle",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.1.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Doctrine\\Bundle\\FixturesBundle": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "http://symfony.com/contributors"
+            },
+            {
+                "name": "Doctrine Project",
+                "homepage": "http://www.doctrine-project.org"
+            }
+        ],
+        "description": "Symfony DoctrineFixturesBundle",
+        "homepage": "http://www.doctrine-project.org",
+        "keywords": [
+            "Fixture",
+            "persistence"
+        ]
+    },
+    {
+        "name": "kriswallsmith/assetic",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/kriswallsmith/assetic.git",
+            "reference": "0a55a9ba70bd9250899ad77deceaf8cb9e145371"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/kriswallsmith/assetic/zipball/0a55a9ba70bd9250899ad77deceaf8cb9e145371",
+            "reference": "0a55a9ba70bd9250899ad77deceaf8cb9e145371",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.1",
+            "symfony/process": ">=2.1,<3.0"
+        },
+        "require-dev": {
+            "cssmin/cssmin": "*",
+            "joliclic/javascript-packer": "*",
+            "kamicane/packager": "*",
+            "leafo/lessphp": "*",
+            "leafo/scssphp": "*",
+            "leafo/scssphp-compass": "*",
+            "mrclay/minify": "*",
+            "phpunit/phpunit": "3.7.*",
+            "ptachoire/cssembed": "*",
+            "twig/twig": ">=1.6.0,<2.0"
+        },
+        "suggest": {
+            "leafo/lessphp": "Assetic provides the integration with the lessphp LESS compiler",
+            "leafo/scssphp": "Assetic provides the integration with the scssphp SCSS compiler",
+            "leafo/scssphp-compass": "Assetic provides the integration with the SCSS compass plugin",
+            "ptachoire/cssembed": "Assetic provides the integration with phpcssembed to embed data uris",
+            "twig/twig": "Assetic provides the integration with the Twig templating engine"
+        },
+        "time": "2013-04-02 21:36:28",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.1-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Assetic": "src/"
+            },
+            "files": [
+                "src/functions.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Kris Wallsmith",
+                "email": "kris.wallsmith@gmail.com",
+                "homepage": "http://kriswallsmith.net/"
+            }
+        ],
+        "description": "Asset Management for PHP",
+        "homepage": "https://github.com/kriswallsmith/assetic",
+        "keywords": [
+            "assets",
+            "compression",
+            "minification"
+        ]
     }
 ]
