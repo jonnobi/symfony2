@@ -1,0 +1,49 @@
+Lv\ShopBundle\Entity\FeatureKbn:
+  type: entity
+  table: feature_kbn
+  fields:
+    featureKbnId:
+      id: true
+      type: bigint
+      column: feature_kbn_id
+      generator:
+        strategy: IDENTITY
+    featureCd:
+      type: string
+      length: 5
+      nullable: false
+      column: feature_cd
+    featureKbnCd:
+      type: text
+      nullable: false
+      column: feature_kbn_cd
+    featureKbnName:
+      type: text
+      nullable: false
+      column: feature_kbn_name
+    sortNo:
+      type: integer
+      nullable: false
+      column: sort_no
+    updated:
+      type: datetime
+      nullable: false
+      options: ##Unknown attribute type##
+      options:
+        default: CURRENT_TIMESTAMP
+    created:
+      type: datetime
+      nullable: false
+      options: ##Unknown attribute type##
+      options:
+        default: CURRENT_TIMESTAMP
+    deleted:
+      type: datetime
+      nullable: true
+  manyToOne:
+    feature:
+      targetEntity: Lv\ShopBundle\Entity\Feature
+      orphanRemoval: false
+      joinColumns:
+        feature_cd:
+          referencedColumnName: feature_cd

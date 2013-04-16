@@ -1,0 +1,7 @@
+parameters:
+#    lv_shop.example.class: Lv\ShopBundle\Example
+
+services:
+#    lv_shop.example:
+#        class: %lv_shop.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

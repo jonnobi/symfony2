@@ -1,0 +1,50 @@
+Lv\ShopBundle\Entity\Feature:
+  type: entity
+  table: feature
+  fields:
+    featureId:
+      id: true
+      type: bigint
+      column: feature_id
+      generator:
+        strategy: IDENTITY
+    featureCd:
+      type: string
+      length: 5
+      unique: true
+      nullable: false
+      column: feature_cd
+    featureName:
+      type: text
+      nullable: false
+      column: feature_name
+    fieldName:
+      type: text
+      nullable: true
+      column: field_name
+    sortNo:
+      type: integer
+      nullable: false
+      column: sort_no
+    dispFlg:
+      type: integer
+      nullable: false
+      column: disp_flg
+      options: ##Unknown attribute type##
+      options:
+        default: 0
+    updated:
+      type: datetime
+      nullable: false
+      options: ##Unknown attribute type##
+      options:
+        default: CURRENT_TIMESTAMP
+    created:
+      type: datetime
+      nullable: false
+      options: ##Unknown attribute type##
+      options:
+        default: CURRENT_TIMESTAMP
+    deleted:
+      type: datetime
+      nullable: true

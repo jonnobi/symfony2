@@ -1,0 +1,81 @@
+Lv\ShopBundle\Entity\Shop:
+  type: entity
+  table: shop
+  fields:
+    shopId:
+      id: true
+      type: bigint
+      column: shop_id
+      generator:
+        strategy: IDENTITY
+    shopAccountId:
+      type: bigint
+      nullable: false
+      column: shop_account_id
+    businessId:
+      type: bigint
+      nullable: false
+      column: business_id
+    companyName:
+      type: text
+      nullable: false
+      column: company_name
+    prefectureId:
+      type: bigint
+      nullable: false
+      column: prefecture_id
+    municipalityCd:
+      type: string
+      length: 8
+      nullable: true
+      column: municipality_cd
+    address:
+      type: text
+      nullable: false
+      column: address
+    buildingName:
+      type: text
+      nullable: true
+      column: building_name
+    mail:
+      type: text
+      nullable: true
+      column: mail
+    tel:
+      type: text
+      nullable: true
+      column: tel
+    updated:
+      type: datetime
+      nullable: false
+      options: ##Unknown attribute type##
+      options:
+        default: CURRENT_TIMESTAMP
+    created:
+      type: datetime
+      nullable: false
+      options: ##Unknown attribute type##
+      options:
+        default: CURRENT_TIMESTAMP
+    deleted:
+      type: datetime
+      nullable: true
+  manyToOne:
+    shopAccount:
+      targetEntity: Lv\ShopBundle\Entity\ShopAccount
+      orphanRemoval: false
+      joinColumns:
+        shop_account_id:
+          referencedColumnName: shop_account_id
+    business:
+      targetEntity: Lv\ShopBundle\Entity\Business
+      orphanRemoval: false
+      joinColumns:
+        business_id:
+          referencedColumnName: business_id
+    prefecture:
+      targetEntity: Lv\ShopBundle\Entity\Prefecture
+      orphanRemoval: false
+      joinColumns:
+        prefecture_id:
+          referencedColumnName: prefecture_id
