@@ -37,10 +37,3 @@ Lv\ShopBundle\Entity\Municipality:
     deleted:
       type: datetime
       nullable: true
-  manyToOne:
-    prefecture:
-      targetEntity: Lv\ShopBundle\Entity\Prefecture
-      orphanRemoval: false
-      joinColumns:
-        prefecture_id:
-          referencedColumnName: prefecture_id

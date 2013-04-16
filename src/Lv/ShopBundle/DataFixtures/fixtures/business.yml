@@ -1,0 +1,29 @@
+Business:
+  1:
+    businessName: ファミレス
+    sortNo: 1
+  2:
+    businessName: カフェ・スイーツ
+    sortNo: 2
+  3:
+    businessName: 焼肉・韓国料理
+    sortNo: 3
+  4:
+    businessName: ファーストフード
+    sortNo: 4
+  5:
+    businessName: デリバリー
+    sortNo: 5
+  6:
+    businessName: 和食
+    sortNo: 6
+  7:
+    businessName: 中華
+    sortNo: 7
+  8:
+    businessName: イタリアン・フレンチ
+    sortNo: 8
+  9:
+    businessName: 洋食
+    sortNo: 9
+ 

@@ -44,6 +44,11 @@ class Prefecture
      */
     private $deleted;
 
+    /**
+     * @var \Lv\ShopBundle\Entity\Area
+     */
+    private $area;
+
 
     /**
      * Get prefectureId
@@ -191,5 +196,28 @@ class Prefecture
     public function getDeleted()
     {
         return $this->deleted;
+    }
+
+    /**
+     * Set area
+     *
+     * @param \Lv\ShopBundle\Entity\Area $area
+     * @return Prefecture
+     */
+    public function setArea(\Lv\ShopBundle\Entity\Area $area = null)
+    {
+        $this->area = $area;
+    
+        return $this;
+    }
+
+    /**
+     * Get area
+     *
+     * @return \Lv\ShopBundle\Entity\Area 
+     */
+    public function getArea()
+    {
+        return $this->area;
     }
 }

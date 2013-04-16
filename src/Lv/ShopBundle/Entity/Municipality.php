@@ -44,11 +44,6 @@ class Municipality
      */
     private $deleted;
 
-    /**
-     * @var \Lv\ShopBundle\Entity\Prefecture
-     */
-    private $prefecture;
-
 
     /**
      * Get municipalityId
@@ -196,28 +191,5 @@ class Municipality
     public function getDeleted()
     {
         return $this->deleted;
-    }
-
-    /**
-     * Set prefecture
-     *
-     * @param \Lv\ShopBundle\Entity\Prefecture $prefecture
-     * @return Municipality
-     */
-    public function setPrefecture(\Lv\ShopBundle\Entity\Prefecture $prefecture = null)
-    {
-        $this->prefecture = $prefecture;
-    
-        return $this;
-    }
-
-    /**
-     * Get prefecture
-     *
-     * @return \Lv\ShopBundle\Entity\Prefecture 
-     */
-    public function getPrefecture()
-    {
-        return $this->prefecture;
     }
 }

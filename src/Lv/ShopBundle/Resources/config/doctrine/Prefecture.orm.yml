@@ -35,3 +35,10 @@ Lv\ShopBundle\Entity\Prefecture:
     deleted:
       type: datetime
       nullable: true
+  manyToOne:
+    area:
+      targetEntity: Lv\ShopBundle\Entity\Area
+      orphanRemoval: false
+      joinColumns:
+        area_id:
+          referencedColumnName: area_id
