@@ -38,6 +38,7 @@ Lv\ShopBundle\Entity\Prefecture:
   manyToOne:
     area:
       targetEntity: Lv\ShopBundle\Entity\Area
+      cascade: [persist]
       orphanRemoval: false
       joinColumns:
         area_id:

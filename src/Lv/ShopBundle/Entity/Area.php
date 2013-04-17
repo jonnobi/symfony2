@@ -7,7 +7,7 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * Area
  */
-class Area
+class Area implements \Serializable
 {
     /**
      * @var integer
@@ -34,11 +34,50 @@ class Area
      */
     private $deleted;
 
+    /**
+     * Implementation for the \Serializable interface
+     *
+     * @return string
+     */
+    public function serialize()
+    {
+        return serialize(array(
+            $this->areaId,
+            $this->areaName,
+            $this->created,
+            $this->deleted,
+            $this->updated,
+        ));
+    }
+
+    /**
+     * Implementation for the \Serializable interface
+     *
+     * @param string $serialized
+     * @return void
+     */
+    public function unserialize($serialized)
+    {
+        list($this->areaId,
+             $this->areaName,
+             $this->created,
+             $this->deleted,
+             $this->updated,
+        ) = unserialize($serialized);
+    }
+
+    /**
+     * @return string
+     */
+    public function __toString()
+    {
+        return $this->getAreaName();
+    }
 
     /**
      * Get areaId
      *
-     * @return integer 
+     * @return integer
      */
     public function getAreaId()
     {
@@ -54,14 +93,14 @@ class Area
     public function setAreaName($areaName)
     {
         $this->areaName = $areaName;
-    
+
         return $this;
     }
 
     /**
      * Get areaName
      *
-     * @return string 
+     * @return string
      */
     public function getAreaName()
     {
@@ -77,14 +116,14 @@ class Area
     public function setUpdated($updated)
     {
         $this->updated = $updated;
-    
+
         return $this;
     }
 
     /**
      * Get updated
      *
-     * @return \DateTime 
+     * @return \DateTime
      */
     public function getUpdated()
     {
@@ -100,14 +139,14 @@ class Area
     public function setCreated($created)
     {
         $this->created = $created;
-    
+
         return $this;
     }
 
     /**
      * Get created
      *
-     * @return \DateTime 
+     * @return \DateTime
      */
     public function getCreated()
     {
@@ -123,14 +162,14 @@ class Area
     public function setDeleted($deleted)
     {
         $this->deleted = $deleted;
-    
+
         return $this;
     }
 
     /**
      * Get deleted
      *
-     * @return \DateTime 
+     * @return \DateTime
      */
     public function getDeleted()
     {

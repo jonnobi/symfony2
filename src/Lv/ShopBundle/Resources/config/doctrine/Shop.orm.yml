@@ -64,18 +64,21 @@ Lv\ShopBundle\Entity\Shop:
     shopAccount:
       targetEntity: Lv\ShopBundle\Entity\ShopAccount
       orphanRemoval: false
+      #cascade: [persist]
       joinColumns:
         shop_account_id:
           referencedColumnName: shop_account_id
     business:
       targetEntity: Lv\ShopBundle\Entity\Business
       orphanRemoval: false
+      #cascade: [persist]
       joinColumns:
         business_id:
           referencedColumnName: business_id
     prefecture:
       targetEntity: Lv\ShopBundle\Entity\Prefecture
       orphanRemoval: false
+      #cascade: [persist]
       joinColumns:
         prefecture_id:
           referencedColumnName: prefecture_id

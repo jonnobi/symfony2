@@ -229,4 +229,5 @@ class Prefecture
     {
         return $this->getPrefectureName();
     }
+
 }

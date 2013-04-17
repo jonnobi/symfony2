@@ -1,0 +1,43 @@
+{% block content %}
+  <h2>確認画面</h2>
+
+  <div class="well">
+    <table>
+        <tr>
+            <td>本部</td><td>{{ shop.shopAccount }}</td>
+        </tr>
+        <tr>
+            <td>業態</td><td>{{ shop.business }}</td>
+        </tr>
+        <tr>
+            <td>店舗名</td><td>{{ shop.companyName }}</td>
+        </tr>
+        <tr>
+            <td>住所</td>
+            <td>
+                {{ shop.prefecture }}{{ shop.address }}
+                {% if shop.buildingName %}
+                    {{ shop.buildingName }}
+                {% endif %}
+            </td>
+        </tr>
+        <tr>
+            <td>市区町村郡コード</td><td>{{ shop.municipalityCd }}</td>
+        </tr>
+        <tr>
+            <td>メールアドレス</td><td>{{ shop.mail }}</td>
+        </tr>
+        <tr>
+            <td>電話番号</td><td>{{ shop.tel }}</td>
+        </tr>
+    </table>
+
+    <form action="{{ path('lv_shop_confirmpost') }}" method="post" {{ form_enctype(form) }} novalidate>
+      <div class="form-actions">
+        <button type="submit" class="btn" name="prev"><b>修正する</b></button>
+        <button type="submit" class="btn btn-primary" name="next"><b>送信する</b></button>
+      </div>
+      {{ form_rest(form) }}
+    </form>
+  </div>
+{% endblock %}

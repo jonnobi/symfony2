@@ -1,6 +1,8 @@
-<h1>Shop creation</h1>
+<h2>Shop creation</h2>
 
-<form action="{{ path('lv_shop_create') }}" method="post" {{ form_enctype(form) }}>
+{% if formErrors %}<p><code>入力内容に不備があります</code></p>{% endif %}
+
+<form action="{{ path('lv_shop_inputpost') }}" method="post" {{ form_enctype(form) }} novalidate>
     {{ form_widget(form) }}
     <p>
         <button type="submit">登録</button>

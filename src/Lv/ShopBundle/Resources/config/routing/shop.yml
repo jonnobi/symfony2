@@ -6,11 +6,28 @@ lv_shop_show:
     pattern:  /{shop_id}/show
     defaults: { _controller: "LvShopBundle:Shop:show" }
 
-lv_shop_new:
-    pattern:  /new
-    defaults: { _controller: "LvShopBundle:Shop:new" }
-
-lv_shop_create:
-    pattern:  /create
-    defaults: { _controller: "LvShopBundle:Shop:create" }
+# 入力画面
+lv_shop_input:
+    pattern:  /input
+    defaults: { _controller: "LvShopBundle:Shop:inputView" }
+    requirements: { _method: get }
+lv_shop_inputpost:
+    pattern:  /input
+    defaults: { _controller: "LvShopBundle:Shop:inputPost" }
     requirements: { _method: post }
+
+# 確認画面
+lv_shop_confirm:
+    pattern:  /confirm
+    defaults: { _controller: "LvShopBundle:Shop:confirmView" }
+    requirements: { _method: get }
+lv_shop_confirmpost:
+    pattern:  /confirm
+    defaults: { _controller: "LvShopBundle:Shop:confirmPost" }
+    requirements: { _method: post }
+
+# 完了画面
+lv_shop_success:
+    pattern:  /success
+    defaults: { _controller: "LvShopBundle:Shop:success" }
+    requirements: { _method: get }
