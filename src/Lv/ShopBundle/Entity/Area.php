@@ -6,38 +6,43 @@ use Doctrine\ORM\Mapping as ORM;
 
 /**
  * Area
+ * Shop Entity をSessionにStoreできない事象対応を
+ * \Serializable でなく、private→protectedにすることで対応
  */
-class Area implements \Serializable
+
+//class Area implements \Serializable
+class Area
 {
     /**
      * @var integer
      */
-    private $areaId;
+    protected $areaId;
 
     /**
      * @var string
      */
-    private $areaName;
+    protected $areaName;
 
     /**
      * @var \DateTime
      */
-    private $updated;
+    protected $updated;
 
     /**
      * @var \DateTime
      */
-    private $created;
+    protected $created;
 
     /**
      * @var \DateTime
      */
-    private $deleted;
+    protected $deleted;
 
     /**
      * Implementation for the \Serializable interface
      *
      * @return string
+     * @deprecated implements \Serializable を解除したので未使用.
      */
     public function serialize()
     {
@@ -55,6 +60,7 @@ class Area implements \Serializable
      *
      * @param string $serialized
      * @return void
+     * @deprecated implements \Serializable を解除したので未使用.
      */
     public function unserialize($serialized)
     {
