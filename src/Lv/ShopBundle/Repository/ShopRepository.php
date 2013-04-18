@@ -4,10 +4,7 @@ namespace Lv\ShopBundle\Repository;
 
 use Doctrine\ORM\EntityRepository;
 use Doctrine\ORM\Tools\Pagination\Paginator;
-use Lv\ShopBundle\Entity\Shop;
-use Lv\ShopaccountBundle\Entity\ShopAccountMember;
-use Symfony\Component\Security\Acl\Exception\Exception;
-use Symfony\Component\Validator\Constraints\DateTime;
+
 
 /**
  * ShopRepository
@@ -35,11 +32,11 @@ class ShopRepository extends EntityRepository
                 ->from('LvShopBundle:Shop', 's')
                 ->leftJoin('s.prefecture', 'p' )
                 ->leftJoin('s.business', 'b')
-                //->leftJoin('s.shopExtensionData', 'sed')
+//                ->leftJoin('s.shopExtensionData', 'sed')
                 ->where('s.deleted is null')
                 ->andWhere('p.deleted is null')
                 ->andWhere('b.deleted is null')
-                //->andWhere('sed.deleted is null')
+//                ->andWhere('sed.deleted is null')
                 ->orderBy('s.shopId', 'ASC');
 
         if ($limit) {
@@ -48,19 +45,18 @@ class ShopRepository extends EntityRepository
         if ($offset) {
             $qb->setFirstResult($offset);
         }
-
         if ($shop_account_id) {
             $qb->andWhere('s.shopAccountId = :shop_account_id')
-                    ->setParameter('shop_account_id', $shop_account_id);
+                ->setParameter('shop_account_id', $shop_account_id);
         }
 
         $query = $qb->getQuery();
-
         $paginator = new Paginator($query, $fetchJoinCollection = false);
         $this->shop_total_count = count($paginator);
 
         return $paginator;
     }
+
 
     /**
      * 店舗検索時の該当件数を返す

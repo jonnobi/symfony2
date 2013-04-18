@@ -1,0 +1,18 @@
+{% if last_page > 1 %}
+  <div class="pagination">
+    {% for page in 1..last_page %}
+      {% if page == current_page %}
+        {{ page }}
+      {% else %}
+        <a href="{{ path('lv_shop_list', { 'page': page }) }}">{{ page }}</a>
+      {% endif %}
+    {% endfor %}
+  </div>
+{% endif %}
+
+<div class="pagination_desc">
+  <strong>{{ total_shops }}</strong>
+  {% if last_page > 1 %}
+      - page <strong>{{ current_page }}/{{ last_page }}</strong>
+  {% endif %}
+</div>

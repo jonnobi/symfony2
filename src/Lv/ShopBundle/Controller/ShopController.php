@@ -20,7 +20,7 @@ class ShopController extends Controller
      * 店舗一覧画面
      * @return \Symfony\Component\HttpFoundation\Response
      */
-    public function indexAction()
+    public function listAction()
     {
         $page = $this->getRequest()->get('page', 1);
 
@@ -28,11 +28,17 @@ class ShopController extends Controller
 
         // 本部ID とりあえず１
         $shop_account_id = 1;
-        // 1ページ最大表示件数　@var app\confi\config.ymlで定義
+
+        // 1ページ最大表示件数
         $shops_per_page = $this->container->getParameter('max_shops_on_list');
 
+        $shops_per_page = 5;
+
         $paginator = $repo->getList(
-                $shop_account_id, $shops_per_page, ($page - 1) * $shops_per_page);
+                $shop_account_id,
+                $shops_per_page,
+                ($page - 1) * $shops_per_page
+                );
 
         // 該当店舗総数
         $total_shops = $repo->getShopTotalCount();
@@ -45,7 +51,8 @@ class ShopController extends Controller
         $session->set('page', $page);
 
         return $this->render('LvShopBundle:Shop:list.html.twig',
-                array('shops' => $paginator,
+                array(
+                    'shops' => $paginator,
                     'last_page' => $last_page,
                     'previous_page' => $previous_page,
                     'current_page' => $page,
@@ -58,7 +65,7 @@ class ShopController extends Controller
      * Finds and displays a Shop entity.
      *
      */
-    public function showAction($shop_id)
+    public function detailAction($shop_id)
     {
         $em = $this->getDoctrine()->getManager();
 
@@ -69,7 +76,7 @@ class ShopController extends Controller
         }
 
         return $this->render(
-                'LvShopBundle:Shop:show.html.twig',
+                'LvShopBundle:Shop:detail.html.twig',
                 array(
                     'entity'      => $entity
                 ));

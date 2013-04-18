@@ -2,7 +2,11 @@
 
 {% extends "LvShopBundle::layout.html.twig" %}
 
-{% include 'LvShopBundle::pagination.html.twig' %}
+{% block content %}
+
+<h2>お店の一覧</h2>
+
+{% include 'LvShopBundle:Shop:pagination.html.twig' %}
 
 <table>
   <tr>
@@ -16,7 +20,7 @@
   {% for shop in shops %}
   <tr>
     <td>{{ shop.shopId }}</td>
-    <td><a href="{{ path('lv_shop_show', {'shop_id':shop.shopId}) }}">{{ shop.companyName }}</a></td>
+    <td><a href="{{ path('lv_shop_detail', {'shop_id':shop.shopId}) }}">{{ shop.companyName }}</a></td>
     <td>{{ shop.prefecture.prefectureName }}</td>
     <td>{{ shop.tel }}</td>
     <td>{{ shop.capacity }}</td>
@@ -29,4 +33,6 @@
   {% endfor %}
 </table>
 
-{% include 'LvShopBundle::pagination.html.twig' %}
+{% include 'LvShopBundle:Shop:pagination.html.twig' %}
+
+{% endblock %}

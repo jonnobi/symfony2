@@ -3,13 +3,13 @@
 #    defaults: { _controller: LvShopBundle:Default:index }
 
 # 店舗一覧画面
-lv_shop:
+lv_shop_list:
     pattern:  /
-    defaults: { _controller: "LvShopBundle:Shop:index" }
+    defaults: { _controller: "LvShopBundle:Shop:list" }
 
-lv_shop_show:
-    pattern:  /{shop_id}/show
-    defaults: { _controller: "LvShopBundle:Shop:show" }
+lv_shop_detail:
+    pattern:  /{shop_id}/detail
+    defaults: { _controller: "LvShopBundle:Shop:detail" }
 
 # 入力画面
 lv_shop_input:
