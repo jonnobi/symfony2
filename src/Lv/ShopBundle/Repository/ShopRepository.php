@@ -17,133 +17,91 @@ use Symfony\Component\Validator\Constraints\DateTime;
  */
 class ShopRepository extends EntityRepository
 {
-    public function add(Shop $shop)
+    /** @var integer 店舗検索時の該当件数 */
+    public $shop_total_count = 0;
+
+    /**
+     * getList
+     *
+     * @param integer $shop_account_id
+     * @param integer $limit
+     * @param integer $offset
+     * @return \Doctrine\ORM\Tools\Pagination\Paginator
+     */
+    public function getList($shop_account_id = null, $limit = null, $offset = null)
     {
-        $this->getEntityManager()->persist($shop);
+        $qb = $this->getEntityManager()->createQueryBuilder()
+                ->select('s, p, b')
+                ->from('LvShopBundle:Shop', 's')
+                ->leftJoin('s.prefecture', 'p' )
+                ->leftJoin('s.business', 'b')
+                //->leftJoin('s.shopExtensionData', 'sed')
+                ->where('s.deleted is null')
+                ->andWhere('p.deleted is null')
+                ->andWhere('b.deleted is null')
+                //->andWhere('sed.deleted is null')
+                ->orderBy('s.shopId', 'ASC');
+
+        if ($limit) {
+            $qb->setMaxResults($limit);
+        }
+        if ($offset) {
+            $qb->setFirstResult($offset);
+        }
+
+        if ($shop_account_id) {
+            $qb->andWhere('s.shopAccountId = :shop_account_id')
+                    ->setParameter('shop_account_id', $shop_account_id);
+        }
+
+        $query = $qb->getQuery();
+
+        $paginator = new Paginator($query, $fetchJoinCollection = false);
+        $this->shop_total_count = count($paginator);
+
+        return $paginator;
     }
 
-  /** @var integer 店舗検索時の該当件数 */
-  public $shop_total_count = 0;
-
-  /**
-   * getIndex
-   *
-   * @param integer $shop_account_id
-   * @param integer $limit
-   * @param integer $offset
-   * @return \Doctrine\ORM\Tools\Pagination\Paginator
-   */
-  public function getIndex($shop_account_id = null, $limit = null, $offset = null)
-  {
-    $qb = $this->getEntityManager()->createQueryBuilder()
-      ->select('s, p, b, sed')
-      ->from('LvShopBundle:Shop', 's')
-      ->leftJoin('s.prefecture', 'p' )
-      ->leftJoin('s.business', 'b')
-      ->leftJoin('s.shopExtensionData', 'sed')
-      ->where('s.deleted is null')
-      ->andWhere('p.deleted is null')
-      ->andWhere('b.deleted is null')
-      ->andWhere('sed.deleted is null')
-      ->orderBy('s.shopId', 'ASC');
-
-    if ($limit) {
-      $qb->setMaxResults($limit);
-    }
-    if ($offset) {
-      $qb->setFirstResult($offset);
+    /**
+     * 店舗検索時の該当件数を返す
+     *
+     * @return integer ::$shop_total_count
+     */
+    public function getShopTotalCount()
+    {
+        return $this->shop_total_count;
     }
 
-    if ($shop_account_id) {
-      $qb->andWhere('s.shopAccountId = :shop_account_id')
-        ->setParameter('shop_account_id', $shop_account_id);
-    }
+    /**
+     * 店舗詳細取得
+     *
+     * @param integer $id shop_id
+     * @return mixed
+     */
+    public function getShopDetail($id)
+    {
+        $query = $this->getEntityManager()->createQueryBuilder()
+                ->select('s, p, b')
+                ->from('LvShopBundle:Shop', 's')
+                ->leftJoin('s.prefecture', 'p')
+                ->leftJoin('s.business', 'b')
+                //->leftJoin('s.shopExtensionData', 'ext')
+                //->leftJoin('s.shopCreditCards', 'cards')
+                ->where('s.shopId = :id')
+                ->setParameter('id', $id)
+                ->setMaxResults(1)
+                ->getQuery();
 
-    $query = $qb->getQuery();
-    $paginator = new Paginator($query, $fetchJoinCollection = false);
-    $this->shop_total_count = count($paginator);
+        try {
+            $shop = $query->getSingleResult();
+        } catch (\Doctrine\Orm\NoResultException $e) {
+            $shop = null;
 
-    return $paginator;
-  }
+            $logger = $this->get('logger');
+            $logger->err($e->getMessage());
+        }
 
-  /**
-   * 店舗検索時の該当件数を返す
-   *
-   * @return integer ::$shop_total_count
-   */
-  public function getShopTotalCount()
-  {
-    return $this->shop_total_count;
-  }
-
-  /**
-   * 店舗詳細取得
-   *
-   * @param integer $id shop_id
-   * @return mixed
-   */
-  public function getShopDetail($id)
-  {
-    $query = $this->getEntityManager()->createQueryBuilder()
-      ->select('s, p, b, ext')
-      ->from('LvShopBundle:Shop', 's')
-      ->leftJoin('s.prefecture', 'p')
-      ->leftJoin('s.business', 'b')
-      ->leftJoin('s.shopExtensionData', 'ext')
-      //->leftJoin('s.shopCreditCards', 'cards')
-      ->where('s.shopId = :id')
-      ->setParameter('id', $id)
-      ->setMaxResults(1)
-      ->getQuery();
-
-      try {
-        $shop = $query->getSingleResult();
-      } catch (\Doctrine\Orm\NoResultException $e) {
-        $shop = null;
-      }
-
-      return $shop;
-  }
-
-
-  /**
-   * Shopを新規登録します。
-   * @param Shop $shop
-   * @param ShopAccountMember $user
-   * @return bool
-   * @throws \Exception|\Symfony\Component\Security\Acl\Exception\Exception
-   */
-  public function register(Shop $shop, ShopAccountMember $user)
-  {
-    $em = $this->getEntityManager();
-
-    //ログイン情報からShopAccountを取得し、Shopにセットします。
-    $shop->setShopAccountId(
-      $user
-          ->getShopAccountMemberGroup()
-          ->getShopAccount()
-          ->getId()
-    );
-    $shop->setShopAccount(
-      $user
-        ->getShopAccountMemberGroup()
-        ->getShopAccount()
-    );
-
-    //作成時のタイムスタンプ（Doctrine Extensionを使用するまでの暫定処置）
-    $shop
-      ->setCreated( new \DateTime() )
-      ->setUpdated( new \DateTime() );
-
-    $em->persist($shop);
-
-    try{
-      $em->flush();
-    }catch(Exception $e){
-      d($shop);
-      throw $e;
-    }
-    return true;
+        return $shop;
   }
 
 }

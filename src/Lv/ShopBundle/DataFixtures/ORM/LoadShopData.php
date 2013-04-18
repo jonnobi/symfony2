@@ -72,6 +72,7 @@ class LoadShopData extends LoadFixtureData implements OrderedFixtureInterface, F
                 ->setBuildingName($values['buildingName'])
                 ->setMail($values['mail'])
                 ->setTel($values['tel'])
+                ->setCapacity($values['capacity'])
             ;
 
             $manager->persist($shop);

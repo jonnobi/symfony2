@@ -62,3 +62,7 @@ swiftmailer:
 knp_paginator:
     template:
         pagination: MyAppBundle:Pagination:pagination.html.twig
+
+parameters:
+  # 店舗検索(一覧)画面での最大表示件数
+  max_shops_on_list: 10

@@ -16,9 +16,42 @@ class ShopController extends Controller
     const STATE_CONFIRM = 'confirm';
     const STATE_SUCCESS = 'success';
 
-    public function indexAction($name)
+    /**
+     * 店舗一覧画面
+     * @return \Symfony\Component\HttpFoundation\Response
+     */
+    public function indexAction()
     {
-        return $this->render('LvShopBundle:Default:index.html.twig', array('name' => $name));
+        $page = $this->getRequest()->get('page', 1);
+
+        $repo = $this->getDoctrine()->getManager()->getRepository('LvShopBundle:Shop');
+
+        // 本部ID とりあえず１
+        $shop_account_id = 1;
+        // 1ページ最大表示件数　@var app\confi\config.ymlで定義
+        $shops_per_page = $this->container->getParameter('max_shops_on_list');
+
+        $paginator = $repo->getList(
+                $shop_account_id, $shops_per_page, ($page - 1) * $shops_per_page);
+
+        // 該当店舗総数
+        $total_shops = $repo->getShopTotalCount();
+        $last_page = ceil($total_shops / $shops_per_page);
+        $previous_page = $page > 1 ? $page - 1 : 1;
+        $next_page = $page < $last_page ? $page + 1 : $last_page;
+
+        // ページ番号をセッションに保存.
+        $session = $this->getRequest()->getSession();
+        $session->set('page', $page);
+
+        return $this->render('LvShopBundle:Shop:list.html.twig',
+                array('shops' => $paginator,
+                    'last_page' => $last_page,
+                    'previous_page' => $previous_page,
+                    'current_page' => $page,
+                    'next_page' => $next_page,
+                    'total_shops' => $total_shops
+                ));
     }
 
     /**

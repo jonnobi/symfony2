@@ -470,4 +470,31 @@ class Shop
         $this->updated = new \DateTime();
     }
 
+    /**
+     * @var integer
+     */
+    private $capacity;
+
+    /**
+     * Set capacity
+     *
+     * @param integer $capacity
+     * @return Shop
+     */
+    public function setCapacity($capacity)
+    {
+        $this->capacity = $capacity;
+
+        return $this;
+    }
+
+    /**
+     * Get capacity
+     *
+     * @return integer
+     */
+    public function getCapacity()
+    {
+        return $this->capacity;
+    }
 }

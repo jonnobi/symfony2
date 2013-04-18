@@ -1,0 +1,32 @@
+{# src/Lv/ShopBundle/Resources/views/Shop/list.html.twig #}
+
+{% extends "LvShopBundle::layout.html.twig" %}
+
+{% include 'LvShopBundle::pagination.html.twig' %}
+
+<table>
+  <tr>
+    <th>ID</th>
+    <th>名称</th>
+    <th>都道府県</th>
+    <th>電話番号</th>
+    <th>客席数</th>
+    <th>業種</th>
+  </tr>
+  {% for shop in shops %}
+  <tr>
+    <td>{{ shop.shopId }}</td>
+    <td><a href="{{ path('lv_shop_show', {'shop_id':shop.shopId}) }}">{{ shop.companyName }}</a></td>
+    <td>{{ shop.prefecture.prefectureName }}</td>
+    <td>{{ shop.tel }}</td>
+    <td>{{ shop.capacity }}</td>
+    <td>{{ shop.business.businessName }}</td>
+  </tr>
+  {% else %}
+  <tr>
+    <td colspan="6">No shops found</td>
+  </tr>
+  {% endfor %}
+</table>
+
+{% include 'LvShopBundle::pagination.html.twig' %}
