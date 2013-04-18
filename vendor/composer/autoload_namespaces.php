@@ -19,6 +19,8 @@ return array(
     'Sensio\\Bundle\\DistributionBundle' => $vendorDir . '/sensio/distribution-bundle',
     'Monolog' => $vendorDir . '/monolog/monolog/src',
     'Metadata\\' => $vendorDir . '/jms/metadata/src',
+    'Knp\\Component' => $vendorDir . '/knplabs/knp-components/src',
+    'Knp\\Bundle\\PaginatorBundle' => $vendorDir . '/knplabs/knp-paginator-bundle',
     'JMS\\SecurityExtraBundle' => $vendorDir . '/jms/security-extra-bundle',
     'JMS\\DiExtraBundle' => $vendorDir . '/jms/di-extra-bundle',
     'JMS\\AopBundle' => $vendorDir . '/jms/aop-bundle',
@@ -30,6 +32,7 @@ return array(
     'Doctrine\\Bundle\\FixturesBundle' => $vendorDir . '/doctrine/doctrine-fixtures-bundle',
     'Doctrine\\Bundle\\DoctrineBundle' => $vendorDir . '/doctrine/doctrine-bundle',
     'CG\\' => $vendorDir . '/jms/cg/src',
+    'Bc\\Bundle\\BootstrapBundle' => $vendorDir . '/braincrafted/bootstrap-bundle',
     'Assetic' => $vendorDir . '/kriswallsmith/assetic/src',
     '' => $baseDir . '/src',
 );

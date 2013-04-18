@@ -21,8 +21,11 @@ class AppKernel extends Kernel
             new JMS\SecurityExtraBundle\JMSSecurityExtraBundle(),
             new Stof\DoctrineExtensionsBundle\StofDoctrineExtensionsBundle(),
             new Doctrine\Bundle\FixturesBundle\DoctrineFixturesBundle(),
+            new Knp\Bundle\PaginatorBundle\KnpPaginatorBundle(),
+
             new Lv\ShopBundle\LvShopBundle(),
             new Lv\TestBundle\LvTestBundle(),
+            new Lv\PlatformBundle\LvPlatformBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
