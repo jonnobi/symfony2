@@ -71,7 +71,7 @@ Lv\ShopBundle\Entity\Shop:
     business:
       targetEntity: Lv\ShopBundle\Entity\Business
       orphanRemoval: false
-      #cascade: [persist]
+      #cascade: [ALL]
       joinColumns:
         business_id:
           referencedColumnName: business_id
