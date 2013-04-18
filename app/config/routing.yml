@@ -1,6 +1,10 @@
+lv_test:
+    resource: "@LvTestBundle/Resources/config/routing.yml"
+    prefix:   /test
+
 lv_shop:
     resource: "@LvShopBundle/Resources/config/routing.yml"
-    prefix:   /
+    prefix:   /shop
 
 # Internal routing configuration to handle ESI
 # ****** WARNING ******

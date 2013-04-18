@@ -2,6 +2,36 @@ lv_shop_homepage:
     pattern:  /hello/{name}
     defaults: { _controller: LvShopBundle:Default:index }
 
-lv_shop_shop:
-    resource: "@LvShopBundle/Resources/config/routing/shop.yml"
-    prefix: /shop
+lv_shop:
+    pattern:  /
+    defaults: { _controller: "LvShopBundle:Shop:index" }
+
+lv_shop_show:
+    pattern:  /{shop_id}/show
+    defaults: { _controller: "LvShopBundle:Shop:show" }
+
+# 入力画面
+lv_shop_input:
+    pattern:  /input
+    defaults: { _controller: "LvShopBundle:Shop:inputView" }
+    requirements: { _method: get }
+lv_shop_inputpost:
+    pattern:  /input
+    defaults: { _controller: "LvShopBundle:Shop:inputPost" }
+    requirements: { _method: post }
+
+# 確認画面
+lv_shop_confirm:
+    pattern:  /confirm
+    defaults: { _controller: "LvShopBundle:Shop:confirmView" }
+    requirements: { _method: get }
+lv_shop_confirmpost:
+    pattern:  /confirm
+    defaults: { _controller: "LvShopBundle:Shop:confirmPost" }
+    requirements: { _method: post }
+
+# 完了画面
+lv_shop_success:
+    pattern:  /success
+    defaults: { _controller: "LvShopBundle:Shop:success" }
+    requirements: { _method: get }

@@ -1,0 +1,45 @@
+Lv\TestBundle\Entity\Prefecture:
+  type: entity
+  table: prefecture
+  fields:
+    prefectureId:
+      id: true
+      type: bigint
+      column: prefecture_id
+      generator:
+        strategy: IDENTITY
+    prefectureName:
+      type: text
+      nullable: false
+      column: prefecture_name
+    areaId:
+      type: integer
+      nullable: false
+      column: area_id
+    areaSort:
+      type: integer
+      nullable: false
+      column: area_sort
+    updated:
+      type: datetime
+      nullable: false
+      options: ##Unknown attribute type##
+      options:
+        default: CURRENT_TIMESTAMP
+    created:
+      type: datetime
+      nullable: false
+      options: ##Unknown attribute type##
+      options:
+        default: CURRENT_TIMESTAMP
+    deleted:
+      type: datetime
+      nullable: true
+  manyToOne:
+    area:
+      targetEntity: Area
+      cascade: [persist]
+      orphanRemoval: false
+      joinColumns:
+        area_id:
+          referencedColumnName: area_id

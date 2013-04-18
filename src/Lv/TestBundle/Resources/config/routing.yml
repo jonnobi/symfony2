@@ -1,0 +1,9 @@
+lv_test_input:
+    pattern:  /input
+    defaults: { _controller: "LvTestBundle:Shop:input" }
+    requirements: { _method: get }
+
+lv_test_inputpost:
+    pattern:  /input
+    defaults: { _controller: "LvTestBundle:Shop:inputPost" }
+    requirements: { _method: post }
