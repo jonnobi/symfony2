@@ -3,7 +3,6 @@
 namespace Lv\ShopBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
-use Symfony\Component\HttpFoundation\Request;
 
 use Lv\ShopBundle\Entity\Shop;
 use Lv\ShopBundle\Form\ShopType;
@@ -139,26 +138,12 @@ class ShopController extends Controller
                 return $this->redirect($this->generateUrl('lv_shop_input', array(), true));
             }
 
-            $sessionShop = new Shop();
-            $sessionShop = $this->get('session')->get('shop');
-//            // 新しいオブジェクトにコピー
-//            $shop = new Shop();
-//            $shop->setShopAccount($sessionShop->getShopAccount());
-//            $shop->setShopAccountId($sessionShop->getShopAccountId());
-//            $shop->setPrefecture($sessionShop->getPrefecture());
-//            $shop->setBusiness($sessionShop->getBusiness());
-//            $shop->setCompanyName($sessionShop->getCompanyName());
-//            $shop->setAddress($sessionShop->getAddress());
-//            $targetPropertyList = get_class_vars(get_class($shop));
-//var_dump($targetPropertyList);
-//            foreach ($targetPropertyList as $key => $value) {
-//                    if (property_exists($sessionShop, $key)) {
-//                        $shop->$key = $sessionShop->$key;
-//                    }
-//            }
+            $shop = new Shop();
+            $shop = $this->get('session')->get('shop');
+            $shop->setShopAccountId($shop->getShopAccount()->getShopAccountId());
+
             $em = $this->getDoctrine()->getManager();
-            $em->persist($sessionShop);
-//            $em->merge($shop);
+            $em->persist($shop);
             $em->flush();
 
             $this->get('session')->remove('state');
