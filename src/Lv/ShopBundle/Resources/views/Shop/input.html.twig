@@ -1,3 +1,6 @@
+{% extends "LvShopBundle:Shop:layout.html.twig" %}
+
+{% block content %}
 <h2>Shop creation</h2>
 
 {% if formErrors %}<p><code>入力内容に不備があります</code></p>{% endif %}
@@ -16,3 +19,4 @@
         </a>
     </li>
 </ul>
+{% endblock %}
