@@ -3,7 +3,6 @@
 namespace Lv\ShopBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
-use Symfony\Component\HttpFoundation\Session;   //忘れないように！
 
 use Lv\ShopBundle\Entity\Shop;
 use Lv\ShopBundle\Form\ShopType;
@@ -143,10 +142,8 @@ class ShopController extends Controller
 
             $shop = new Shop();
             $shop = $this->get('session')->get('shop');
-            $shop->setShopAccountId($shop->getShopAccount()->getShopAccountId());
 
             $em = $this->getDoctrine()->getManager();
-//            $em->persist($shop);
             $em->merge($shop);  // persistでなくmergeを使用すること.
             $em->flush();
 
