@@ -11,7 +11,7 @@ class ShopType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder
-//            ->add('shop_id', 'hidden')
+            ->add('shop_id', 'hidden')
             ->add('shopAccount')
             ->add('business')
             ->add('company_name')

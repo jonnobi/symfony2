@@ -760,7 +760,7 @@ class UnitOfWork implements PropertyChangedListener
                     )
                 );
             }
-
+echo "state=" .$state ."<br>";
             switch ($state) {
                 case self::STATE_NEW:
                     if ( ! $assoc['isCascadePersist']) {

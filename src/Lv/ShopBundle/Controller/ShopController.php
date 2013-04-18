@@ -3,6 +3,7 @@
 namespace Lv\ShopBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Symfony\Component\HttpFoundation\Session;   //忘れないように！
 
 use Lv\ShopBundle\Entity\Shop;
 use Lv\ShopBundle\Form\ShopType;
@@ -59,10 +60,12 @@ class ShopController extends Controller
 
         $this->get('session')->set('state', self::STATE_INPUT);
 
+        $form = $this->createForm(new ShopType(), $this->get('session')->get('shop'))->createView();
+
         return $this->render(
                 'LvShopBundle:Shop:input.html.twig',
                 array(
-                    'form' => $this->createForm(new ShopType(), $this->get('session')->get('shop'))->createView(),
+                    'form' => $form,
                     'formErrors' => false,
                 ));
     }
@@ -143,13 +146,13 @@ class ShopController extends Controller
             $shop->setShopAccountId($shop->getShopAccount()->getShopAccountId());
 
             $em = $this->getDoctrine()->getManager();
-            $em->persist($shop);
+//            $em->persist($shop);
+            $em->merge($shop);  // persistでなくmergeを使用すること.
             $em->flush();
 
             $this->get('session')->remove('state');
             $this->get('session')->remove('shop');
-            $this->get('session')->setFlash('shop', $shop);
-            $this->get('session')->setFlash('state', self::STATE_SUCCESS);
+
             return $this->redirect($this->generateUrl('lv_shop_success', array(), true));
         }
 
@@ -168,11 +171,7 @@ class ShopController extends Controller
      */
     public function successAction()
     {
-        if (!($this->get('session')->hasFlash('state')
-              && $this->get('session')->getFlash('state') == self::STATE_SUCCESS)) {
-            return $this->redirect('http://conference.kphpug.jp/2012');
-        }
-
+        echo $this->get('session')->getFlash('registration') ."<br>";
         return $this->render(
             'LvShopBundle:Shop:success.html.twig',
             array(
