@@ -6,6 +6,7 @@ use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolverInterface;
 
+
 class ShopType extends AbstractType
 {
     public function buildForm(FormBuilderInterface $builder, array $options)
@@ -21,6 +22,7 @@ class ShopType extends AbstractType
             ->add('municipality_cd')
             ->add('mail')
             ->add('tel')
+            ->add('capacity')
         ;
     }
 

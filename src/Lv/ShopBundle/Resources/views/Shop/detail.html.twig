@@ -6,66 +6,61 @@
 
 <table class="record_properties">
     <tbody>
-{#
         <tr>
             <th>店舗ID</th>
-            <td>{{ entity.shop_id }}</td>
+            <td>{{ shop.shopId }}</td>
         </tr>
-#}
         <tr>
             <th>業態</th>
-            <td>{{ entity.business }}</td>
+            <td>{{ shop.business }}</td>
         </tr>
         <tr>
             <th>店舗名</th>
-            <td>{{ entity.companyName }}</td>
+            <td>{{ shop.companyName }}</td>
         </tr>
         <tr>
             <th>住所</th>
-            <td>{{ entity.prefecture }}{{ entity.address}}</td>
+            <td>{{ shop.prefecture }}{{ shop.address}}</td>
         </tr>
         <tr>
             <th>ビル名</th>
-            <td>{{ entity.buildingName }}</td>
+            <td>{{ shop.buildingName }}</td>
         </tr>
         <tr>
             <th>電話番号</th>
-            <td>{{ entity.tel }}</td>
+            <td>{{ shop.tel }}</td>
         </tr>
         <tr>
             <th>メールアドレス</th>
-            <td>{{ entity.mail }}</td>
+            <td>{{ shop.mail }}</td>
         </tr>
         <tr>
             <th>作成日</th>
-            <td>{{ entity.created|date('Y-m-d H:i:s') }}</td>
+            <td>{{ shop.created|date('Y-m-d H:i:s') }}</td>
         </tr>
         <tr>
             <th>最終更新日</th>
-            <td>{{ entity.updated|date('Y-m-d H:i:s') }}</td>
+            <td>{{ shop.updated|date('Y-m-d H:i:s') }}</td>
         </tr>
     </tbody>
 </table>
 
-{#
 <ul class="record_actions">
-    <li>
-        <a href="{{ path('ens_job') }}">
-            Back to the list
-        </a>
-    </li>
-    <li>
-        <a href="{{ path('ens_job_edit', { 'id': entity.id }) }}">
-            Edit
-        </a>
-    </li>
-    <li>
-        <form action="{{ path('ens_job_delete', { 'id': entity.id }) }}" method="post">
-            {{ form_widget(delete_form) }}
-            <button type="submit">Delete</button>
-        </form>
-    </li>
-</ul>
+  <li>
+    {% set page = app.session.get('page') %}
+    <a href="{{ path('lv_shop_list', {'page': page}) }}">店舗一覧に戻る</a>
+  </li>
+  <li>
+    <a href="{{ path('lv_shop_edit', {'shop_id': shop.shopId}) }}">編集</a>
+  </li>
+{#
+  <li>
+    <form action="{{ path('ens_job_delete', { 'shop_id': shop.shop_id }) }}" method="post">
+      {{ form_widget(delete_form) }}
+      <button type="submit">Delete</button>
+    </form>
+  </li>
 #}
+</ul>
 
 {% endblock %}

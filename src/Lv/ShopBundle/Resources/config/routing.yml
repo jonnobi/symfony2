@@ -2,37 +2,50 @@
 #    pattern:  /hello/{name}
 #    defaults: { _controller: LvShopBundle:Default:index }
 
-# 店舗一覧画面
+# お店詳細画面一覧画面
 lv_shop_list:
     pattern:  /
     defaults: { _controller: "LvShopBundle:Shop:list" }
+    requirements: { _method: GET }
 
+# お店詳細画面
 lv_shop_detail:
     pattern:  /{shop_id}/detail
     defaults: { _controller: "LvShopBundle:Shop:detail" }
+    requirements:
+      _method: GET
+      shop_id:  \d+
+
+# お店編集
+lv_shop_edit:
+    pattern:  /{shop_id}/edit
+    defaults: { _controller: "LvShopBundle:Shop:editView" }
+    requirements:
+      _method: GET
+      shop_id:  \d+
 
 # 入力画面
 lv_shop_input:
     pattern:  /input
     defaults: { _controller: "LvShopBundle:Shop:inputView" }
-    requirements: { _method: get }
+    requirements: { _method: GET }
 lv_shop_inputpost:
     pattern:  /input
     defaults: { _controller: "LvShopBundle:Shop:inputPost" }
-    requirements: { _method: post }
+    requirements: { _method: POST }
 
 # 確認画面
 lv_shop_confirm:
     pattern:  /confirm
     defaults: { _controller: "LvShopBundle:Shop:confirmView" }
-    requirements: { _method: get }
+    requirements: { _method: GET }
 lv_shop_confirmpost:
     pattern:  /confirm
     defaults: { _controller: "LvShopBundle:Shop:confirmPost" }
-    requirements: { _method: post }
+    requirements: { _method: POST }
 
 # 完了画面
 lv_shop_success:
     pattern:  /success
     defaults: { _controller: "LvShopBundle:Shop:success" }
-    requirements: { _method: get }
+    requirements: { _method: GET }

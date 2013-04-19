@@ -32,8 +32,6 @@ class ShopController extends Controller
         // 1ページ最大表示件数
         $shops_per_page = $this->container->getParameter('max_shops_on_list');
 
-        $shops_per_page = 5;
-
         $paginator = $repo->getList(
                 $shop_account_id,
                 $shops_per_page,
@@ -47,8 +45,7 @@ class ShopController extends Controller
         $next_page = $page < $last_page ? $page + 1 : $last_page;
 
         // ページ番号をセッションに保存.
-        $session = $this->getRequest()->getSession();
-        $session->set('page', $page);
+        $this->get('session')->set('page', $page);
 
         return $this->render('LvShopBundle:Shop:list.html.twig',
                 array(
@@ -68,8 +65,7 @@ class ShopController extends Controller
     public function detailAction($shop_id)
     {
         $em = $this->getDoctrine()->getManager();
-
-        $entity = $em->getRepository('LvShopBundle:Shop')->find($shop_id);
+        $entity = $em->getRepository('LvShopBundle:Shop')->getShopDetail($shop_id);
 
         if (!$entity) {
             throw $this->createNotFoundException('Unable to find Shop entity.');
@@ -78,13 +74,34 @@ class ShopController extends Controller
         return $this->render(
                 'LvShopBundle:Shop:detail.html.twig',
                 array(
-                    'entity'      => $entity
-                ));
+                    'shop'  => $entity
+                )
+        );
 //
 //        $deleteForm = $this->createDeleteForm($shop_id);
 //        return $this->render('ShopBundle:Shop:show.html.twig', array(
 //            'entity'      => $entity,
 //            'delete_form' => $deleteForm->createView(),        ));
+    }
+
+    /**
+     * 編集アクション
+     * @param intger $shop_id
+     */
+    public function editViewAction($shop_id)
+    {
+        $em = $this->getDoctrine()->getManager();
+
+        $shop = $em->getRepository('LvShopBundle:Shop')->getShopDetail($shop_id);
+
+        if (!$shop) {
+            throw $this->createNotFoundException('Unable to find Shop entity.');
+        }
+
+        $this->get('session')->set('state', self::STATE_INPUT);
+        $this->get('session')->set('shop', $shop);
+
+        return $this->redirect($this->generateUrl('lv_shop_input', array(), true));
     }
 
     /**
@@ -99,14 +116,19 @@ class ShopController extends Controller
 
         $this->get('session')->set('state', self::STATE_INPUT);
 
-        $form = $this->createForm(new ShopType(), $this->get('session')->get('shop'))->createView();
+        $sessionShop = $this->get('session')->get('shop');
+        $shop = $this->getDoctrine()->getManager()->merge($sessionShop);
+        $this->get('session')->set('shop', $shop);
+
+        $form = $this->createForm(new ShopType(), $shop);
 
         return $this->render(
                 'LvShopBundle:Shop:input.html.twig',
                 array(
-                    'form' => $form,
+                    'form' => $form->createView(),
                     'formErrors' => false,
-                ));
+                )
+        );
     }
 
     /**
@@ -121,8 +143,13 @@ class ShopController extends Controller
             throw $this->createNotFoundException();
         }
 
-        $form = $this->createForm(new ShopType(), $this->get('session')->get('shop'));
+        $sessionShop = $this->get('session')->get('shop');
+        $shop = $this->getDoctrine()->getManager()->merge($sessionShop);
+        $this->get('session')->set('shop', $shop);
+
+        $form = $this->createForm(new ShopType(), $shop);
         $form->bindRequest($this->getRequest());
+        $this->get('session')->set('shop', $shop);
 
         if ($form->isValid()) {
             // バリデーションOKなら確認画面へ遷移.
@@ -180,7 +207,6 @@ class ShopController extends Controller
                 return $this->redirect($this->generateUrl('lv_shop_input', array(), true));
             }
 
-            $shop = new Shop();
             $shop = $this->get('session')->get('shop');
 
             $em = $this->getDoctrine()->getManager();
