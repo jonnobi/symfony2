@@ -13,9 +13,12 @@ class ShopType extends AbstractType
     {
         $builder
             ->add('shop_id', 'hidden')
+//            ->add('shop_account_id', 'hidden')
             ->add('shopAccount')
+//            ->add('business_id', 'hidden')
             ->add('business')
             ->add('company_name')
+//            ->add('prefecture_id', 'hidden')
             ->add('prefecture')
             ->add('address')
             ->add('building_name')

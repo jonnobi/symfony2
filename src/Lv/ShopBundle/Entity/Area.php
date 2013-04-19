@@ -10,33 +10,33 @@ use Doctrine\ORM\Mapping as ORM;
  * \Serializable でなく、private→protectedにすることで対応
  */
 
-//class Area implements \Serializable
-class Area
+class Area implements \Serializable
+//class Area
 {
     /**
      * @var integer
      */
-    protected $areaId;
+    private $areaId;
 
     /**
      * @var string
      */
-    protected $areaName;
+    private $areaName;
 
     /**
      * @var \DateTime
      */
-    protected $updated;
+    private $updated;
 
     /**
      * @var \DateTime
      */
-    protected $created;
+    private $created;
 
     /**
      * @var \DateTime
      */
-    protected $deleted;
+    private $deleted;
 
     /**
      * Implementation for the \Serializable interface
