@@ -12,82 +12,82 @@ class Shop
     /**
      * @var integer
      */
-    private $shopId;
+    protected $shopId;
 
     /**
      * @var integer
      */
-    private $shopAccountId;
+    protected $shopAccountId;
 
     /**
      * @var integer
      */
-    private $businessId;
+    protected $businessId;
 
     /**
      * @var string
      */
-    private $companyName;
+    protected $companyName;
 
     /**
      * @var integer
      */
-    private $prefectureId;
+    protected $prefectureId;
 
     /**
      * @var string
      */
-    private $municipalityCd;
+    protected $municipalityCd;
 
     /**
      * @var string
      */
-    private $address;
+    protected $address;
 
     /**
      * @var string
      */
-    private $buildingName;
+    protected $buildingName;
 
     /**
      * @var string
      */
-    private $mail;
+    protected $mail;
 
     /**
      * @var string
      */
-    private $tel;
+    protected $tel;
 
     /**
      * @var \DateTime
      */
-    private $updated;
+    protected $updated;
 
     /**
      * @var \DateTime
      */
-    private $created;
+    protected $created;
 
     /**
      * @var \DateTime
      */
-    private $deleted;
+    protected $deleted;
 
     /**
      * @var \Lv\ShopBundle\Entity\ShopAccount
      */
-    private $shopAccount;
+    protected $shopAccount;
 
     /**
      * @var \Lv\ShopBundle\Entity\Business
      */
-    private $business;
+    protected $business;
 
     /**
      * @var \Lv\ShopBundle\Entity\Prefecture
      */
-    private $prefecture;
+    protected $prefecture;
 
 
     public function __construct()

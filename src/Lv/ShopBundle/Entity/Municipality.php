@@ -12,43 +12,43 @@ class Municipality
     /**
      * @var integer
      */
-    private $municipalityId;
+    protected $municipalityId;
 
     /**
      * @var string
      */
-    private $municipalityCd;
+    protected $municipalityCd;
 
     /**
      * @var integer
      */
-    private $prefectureId;
+    protected $prefectureId;
 
     /**
      * @var string
      */
-    private $municipalityName;
+    protected $municipalityName;
 
     /**
      * @var \DateTime
      */
-    private $updated;
+    protected $updated;
 
     /**
      * @var \DateTime
      */
-    private $created;
+    protected $created;
 
     /**
      * @var \DateTime
      */
-    private $deleted;
+    protected $deleted;
 
 
     /**
      * Get municipalityId
      *
-     * @return integer 
+     * @return integer
      */
     public function getMunicipalityId()
     {
@@ -64,14 +64,14 @@ class Municipality
     public function setMunicipalityCd($municipalityCd)
     {
         $this->municipalityCd = $municipalityCd;
-    
+
         return $this;
     }
 
     /**
      * Get municipalityCd
      *
-     * @return string 
+     * @return string
      */
     public function getMunicipalityCd()
     {
@@ -87,14 +87,14 @@ class Municipality
     public function setPrefectureId($prefectureId)
     {
         $this->prefectureId = $prefectureId;
-    
+
         return $this;
     }
 
     /**
      * Get prefectureId
      *
-     * @return integer 
+     * @return integer
      */
     public function getPrefectureId()
     {
@@ -110,14 +110,14 @@ class Municipality
     public function setMunicipalityName($municipalityName)
     {
         $this->municipalityName = $municipalityName;
-    
+
         return $this;
     }
 
     /**
      * Get municipalityName
      *
-     * @return string 
+     * @return string
      */
     public function getMunicipalityName()
     {
@@ -133,14 +133,14 @@ class Municipality
     public function setUpdated($updated)
     {
         $this->updated = $updated;
-    
+
         return $this;
     }
 
     /**
      * Get updated
      *
-     * @return \DateTime 
+     * @return \DateTime
      */
     public function getUpdated()
     {
@@ -156,14 +156,14 @@ class Municipality
     public function setCreated($created)
     {
         $this->created = $created;
-    
+
         return $this;
     }
 
     /**
      * Get created
      *
-     * @return \DateTime 
+     * @return \DateTime
      */
     public function getCreated()
     {
@@ -179,14 +179,14 @@ class Municipality
     public function setDeleted($deleted)
     {
         $this->deleted = $deleted;
-    
+
         return $this;
     }
 
     /**
      * Get deleted
      *
-     * @return \DateTime 
+     * @return \DateTime
      */
     public function getDeleted()
     {

@@ -12,27 +12,27 @@ class ShopAccount
     /**
      * @var integer
      */
-    private $shopAccountId;
+    protected $shopAccountId;
 
     /**
      * @var string
      */
-    private $shopAccountName;
+    protected $shopAccountName;
 
     /**
      * @var \DateTime
      */
-    private $updated;
+    protected $updated;
 
     /**
      * @var \DateTime
      */
-    private $created;
+    protected $created;
 
     /**
      * @var \DateTime
      */
-    private $deleted;
+    protected $deleted;
 
 
     /**

@@ -12,32 +12,32 @@ class Business
     /**
      * @var integer
      */
-    private $businessId;
+    protected $businessId;
 
     /**
      * @var string
      */
-    private $businessName;
+    protected $businessName;
 
     /**
      * @var integer
      */
-    private $sortNo;
+    protected $sortNo;
 
     /**
      * @var \DateTime
      */
-    private $updated;
+    protected $updated;
 
     /**
      * @var \DateTime
      */
-    private $created;
+    protected $created;
 
     /**
      * @var \DateTime
      */
-    private $deleted;
+    protected $deleted;
 
 
     /**
@@ -166,7 +166,7 @@ class Business
     }
 
     /**
-     * 
+     *
      * @return string
      */
     public function __toString()

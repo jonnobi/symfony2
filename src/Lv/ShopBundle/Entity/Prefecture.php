@@ -12,37 +12,37 @@ class Prefecture
     /**
      * @var integer
      */
-    private $prefectureId;
+    protected $prefectureId;
 
     /**
      * @var string
      */
-    private $prefectureName;
+    protected $prefectureName;
 
     /**
      * @var integer
      */
-    private $areaId;
+    protected $areaId;
 
     /**
      * @var integer
      */
-    private $areaSort;
+    protected $areaSort;
 
     /**
      * @var \DateTime
      */
-    private $updated;
+    protected $updated;
 
     /**
      * @var \DateTime
      */
-    private $created;
+    protected $created;
 
     /**
      * @var \DateTime
      */
-    private $deleted;
+    protected $deleted;
 
     /**
      * @var \Lv\ShopBundle\Entity\Area
