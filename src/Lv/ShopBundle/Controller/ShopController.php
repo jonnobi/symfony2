@@ -113,15 +113,15 @@ class ShopController extends Controller
             $shop = new Shop();
             $this->get('session')->set('shop', $shop);
         }
+//        else {
+//            $shop = $this->get('session')->get('shop');
+//            $shop = $this->getDoctrine()->getManager()->merge($shop);
+//            $this->get('session')->set('shop', $shop);
+//        }
+
+        $form = $this->createForm(new ShopType(), $this->get('session')->get('shop'));
 
         $this->get('session')->set('state', self::STATE_INPUT);
-
-        $sessionShop = $this->get('session')->get('shop');
-        $shop = $this->getDoctrine()->getManager()->merge($sessionShop);
-        $this->get('session')->set('shop', $shop);
-
-        $form = $this->createForm(new ShopType(), $shop);
-
         return $this->render(
                 'LvShopBundle:Shop:input.html.twig',
                 array(
@@ -131,7 +131,7 @@ class ShopController extends Controller
         );
     }
 
-    /**
+     /**
      * 入力画面 Postアクション
      *
      * @throws \Symfony\Component\HttpKernel\Exception\NotFoundHttpException
@@ -143,13 +143,10 @@ class ShopController extends Controller
             throw $this->createNotFoundException();
         }
 
-        $sessionShop = $this->get('session')->get('shop');
-        $shop = $this->getDoctrine()->getManager()->merge($sessionShop);
-        $this->get('session')->set('shop', $shop);
+        $shop = $this->get('session')->get('shop');
 
         $form = $this->createForm(new ShopType(), $shop);
         $form->bindRequest($this->getRequest());
-        $this->get('session')->set('shop', $shop);
 
         if ($form->isValid()) {
             // バリデーションOKなら確認画面へ遷移.
@@ -210,7 +207,11 @@ class ShopController extends Controller
             $shop = $this->get('session')->get('shop');
 
             $em = $this->getDoctrine()->getManager();
-            $em->merge($shop);  // persistでなくmergeを使用すること.
+
+            // リダイレクト後は、EntityManagerがデタッチされているので
+            // merge すること。
+            $em->merge($shop);
+            $em->persist($shop);
             $em->flush();
 
             $this->get('session')->remove('state');
@@ -220,7 +221,6 @@ class ShopController extends Controller
         }
 
         return $this->render(
-//                'LvShopBundle:Shop:confirm.html.twig',
                 'LvShopBundle:Shop:input.html.twig',
                 array(
                     'form' => $form->createView(),
