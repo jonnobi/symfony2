@@ -91,17 +91,22 @@ class ShopController extends Controller
     public function editViewAction($shop_id)
     {
         $em = $this->getDoctrine()->getManager();
-
         $shop = $em->getRepository('LvShopBundle:Shop')->getShopDetail($shop_id);
-
         if (!$shop) {
             throw $this->createNotFoundException('Unable to find Shop entity.');
         }
 
-        $this->get('session')->set('state', self::STATE_INPUT);
-        $this->get('session')->set('shop', $shop);
-
-        return $this->redirect($this->generateUrl('lv_shop_input', array(), true));
+       $this->get('session')->set('shop', $shop);
+       $this->get('session')->set('state', self::STATE_INPUT);
+       $form = $this->createForm(new ShopType(), $shop);
+        
+       return $this->render(
+                'LvShopBundle:Shop:input.html.twig',
+                array(
+                    'form' => $form->createView(),
+                    'formErrors' => false,
+                )
+        );
     }
 
     /**
@@ -112,16 +117,13 @@ class ShopController extends Controller
         if (!$this->get('session')->has('state')) {
             $shop = new Shop();
             $this->get('session')->set('shop', $shop);
+        } else {
+            $shop = $this->get('session')->get('shop');
         }
-//        else {
-//            $shop = $this->get('session')->get('shop');
-//            $shop = $this->getDoctrine()->getManager()->merge($shop);
-//            $this->get('session')->set('shop', $shop);
-//        }
 
-        $form = $this->createForm(new ShopType(), $this->get('session')->get('shop'));
-
+        $form = $this->createForm(new ShopType(), $shop);
         $this->get('session')->set('state', self::STATE_INPUT);
+
         return $this->render(
                 'LvShopBundle:Shop:input.html.twig',
                 array(
@@ -196,7 +198,7 @@ class ShopController extends Controller
               && $this->get('session')->get('state') == self::STATE_CONFIRM)) {
             throw $this->createNotFoundException();
         }
-
+        
         $form = $this->createFormBuilder()->getForm();
         $form->bindRequest($this->getRequest());
         if ($form->isValid()) {
@@ -211,12 +213,13 @@ class ShopController extends Controller
             // リダイレクト後は、EntityManagerがデタッチされているので
             // merge すること。
             $em->merge($shop);
-            $em->persist($shop);
             $em->flush();
 
             $this->get('session')->remove('state');
             $this->get('session')->remove('shop');
-
+            $this->get('session')->setFlash('shop', $shop);
+            $this->get('session')->setFlash('state', self::STATE_SUCCESS);
+            
             return $this->redirect($this->generateUrl('lv_shop_success', array(), true));
         }
 
