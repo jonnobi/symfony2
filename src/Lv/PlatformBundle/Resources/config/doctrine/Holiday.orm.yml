@@ -1,0 +1,41 @@
+Lv\PlatformBundle\Entity\Holiday:
+  type: entity
+  table: holiday
+  fields:
+    id:
+      id: true
+      type: bigint
+      column: holiday_id
+      generator:
+        strategy: IDENTITY
+    holiday:
+      type: date
+      nullable: false
+      column: holiday
+    week:
+      type: integer
+      nullable: false
+      column: week
+    htype:
+      type: integer
+      nullable: false
+      column: htype
+    hname:
+      type: text
+      nullable: false
+      column: hname
+    updated:
+      type: datetime
+      nullable: false
+      options: ##Unknown attribute type##
+      options:
+        default: CURRENT_TIMESTAMP
+    created:
+      type: datetime
+      nullable: false
+      options: ##Unknown attribute type##
+      options:
+        default: CURRENT_TIMESTAMP
+    deleted:
+      type: datetime
+      nullable: true

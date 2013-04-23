@@ -1,0 +1,57 @@
+<h1>Holiday</h1>
+
+<table class="record_properties">
+    <tbody>
+        <tr>
+            <th>Id</th>
+            <td>{{ entity.id }}</td>
+        </tr>
+        <tr>
+            <th>Holiday</th>
+            <td>{{ entity.holiday|date('Y-m-d H:i:s') }}</td>
+        </tr>
+        <tr>
+            <th>Week</th>
+            <td>{{ entity.week }}</td>
+        </tr>
+        <tr>
+            <th>Htype</th>
+            <td>{{ entity.htype }}</td>
+        </tr>
+        <tr>
+            <th>Hname</th>
+            <td>{{ entity.hname }}</td>
+        </tr>
+        <tr>
+            <th>Updated</th>
+            <td>{{ entity.updated|date('Y-m-d H:i:s') }}</td>
+        </tr>
+        <tr>
+            <th>Created</th>
+            <td>{{ entity.created|date('Y-m-d H:i:s') }}</td>
+        </tr>
+        <tr>
+            <th>Deleted</th>
+            <td>{{ entity.deleted|date('Y-m-d H:i:s') }}</td>
+        </tr>
+    </tbody>
+</table>
+
+<ul class="record_actions">
+    <li>
+        <a href="{{ path('lv_holiday') }}">
+            Back to the list
+        </a>
+    </li>
+    <li>
+        <a href="{{ path('lv_holiday_edit', { 'id': entity.id }) }}">
+            Edit
+        </a>
+    </li>
+    <li>
+        <form action="{{ path('lv_holiday_delete', { 'id': entity.id }) }}" method="post">
+            {{ form_widget(delete_form) }}
+            <button type="submit">Delete</button>
+        </form>
+    </li>
+</ul>

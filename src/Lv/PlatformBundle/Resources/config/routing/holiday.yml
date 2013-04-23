@@ -1,0 +1,30 @@
+lv_holiday:
+    pattern:  /
+    defaults: { _controller: "LvPlatformBundle:Holiday:index" }
+
+lv_holiday_show:
+    pattern:  /{id}/show
+    defaults: { _controller: "LvPlatformBundle:Holiday:show" }
+
+lv_holiday_new:
+    pattern:  /new
+    defaults: { _controller: "LvPlatformBundle:Holiday:new" }
+
+lv_holiday_create:
+    pattern:  /create
+    defaults: { _controller: "LvPlatformBundle:Holiday:create" }
+    requirements: { _method: post }
+
+lv_holiday_edit:
+    pattern:  /{id}/edit
+    defaults: { _controller: "LvPlatformBundle:Holiday:edit" }
+
+lv_holiday_update:
+    pattern:  /{id}/update
+    defaults: { _controller: "LvPlatformBundle:Holiday:update" }
+    requirements: { _method: post }
+
+lv_holiday_delete:
+    pattern:  /{id}/delete
+    defaults: { _controller: "LvPlatformBundle:Holiday:delete" }
+    requirements: { _method: post }

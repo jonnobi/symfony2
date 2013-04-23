@@ -1,3 +1,7 @@
 lv_platform_homepage:
     pattern:  /hello/{name}
     defaults: { _controller: LvPlatformBundle:Default:index }
+
+lv_platform_holiday:
+  resource: "@LvPlatformBundle/Resources/config/routing/holiday.yml"
+  prefix:   /holiday
