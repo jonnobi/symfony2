@@ -9,6 +9,11 @@ use Lv\ShopBundle\Form\ShopType;
 
 /**
  * Shop controller.
+ *
+ * 2013.04.23
+ *  例外：Entities passed to the choice field must be managed が発生する対応として、
+ *       フォーム作成時に、persistするようにした.
+ *       (参考)http://stackoverflow.com/questions/12056630/symfony2-entities-passed-to-the-choice-field-must-be-managed
  */
 class ShopController extends Controller
 {
@@ -96,17 +101,11 @@ class ShopController extends Controller
             throw $this->createNotFoundException('Unable to find Shop entity.');
         }
 
-       $this->get('session')->set('shop', $shop);
-       $this->get('session')->set('state', self::STATE_INPUT);
-       $form = $this->createForm(new ShopType(), $shop);
-        
-       return $this->render(
-                'LvShopBundle:Shop:input.html.twig',
-                array(
-                    'form' => $form->createView(),
-                    'formErrors' => false,
-                )
-        );
+        $this->get('session')->set('shop', $shop);
+        $this->get('session')->set('state', self::STATE_INPUT);
+
+        // 入力画面へ遷移
+        return $this->redirect($this->generateUrl('lv_shop_input', array(), true));
     }
 
     /**
@@ -120,6 +119,11 @@ class ShopController extends Controller
         } else {
             $shop = $this->get('session')->get('shop');
         }
+
+        $em = $this->getDoctrine()->getManager();
+        $em->persist($shop->getShopAccount());
+        $em->persist($shop->getBusiness());
+        $em->persist($shop->getPrefecture());
 
         $form = $this->createForm(new ShopType(), $shop);
         $this->get('session')->set('state', self::STATE_INPUT);
@@ -146,6 +150,11 @@ class ShopController extends Controller
         }
 
         $shop = $this->get('session')->get('shop');
+
+        $em = $this->getDoctrine()->getManager();
+        $em->persist($shop->getShopAccount());
+        $em->persist($shop->getBusiness());
+        $em->persist($shop->getPrefecture());
 
         $form = $this->createForm(new ShopType(), $shop);
         $form->bindRequest($this->getRequest());
@@ -198,7 +207,7 @@ class ShopController extends Controller
               && $this->get('session')->get('state') == self::STATE_CONFIRM)) {
             throw $this->createNotFoundException();
         }
-        
+
         $form = $this->createFormBuilder()->getForm();
         $form->bindRequest($this->getRequest());
         if ($form->isValid()) {
@@ -207,9 +216,7 @@ class ShopController extends Controller
             }
 
             $shop = $this->get('session')->get('shop');
-
             $em = $this->getDoctrine()->getManager();
-
             // リダイレクト後は、EntityManagerがデタッチされているので
             // merge すること。
             $em->merge($shop);
@@ -219,7 +226,7 @@ class ShopController extends Controller
             $this->get('session')->remove('shop');
             $this->get('session')->setFlash('shop', $shop);
             $this->get('session')->setFlash('state', self::STATE_SUCCESS);
-            
+
             return $this->redirect($this->generateUrl('lv_shop_success', array(), true));
         }
 

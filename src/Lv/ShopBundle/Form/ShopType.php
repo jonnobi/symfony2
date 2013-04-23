@@ -2,6 +2,7 @@
 
 namespace Lv\ShopBundle\Form;
 
+use Doctrine\ORM\EntityRepository;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolverInterface;
@@ -12,17 +13,29 @@ class ShopType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder
-            ->add('shop_id', 'hidden')
-//            ->add('shop_account_id', 'hidden')
+            ->add('shopId', 'hidden')
             ->add('shopAccount')
-//            ->add('business_id', 'hidden')
+//            ->add('shopAccount', 'entity',
+//                    array(
+//                        'class' => 'Lv\ShopBundle\Entity\ShopAccount',
+//                        'expanded' => false,
+//                        'multiple' => false,
+//                        'query_builder'=>function(EntityRepository $repository){
+//                            return $repository->createQueryBuilder('sa')
+//                                ->select('sa')
+//                                ->where('sa.deleted IS NULL')
+//                                ->orderBy('sa.shopAccountId', 'ASC');
+//                        },
+//                        'property' => 'shopAccountName',
+//                        'label' => '本部'
+//                    )
+//                )
             ->add('business')
-            ->add('company_name')
-//            ->add('prefecture_id', 'hidden')
+            ->add('companyName')
             ->add('prefecture')
             ->add('address')
-            ->add('building_name')
-            ->add('municipality_cd')
+            ->add('buildingName')
+            ->add('municipalityCd')
             ->add('mail')
             ->add('tel')
             ->add('capacity')

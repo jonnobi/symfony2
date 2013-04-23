@@ -94,6 +94,14 @@ class Shop
     {
         $this->created = new \DateTime();
         $this->updated = new \DateTime();
+        $this->shopAccount = new \Lv\ShopBundle\Entity\ShopAccount();
+        $this->business = new \Lv\ShopBundle\Entity\Business();
+        $this->prefecture = new \Lv\ShopBundle\Entity\Prefecture();
+    }
+
+    public function __toString()
+    {
+        return $this->getCompanyName();
     }
 
     /**
