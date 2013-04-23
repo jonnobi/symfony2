@@ -1,0 +1,30 @@
+Lv\PlatformBundle\Entity\Area:
+  repositoryClass: Lv\PlatformBundle\Repository\AreaRepository
+  type: entity
+  table: area
+  fields:
+    id:
+      id: true
+      type: bigint
+      column: area_id
+      generator:
+        strategy: IDENTITY
+    areaName:
+      type: text
+      nullable: false
+      column: area_name
+    updated:
+      type: datetime
+      nullable: false
+      options: ##Unknown attribute type##
+      options:
+        default: CURRENT_TIMESTAMP
+    created:
+      type: datetime
+      nullable: false
+      options: ##Unknown attribute type##
+      options:
+        default: CURRENT_TIMESTAMP
+    deleted:
+      type: datetime
+      nullable: true

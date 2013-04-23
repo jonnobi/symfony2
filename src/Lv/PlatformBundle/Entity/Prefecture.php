@@ -5,9 +5,9 @@ namespace Lv\PlatformBundle\Entity;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * Holiday
+ * Prefecture
  */
-class Holiday
+class Prefecture
 {
     /**
      * @var integer
@@ -15,24 +15,19 @@ class Holiday
     protected $id;
 
     /**
-     * @var \DateTime
-     */
-    protected $holiday;
-
-    /**
-     * @var integer
-     */
-    protected $week;
-
-    /**
-     * @var integer
-     */
-    protected $htype;
-
-    /**
      * @var string
      */
-    protected $hname;
+    protected $prefectureName;
+
+    /**
+     * @var integer
+     */
+    protected $areaId;
+
+    /**
+     * @var integer
+     */
+    protected $areaSort;
 
     /**
      * @var \DateTime
@@ -49,6 +44,11 @@ class Holiday
      */
     protected $deleted;
 
+    /**
+     * @var \Lv\PlatformBundle\Entity\Area
+     */
+    private $area;
+
 
     public function __construct()
     {
@@ -58,7 +58,7 @@ class Holiday
 
     public function __toString()
     {
-        return $this->getHname();
+        return $this->getPrefectureName();
     }
 
     /**
@@ -72,102 +72,79 @@ class Holiday
     }
 
     /**
-     * Set holiday
+     * Set prefectureName
      *
-     * @param \DateTime $holiday
-     * @return Holiday
+     * @param string $prefectureName
+     * @return Prefecture
      */
-    public function setHoliday($holiday)
+    public function setPrefectureName($prefectureName)
     {
-        $this->holiday = $holiday;
+        $this->prefectureName = $prefectureName;
 
         return $this;
     }
 
     /**
-     * Get holiday
-     *
-     * @return \DateTime
-     */
-    public function getHoliday()
-    {
-        return $this->holiday;
-    }
-
-    /**
-     * Set week
-     *
-     * @param integer $week
-     * @return Holiday
-     */
-    public function setWeek($week)
-    {
-        $this->week = $week;
-
-        return $this;
-    }
-
-    /**
-     * Get week
-     *
-     * @return integer
-     */
-    public function getWeek()
-    {
-        return $this->week;
-    }
-
-    /**
-     * Set htype
-     *
-     * @param integer $htype
-     * @return Holiday
-     */
-    public function setHtype($htype)
-    {
-        $this->htype = $htype;
-
-        return $this;
-    }
-
-    /**
-     * Get htype
-     *
-     * @return integer
-     */
-    public function getHtype()
-    {
-        return $this->htype;
-    }
-
-    /**
-     * Set hname
-     *
-     * @param string $hname
-     * @return Holiday
-     */
-    public function setHname($hname)
-    {
-        $this->hname = $hname;
-
-        return $this;
-    }
-
-    /**
-     * Get hname
+     * Get prefectureName
      *
      * @return string
      */
-    public function getHname()
+    public function getPrefectureName()
     {
-        return $this->hname;
+        return $this->prefectureName;
+    }
+
+    /**
+     * Set areaId
+     *
+     * @param integer $areaId
+     * @return Prefecture
+     */
+    public function setAreaId($areaId)
+    {
+        $this->areaId = $areaId;
+
+        return $this;
+    }
+
+    /**
+     * Get areaId
+     *
+     * @return integer
+     */
+    public function getAreaId()
+    {
+        return $this->areaId;
+    }
+
+    /**
+     * Set areaSort
+     *
+     * @param integer $areaSort
+     * @return Prefecture
+     */
+    public function setAreaSort($areaSort)
+    {
+        $this->areaSort = $areaSort;
+
+        return $this;
+    }
+
+    /**
+     * Get areaSort
+     *
+     * @return integer
+     */
+    public function getAreaSort()
+    {
+        return $this->areaSort;
     }
 
     /**
      * Set updated
      *
      * @param \DateTime $updated
-     * @return Holiday
+     * @return Prefecture
      */
     public function setUpdated($updated)
     {
@@ -190,7 +167,7 @@ class Holiday
      * Set created
      *
      * @param \DateTime $created
-     * @return Holiday
+     * @return Prefecture
      */
     public function setCreated($created)
     {
@@ -213,7 +190,7 @@ class Holiday
      * Set deleted
      *
      * @param \DateTime $deleted
-     * @return Holiday
+     * @return Prefecture
      */
     public function setDeleted($deleted)
     {
@@ -230,5 +207,28 @@ class Holiday
     public function getDeleted()
     {
         return $this->deleted;
+    }
+
+    /**
+     * Set area
+     *
+     * @param \Lv\PlatformBundle\Entity\Area $area
+     * @return Prefecture
+     */
+    public function setArea(\Lv\PlatformBundle\Entity\Area $area = null)
+    {
+        $this->area = $area;
+
+        return $this;
+    }
+
+    /**
+     * Get area
+     *
+     * @return \Lv\PlatformBundle\Entity\Area
+     */
+    public function getArea()
+    {
+        return $this->area;
     }
 }

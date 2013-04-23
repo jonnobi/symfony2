@@ -1,0 +1,40 @@
+Lv\PlatformBundle\Entity\Municipality:
+  repositoryClass: Lv\PlatformBundle\Repository\MunicipalityRepository
+  type: entity
+  table: municipality
+  fields:
+    id:
+      id: true
+      type: bigint
+      column: municipality_id
+      generator:
+        strategy: IDENTITY
+    municipalityCd:
+      type: string
+      length: 8
+      unique: true
+      nullable: false
+      column: municipality_cd
+    prefectureId:
+      type: bigint
+      nullable: false
+      column: prefecture_id
+    municipalityName:
+      type: text
+      nullable: false
+      column: municipality_name
+    updated:
+      type: datetime
+      nullable: false
+      options: ##Unknown attribute type##
+      options:
+        default: CURRENT_TIMESTAMP
+    created:
+      type: datetime
+      nullable: false
+      options: ##Unknown attribute type##
+      options:
+        default: CURRENT_TIMESTAMP
+    deleted:
+      type: datetime
+      nullable: true

@@ -12,91 +12,96 @@ class Shop
     /**
      * @var integer
      */
-    protected $shopId;
+    private $id;
 
     /**
      * @var integer
      */
-    protected $shopAccountId;
+    private $shopAccountId;
 
     /**
      * @var integer
      */
-    protected $businessId;
+    private $businessId;
 
     /**
      * @var string
      */
-    protected $companyName;
+    private $companyName;
 
     /**
      * @var integer
      */
-    protected $prefectureId;
+    private $prefectureId;
 
     /**
      * @var string
      */
-    protected $municipalityCd;
+    private $municipalityCd;
 
     /**
      * @var string
      */
-    protected $address;
+    private $address;
 
     /**
      * @var string
      */
-    protected $buildingName;
+    private $buildingName;
 
     /**
      * @var string
      */
-    protected $mail;
+    private $mail;
 
     /**
      * @var string
      */
-    protected $tel;
+    private $tel;
+
+    /**
+     * @var integer
+     */
+    private $capacity;
 
     /**
      * @var \DateTime
      */
-    protected $updated;
+    private $updated;
 
     /**
      * @var \DateTime
      */
-    protected $created;
+    private $created;
 
     /**
      * @var \DateTime
      */
-    protected $deleted;
+    private $deleted;
 
     /**
-     * @var \Lv\ShopBundle\Entity\ShopAccount
+     * @var \Lv\ShopaccountBundle\Entity\ShopAccount
      */
-    protected $shopAccount;
+    private $shopAccount;
 
     /**
-     * @var \Lv\ShopBundle\Entity\Business
+     * @var \Lv\PlatformBundle\Entity\Business
      */
-    protected $business;
+    private $business;
 
     /**
-     * @var \Lv\ShopBundle\Entity\Prefecture
+     * @var \Lv\PlatformBundle\Entity\Prefecture
      */
-    protected $prefecture;
+    private $prefecture;
 
 
     public function __construct()
     {
         $this->created = new \DateTime();
         $this->updated = new \DateTime();
-        $this->shopAccount = new \Lv\ShopBundle\Entity\ShopAccount();
-        $this->business = new \Lv\ShopBundle\Entity\Business();
-        $this->prefecture = new \Lv\ShopBundle\Entity\Prefecture();
+        $this->business = new \Lv\PlatformBundle\Entity\Business();
+        $this->prefecture = new \Lv\PlatformBundle\Entity\Prefecture();
+        $this->shopAccount = new \Lv\ShopaccountBundle\Entity\ShopAccount();
     }
 
     public function __toString()
@@ -105,13 +110,13 @@ class Shop
     }
 
     /**
-     * Get shopId
+     * Get id
      *
      * @return integer
      */
-    public function getShopId()
+    public function getId()
     {
-        return $this->shopId;
+        return $this->id;
     }
 
     /**
@@ -322,6 +327,29 @@ class Shop
     }
 
     /**
+     * Set capacity
+     *
+     * @param integer $capacity
+     * @return Shop
+     */
+    public function setCapacity($capacity)
+    {
+        $this->capacity = $capacity;
+
+        return $this;
+    }
+
+    /**
+     * Get capacity
+     *
+     * @return integer
+     */
+    public function getCapacity()
+    {
+        return $this->capacity;
+    }
+
+    /**
      * Set updated
      *
      * @param \DateTime $updated
@@ -393,10 +421,10 @@ class Shop
     /**
      * Set shopAccount
      *
-     * @param \Lv\ShopBundle\Entity\ShopAccount $shopAccount
+     * @param \Lv\ShopaccountBundle\Entity\ShopAccount $shopAccount
      * @return Shop
      */
-    public function setShopAccount(\Lv\ShopBundle\Entity\ShopAccount $shopAccount = null)
+    public function setShopAccount(\Lv\ShopaccountBundle\Entity\ShopAccount $shopAccount = null)
     {
         $this->shopAccount = $shopAccount;
 
@@ -406,7 +434,7 @@ class Shop
     /**
      * Get shopAccount
      *
-     * @return \Lv\ShopBundle\Entity\ShopAccount
+     * @return \Lv\ShopaccountBundle\Entity\ShopAccount
      */
     public function getShopAccount()
     {
@@ -416,10 +444,10 @@ class Shop
     /**
      * Set business
      *
-     * @param \Lv\ShopBundle\Entity\Business $business
+     * @param \Lv\PlatformBundle\Entity\Business $business
      * @return Shop
      */
-    public function setBusiness(\Lv\ShopBundle\Entity\Business $business = null)
+    public function setBusiness(\Lv\PlatformBundle\Entity\Business $business = null)
     {
         $this->business = $business;
 
@@ -429,7 +457,7 @@ class Shop
     /**
      * Get business
      *
-     * @return \Lv\ShopBundle\Entity\Business
+     * @return \Lv\PlatformBundle\Entity\Business
      */
     public function getBusiness()
     {
@@ -439,10 +467,10 @@ class Shop
     /**
      * Set prefecture
      *
-     * @param \Lv\ShopBundle\Entity\Prefecture $prefecture
+     * @param \Lv\PlatformBundle\Entity\Prefecture $prefecture
      * @return Shop
      */
-    public function setPrefecture(\Lv\ShopBundle\Entity\Prefecture $prefecture = null)
+    public function setPrefecture(\Lv\PlatformBundle\Entity\Prefecture $prefecture = null)
     {
         $this->prefecture = $prefecture;
 
@@ -452,57 +480,10 @@ class Shop
     /**
      * Get prefecture
      *
-     * @return \Lv\ShopBundle\Entity\Prefecture
+     * @return \Lv\PlatformBundle\Entity\Prefecture
      */
     public function getPrefecture()
     {
         return $this->prefecture;
-    }
-
-    /**
-     * @ORM\PrePersist
-     */
-    public function setCreatedValue()
-    {
-        if(!$this->getCreated())
-        {
-            $this->created = new \DateTime();
-        }
-    }
-
-    /**
-     * @ORM\PreUpdate
-     */
-    public function setUpdatedValue()
-    {
-        $this->updated = new \DateTime();
-    }
-
-    /**
-     * @var integer
-     */
-    private $capacity;
-
-    /**
-     * Set capacity
-     *
-     * @param integer $capacity
-     * @return Shop
-     */
-    public function setCapacity($capacity)
-    {
-        $this->capacity = $capacity;
-
-        return $this;
-    }
-
-    /**
-     * Get capacity
-     *
-     * @return integer
-     */
-    public function getCapacity()
-    {
-        return $this->capacity;
     }
 }

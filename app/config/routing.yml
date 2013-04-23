@@ -2,13 +2,14 @@ lv_platform:
     resource: "@LvPlatformBundle/Resources/config/routing.yml"
     prefix:   /platform
 
+lv_shopaccount:
+    resource: "@LvShopaccountBundle/Resources/config/routing.yml"
+    prefix:   /shopaccount
+
 lv_shop:
     resource: "@LvShopBundle/Resources/config/routing.yml"
     prefix:   /shop
 
-lv_test:
-    resource: "@LvTestBundle/Resources/config/routing.yml"
-    prefix:   /test
 
 # Internal routing configuration to handle ESI
 # ****** WARNING ******

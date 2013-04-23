@@ -1,7 +1,0 @@
-parameters:
-#    lv_test.example.class: Lv\TestBundle\Example
-
-services:
-#    lv_test.example:
-#        class: %lv_test.example.class%
-#        arguments: [@service_id, "plain_value", %parameter%]

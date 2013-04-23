@@ -3,7 +3,7 @@ Lv\ShopBundle\Entity\Shop:
   type: entity
   table: shop
   fields:
-    shopId:
+    id:
       id: true
       type: bigint
       column: shop_id
@@ -67,25 +67,25 @@ Lv\ShopBundle\Entity\Shop:
       nullable: true
   manyToOne:
     shopAccount:
-      targetEntity: Lv\ShopBundle\Entity\ShopAccount
+      targetEntity: Lv\ShopaccountBundle\Entity\ShopAccount
       orphanRemoval: false
       joinColumns:
         shop_account_id:
           referencedColumnName: shop_account_id
     business:
-      targetEntity: Lv\ShopBundle\Entity\Business
+      targetEntity: Lv\PlatformBundle\Entity\Business
       orphanRemoval: false
       joinColumns:
         business_id:
           referencedColumnName: business_id
     prefecture:
-      targetEntity: Lv\ShopBundle\Entity\Prefecture
+      targetEntity: Lv\PlatformBundle\Entity\Prefecture
       orphanRemoval: false
       joinColumns:
         prefecture_id:
           referencedColumnName: prefecture_id
 
   #lifecycleCallbacks: { }
-  lifecycleCallbacks:
-    prePersist: [ setCreatedValue, setUpdatedValue ]
-    preUpdate: [ setUpdatedValue ]
+  #lifecycleCallbacks:
+  #  prePersist: [ setCreatedValue, setUpdatedValue ]
+  #  preUpdate: [ setUpdatedValue ]

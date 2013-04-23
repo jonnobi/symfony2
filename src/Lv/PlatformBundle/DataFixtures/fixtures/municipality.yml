@@ -1,0 +1,7635 @@
+## YAML Template.
+---
+Municipality:
+  01101:
+    municipalityCd: "01101"
+    prefectureId: 1
+    municipalityName: 札幌市 中央区
+  01102:
+    municipalityCd: "01102"
+    prefectureId: 1
+    municipalityName: 札幌市 北区
+  01103:
+    municipalityCd: "01103"
+    prefectureId: 1
+    municipalityName: 札幌市 東区
+  01104:
+    municipalityCd: "01104"
+    prefectureId: 1
+    municipalityName: 札幌市 白石区
+  01105:
+    municipalityCd: "01105"
+    prefectureId: 1
+    municipalityName: 札幌市 豊平区
+  01106:
+    municipalityCd: "01106"
+    prefectureId: 1
+    municipalityName: 札幌市 南区
+  01107:
+    municipalityCd: "01107"
+    prefectureId: 1
+    municipalityName: 札幌市 西区
+  01108:
+    municipalityCd: "01108"
+    prefectureId: 1
+    municipalityName: 札幌市 厚別区
+  01109:
+    municipalityCd: "01109"
+    prefectureId: 1
+    municipalityName: 札幌市 手稲区
+  01110:
+    municipalityCd: "01110"
+    prefectureId: 1
+    municipalityName: 札幌市 清田区
+  01202:
+    municipalityCd: "01202"
+    prefectureId: 1
+    municipalityName: 函館市
+  01203:
+    municipalityCd: "01203"
+    prefectureId: 1
+    municipalityName: 小樽市
+  01204:
+    municipalityCd: "01204"
+    prefectureId: 1
+    municipalityName: 旭川市
+  01205:
+    municipalityCd: "01205"
+    prefectureId: 1
+    municipalityName: 室蘭市
+  01206:
+    municipalityCd: "01206"
+    prefectureId: 1
+    municipalityName: 釧路市
+  01207:
+    municipalityCd: "01207"
+    prefectureId: 1
+    municipalityName: 帯広市
+  01208:
+    municipalityCd: "01208"
+    prefectureId: 1
+    municipalityName: 北見市
+  01209:
+    municipalityCd: "01209"
+    prefectureId: 1
+    municipalityName: 夕張市
+  01210:
+    municipalityCd: "01210"
+    prefectureId: 1
+    municipalityName: 岩見沢市
+  01211:
+    municipalityCd: "01211"
+    prefectureId: 1
+    municipalityName: 網走市
+  01212:
+    municipalityCd: "01212"
+    prefectureId: 1
+    municipalityName: 留萌市
+  01213:
+    municipalityCd: "01213"
+    prefectureId: 1
+    municipalityName: 苫小牧市
+  01214:
+    municipalityCd: "01214"
+    prefectureId: 1
+    municipalityName: 稚内市
+  01215:
+    municipalityCd: "01215"
+    prefectureId: 1
+    municipalityName: 美唄市
+  01216:
+    municipalityCd: "01216"
+    prefectureId: 1
+    municipalityName: 芦別市
+  01217:
+    municipalityCd: "01217"
+    prefectureId: 1
+    municipalityName: 江別市
+  01218:
+    municipalityCd: "01218"
+    prefectureId: 1
+    municipalityName: 赤平市
+  01219:
+    municipalityCd: "01219"
+    prefectureId: 1
+    municipalityName: 紋別市
+  01220:
+    municipalityCd: "01220"
+    prefectureId: 1
+    municipalityName: 士別市
+  01221:
+    municipalityCd: "01221"
+    prefectureId: 1
+    municipalityName: 名寄市
+  01222:
+    municipalityCd: "01222"
+    prefectureId: 1
+    municipalityName: 三笠市
+  01223:
+    municipalityCd: "01223"
+    prefectureId: 1
+    municipalityName: 根室市
+  01224:
+    municipalityCd: "01224"
+    prefectureId: 1
+    municipalityName: 千歳市
+  01225:
+    municipalityCd: "01225"
+    prefectureId: 1
+    municipalityName: 滝川市
+  01226:
+    municipalityCd: "01226"
+    prefectureId: 1
+    municipalityName: 砂川市
+  01227:
+    municipalityCd: "01227"
+    prefectureId: 1
+    municipalityName: 歌志内市
+  01228:
+    municipalityCd: "01228"
+    prefectureId: 1
+    municipalityName: 深川市
+  01229:
+    municipalityCd: "01229"
+    prefectureId: 1
+    municipalityName: 富良野市
+  01230:
+    municipalityCd: "01230"
+    prefectureId: 1
+    municipalityName: 登別市
+  01231:
+    municipalityCd: "01231"
+    prefectureId: 1
+    municipalityName: 恵庭市
+  01233:
+    municipalityCd: "01233"
+    prefectureId: 1
+    municipalityName: 伊達市
+  01234:
+    municipalityCd: "01234"
+    prefectureId: 1
+    municipalityName: 北広島市
+  01235:
+    municipalityCd: "01235"
+    prefectureId: 1
+    municipalityName: 石狩市
+  01236:
+    municipalityCd: "01236"
+    prefectureId: 1
+    municipalityName: 北斗市
+  01303:
+    municipalityCd: "01303"
+    prefectureId: 1
+    municipalityName: 石狩郡 当別町
+  01304:
+    municipalityCd: "01304"
+    prefectureId: 1
+    municipalityName: 石狩郡 新篠津村
+  01331:
+    municipalityCd: "01331"
+    prefectureId: 1
+    municipalityName: 松前郡 松前町
+  01332:
+    municipalityCd: "01332"
+    prefectureId: 1
+    municipalityName: 松前郡 福島町
+  01333:
+    municipalityCd: "01333"
+    prefectureId: 1
+    municipalityName: 上磯郡 知内町
+  01334:
+    municipalityCd: "01334"
+    prefectureId: 1
+    municipalityName: 上磯郡 木古内町
+  01337:
+    municipalityCd: "01337"
+    prefectureId: 1
+    municipalityName: 亀田郡 七飯町
+  01343:
+    municipalityCd: "01343"
+    prefectureId: 1
+    municipalityName: 茅部郡 鹿部町
+  01345:
+    municipalityCd: "01345"
+    prefectureId: 1
+    municipalityName: 茅部郡 森町
+  01346:
+    municipalityCd: "01346"
+    prefectureId: 1
+    municipalityName: 二海郡 八雲町
+  01347:
+    municipalityCd: "01347"
+    prefectureId: 1
+    municipalityName: 山越郡 長万部町
+  01361:
+    municipalityCd: "01361"
+    prefectureId: 1
+    municipalityName: 檜山郡 江差町
+  01362:
+    municipalityCd: "01362"
+    prefectureId: 1
+    municipalityName: 檜山郡 上ノ国町
+  01363:
+    municipalityCd: "01363"
+    prefectureId: 1
+    municipalityName: 檜山郡 厚沢部町
+  01364:
+    municipalityCd: "01364"
+    prefectureId: 1
+    municipalityName: 爾志郡 乙部町
+  01367:
+    municipalityCd: "01367"
+    prefectureId: 1
+    municipalityName: 奥尻郡 奥尻町
+  01370:
+    municipalityCd: "01370"
+    prefectureId: 1
+    municipalityName: 瀬棚郡 今金町
+  01371:
+    municipalityCd: "01371"
+    prefectureId: 1
+    municipalityName: 久遠郡 せたな町
+  01391:
+    municipalityCd: "01391"
+    prefectureId: 1
+    municipalityName: 島牧郡 島牧村
+  01392:
+    municipalityCd: "01392"
+    prefectureId: 1
+    municipalityName: 寿都郡 寿都町
+  01393:
+    municipalityCd: "01393"
+    prefectureId: 1
+    municipalityName: 寿都郡 黒松内町
+  01394:
+    municipalityCd: "01394"
+    prefectureId: 1
+    municipalityName: 磯谷郡 蘭越町
+  01395:
+    municipalityCd: "01395"
+    prefectureId: 1
+    municipalityName: 虻田郡 ニセコ町
+  01396:
+    municipalityCd: "01396"
+    prefectureId: 1
+    municipalityName: 虻田郡 真狩村
+  01397:
+    municipalityCd: "01397"
+    prefectureId: 1
+    municipalityName: 虻田郡 留寿都村
+  01398:
+    municipalityCd: "01398"
+    prefectureId: 1
+    municipalityName: 虻田郡 喜茂別町
+  01399:
+    municipalityCd: "01399"
+    prefectureId: 1
+    municipalityName: 虻田郡 京極町
+  01400:
+    municipalityCd: "01400"
+    prefectureId: 1
+    municipalityName: 虻田郡 倶知安町
+  01401:
+    municipalityCd: "01401"
+    prefectureId: 1
+    municipalityName: 岩内郡 共和町
+  01402:
+    municipalityCd: "01402"
+    prefectureId: 1
+    municipalityName: 岩内郡 岩内町
+  01403:
+    municipalityCd: "01403"
+    prefectureId: 1
+    municipalityName: 古宇郡 泊村
+  01404:
+    municipalityCd: "01404"
+    prefectureId: 1
+    municipalityName: 古宇郡 神恵内村
+  01405:
+    municipalityCd: "01405"
+    prefectureId: 1
+    municipalityName: 積丹郡 積丹町
+  01406:
+    municipalityCd: "01406"
+    prefectureId: 1
+    municipalityName: 古平郡 古平町
+  01407:
+    municipalityCd: "01407"
+    prefectureId: 1
+    municipalityName: 余市郡 仁木町
+  01408:
+    municipalityCd: "01408"
+    prefectureId: 1
+    municipalityName: 余市郡 余市町
+  01409:
+    municipalityCd: "01409"
+    prefectureId: 1
+    municipalityName: 余市郡 赤井川村
+  01423:
+    municipalityCd: "01423"
+    prefectureId: 1
+    municipalityName: 空知郡 南幌町
+  01424:
+    municipalityCd: "01424"
+    prefectureId: 1
+    municipalityName: 空知郡 奈井江町
+  01425:
+    municipalityCd: "01425"
+    prefectureId: 1
+    municipalityName: 空知郡 上砂川町
+  01427:
+    municipalityCd: "01427"
+    prefectureId: 1
+    municipalityName: 夕張郡 由仁町
+  01428:
+    municipalityCd: "01428"
+    prefectureId: 1
+    municipalityName: 夕張郡 長沼町
+  01429:
+    municipalityCd: "01429"
+    prefectureId: 1
+    municipalityName: 夕張郡 栗山町
+  01430:
+    municipalityCd: "01430"
+    prefectureId: 1
+    municipalityName: 樺戸郡 月形町
+  01431:
+    municipalityCd: "01431"
+    prefectureId: 1
+    municipalityName: 樺戸郡 浦臼町
+  01432:
+    municipalityCd: "01432"
+    prefectureId: 1
+    municipalityName: 樺戸郡 新十津川町
+  01433:
+    municipalityCd: "01433"
+    prefectureId: 1
+    municipalityName: 雨竜郡 妹背牛町
+  01434:
+    municipalityCd: "01434"
+    prefectureId: 1
+    municipalityName: 雨竜郡 秩父別町
+  01436:
+    municipalityCd: "01436"
+    prefectureId: 1
+    municipalityName: 雨竜郡 雨竜町
+  01437:
+    municipalityCd: "01437"
+    prefectureId: 1
+    municipalityName: 雨竜郡 北竜町
+  01438:
+    municipalityCd: "01438"
+    prefectureId: 1
+    municipalityName: 雨竜郡 沼田町
+  01439:
+    municipalityCd: "01439"
+    prefectureId: 1
+    municipalityName: 雨竜郡 幌加内町
+  01452:
+    municipalityCd: "01452"
+    prefectureId: 1
+    municipalityName: 上川郡 鷹栖町
+  01453:
+    municipalityCd: "01453"
+    prefectureId: 1
+    municipalityName: 上川郡 東神楽町
+  01454:
+    municipalityCd: "01454"
+    prefectureId: 1
+    municipalityName: 上川郡 当麻町
+  01455:
+    municipalityCd: "01455"
+    prefectureId: 1
+    municipalityName: 上川郡 比布町
+  01456:
+    municipalityCd: "01456"
+    prefectureId: 1
+    municipalityName: 上川郡 愛別町
+  01457:
+    municipalityCd: "01457"
+    prefectureId: 1
+    municipalityName: 上川郡 上川町
+  01458:
+    municipalityCd: "01458"
+    prefectureId: 1
+    municipalityName: 上川郡 東川町
+  01459:
+    municipalityCd: "01459"
+    prefectureId: 1
+    municipalityName: 上川郡 美瑛町
+  01460:
+    municipalityCd: "01460"
+    prefectureId: 1
+    municipalityName: 空知郡 上富良野町
+  01461:
+    municipalityCd: "01461"
+    prefectureId: 1
+    municipalityName: 空知郡 中富良野町
+  01462:
+    municipalityCd: "01462"
+    prefectureId: 1
+    municipalityName: 空知郡 南富良野町
+  01463:
+    municipalityCd: "01463"
+    prefectureId: 1
+    municipalityName: 勇払郡 占冠村
+  01464:
+    municipalityCd: "01464"
+    prefectureId: 1
+    municipalityName: 上川郡 和寒町
+  01465:
+    municipalityCd: "01465"
+    prefectureId: 1
+    municipalityName: 上川郡 剣淵町
+  01468:
+    municipalityCd: "01468"
+    prefectureId: 1
+    municipalityName: 上川郡 下川町
+  01469:
+    municipalityCd: "01469"
+    prefectureId: 1
+    municipalityName: 中川郡 美深町
+  01470:
+    municipalityCd: "01470"
+    prefectureId: 1
+    municipalityName: 中川郡 音威子府村
+  01471:
+    municipalityCd: "01471"
+    prefectureId: 1
+    municipalityName: 中川郡 中川町
+  01472:
+    municipalityCd: "01472"
+    prefectureId: 1
+    municipalityName: 雨竜郡 幌加内町
+  01481:
+    municipalityCd: "01481"
+    prefectureId: 1
+    municipalityName: 増毛郡 増毛町
+  01482:
+    municipalityCd: "01482"
+    prefectureId: 1
+    municipalityName: 留萌郡 小平町
+  01483:
+    municipalityCd: "01483"
+    prefectureId: 1
+    municipalityName: 苫前郡 苫前町
+  01484:
+    municipalityCd: "01484"
+    prefectureId: 1
+    municipalityName: 苫前郡 羽幌町
+  01485:
+    municipalityCd: "01485"
+    prefectureId: 1
+    municipalityName: 苫前郡 初山別村
+  01486:
+    municipalityCd: "01486"
+    prefectureId: 1
+    municipalityName: 天塩郡 遠別町
+  01487:
+    municipalityCd: "01487"
+    prefectureId: 1
+    municipalityName: 天塩郡 天塩町
+  01488:
+    municipalityCd: "01488"
+    prefectureId: 1
+    municipalityName: 天塩郡 幌延町
+  01511:
+    municipalityCd: "01511"
+    prefectureId: 1
+    municipalityName: 宗谷郡 猿払村
+  01512:
+    municipalityCd: "01512"
+    prefectureId: 1
+    municipalityName: 枝幸郡 浜頓別町
+  01513:
+    municipalityCd: "01513"
+    prefectureId: 1
+    municipalityName: 枝幸郡 中頓別町
+  01514:
+    municipalityCd: "01514"
+    prefectureId: 1
+    municipalityName: 枝幸郡 枝幸町
+  01516:
+    municipalityCd: "01516"
+    prefectureId: 1
+    municipalityName: 天塩郡 豊富町
+  01517:
+    municipalityCd: "01517"
+    prefectureId: 1
+    municipalityName: 礼文郡 礼文町
+  01518:
+    municipalityCd: "01518"
+    prefectureId: 1
+    municipalityName: 利尻郡 利尻町
+  01519:
+    municipalityCd: "01519"
+    prefectureId: 1
+    municipalityName: 利尻郡 利尻富士町
+  01520:
+    municipalityCd: "01520"
+    prefectureId: 1
+    municipalityName: 天塩郡 幌延町
+  01543:
+    municipalityCd: "01543"
+    prefectureId: 1
+    municipalityName: 網走郡 美幌町
+  01544:
+    municipalityCd: "01544"
+    prefectureId: 1
+    municipalityName: 網走郡 津別町
+  01545:
+    municipalityCd: "01545"
+    prefectureId: 1
+    municipalityName: 斜里郡 斜里町
+  01546:
+    municipalityCd: "01546"
+    prefectureId: 1
+    municipalityName: 斜里郡 清里町
+  01547:
+    municipalityCd: "01547"
+    prefectureId: 1
+    municipalityName: 斜里郡 小清水町
+  01549:
+    municipalityCd: "01549"
+    prefectureId: 1
+    municipalityName: 常呂郡 訓子府町
+  01550:
+    municipalityCd: "01550"
+    prefectureId: 1
+    municipalityName: 常呂郡 置戸町
+  01552:
+    municipalityCd: "01552"
+    prefectureId: 1
+    municipalityName: 常呂郡 佐呂間町
+  01555:
+    municipalityCd: "01555"
+    prefectureId: 1
+    municipalityName: 紋別郡 遠軽町
+  01559:
+    municipalityCd: "01559"
+    prefectureId: 1
+    municipalityName: 紋別郡 湧別町
+  01560:
+    municipalityCd: "01560"
+    prefectureId: 1
+    municipalityName: 紋別郡 滝上町
+  01561:
+    municipalityCd: "01561"
+    prefectureId: 1
+    municipalityName: 紋別郡 興部町
+  01562:
+    municipalityCd: "01562"
+    prefectureId: 1
+    municipalityName: 紋別郡 西興部村
+  01563:
+    municipalityCd: "01563"
+    prefectureId: 1
+    municipalityName: 紋別郡 雄武町
+  01564:
+    municipalityCd: "01564"
+    prefectureId: 1
+    municipalityName: 網走郡 大空町
+  01571:
+    municipalityCd: "01571"
+    prefectureId: 1
+    municipalityName: 虻田郡 豊浦町
+  01575:
+    municipalityCd: "01575"
+    prefectureId: 1
+    municipalityName: 有珠郡 壮瞥町
+  01578:
+    municipalityCd: "01578"
+    prefectureId: 1
+    municipalityName: 白老郡 白老町
+  01581:
+    municipalityCd: "01581"
+    prefectureId: 1
+    municipalityName: 勇払郡 厚真町
+  01584:
+    municipalityCd: "01584"
+    prefectureId: 1
+    municipalityName: 虻田郡 洞爺湖町
+  01585:
+    municipalityCd: "01585"
+    prefectureId: 1
+    municipalityName: 勇払郡 安平町
+  01586:
+    municipalityCd: "01586"
+    prefectureId: 1
+    municipalityName: 勇払郡 むかわ町
+  01601:
+    municipalityCd: "01601"
+    prefectureId: 1
+    municipalityName: 沙流郡 日高町
+  01602:
+    municipalityCd: "01602"
+    prefectureId: 1
+    municipalityName: 沙流郡 平取町
+  01604:
+    municipalityCd: "01604"
+    prefectureId: 1
+    municipalityName: 新冠郡 新冠町
+  01607:
+    municipalityCd: "01607"
+    prefectureId: 1
+    municipalityName: 浦河郡 浦河町
+  01608:
+    municipalityCd: "01608"
+    prefectureId: 1
+    municipalityName: 様似郡 様似町
+  01609:
+    municipalityCd: "01609"
+    prefectureId: 1
+    municipalityName: 幌泉郡 えりも町
+  01610:
+    municipalityCd: "01610"
+    prefectureId: 1
+    municipalityName: 日高郡 新ひだか町
+  01631:
+    municipalityCd: "01631"
+    prefectureId: 1
+    municipalityName: 河東郡 音更町
+  01632:
+    municipalityCd: "01632"
+    prefectureId: 1
+    municipalityName: 河東郡 士幌町
+  01633:
+    municipalityCd: "01633"
+    prefectureId: 1
+    municipalityName: 河東郡 上士幌町
+  01634:
+    municipalityCd: "01634"
+    prefectureId: 1
+    municipalityName: 河東郡 鹿追町
+  01635:
+    municipalityCd: "01635"
+    prefectureId: 1
+    municipalityName: 上川郡 新得町
+  01636:
+    municipalityCd: "01636"
+    prefectureId: 1
+    municipalityName: 上川郡 清水町
+  01637:
+    municipalityCd: "01637"
+    prefectureId: 1
+    municipalityName: 河西郡 芽室町
+  01638:
+    municipalityCd: "01638"
+    prefectureId: 1
+    municipalityName: 河西郡 中札内村
+  01639:
+    municipalityCd: "01639"
+    prefectureId: 1
+    municipalityName: 河西郡 更別村
+  01641:
+    municipalityCd: "01641"
+    prefectureId: 1
+    municipalityName: 広尾郡 大樹町
+  01642:
+    municipalityCd: "01642"
+    prefectureId: 1
+    municipalityName: 広尾郡 広尾町
+  01643:
+    municipalityCd: "01643"
+    prefectureId: 1
+    municipalityName: 中川郡 幕別町
+  01644:
+    municipalityCd: "01644"
+    prefectureId: 1
+    municipalityName: 中川郡 池田町
+  01645:
+    municipalityCd: "01645"
+    prefectureId: 1
+    municipalityName: 中川郡 豊頃町
+  01646:
+    municipalityCd: "01646"
+    prefectureId: 1
+    municipalityName: 中川郡 本別町
+  01647:
+    municipalityCd: "01647"
+    prefectureId: 1
+    municipalityName: 足寄郡 足寄町
+  01648:
+    municipalityCd: "01648"
+    prefectureId: 1
+    municipalityName: 足寄郡 陸別町
+  01649:
+    municipalityCd: "01649"
+    prefectureId: 1
+    municipalityName: 十勝郡 浦幌町
+  01661:
+    municipalityCd: "01661"
+    prefectureId: 1
+    municipalityName: 釧路郡 釧路町
+  01662:
+    municipalityCd: "01662"
+    prefectureId: 1
+    municipalityName: 厚岸郡 厚岸町
+  01663:
+    municipalityCd: "01663"
+    prefectureId: 1
+    municipalityName: 厚岸郡 浜中町
+  01664:
+    municipalityCd: "01664"
+    prefectureId: 1
+    municipalityName: 川上郡 標茶町
+  01665:
+    municipalityCd: "01665"
+    prefectureId: 1
+    municipalityName: 川上郡 弟子屈町
+  01667:
+    municipalityCd: "01667"
+    prefectureId: 1
+    municipalityName: 阿寒郡 鶴居村
+  01668:
+    municipalityCd: "01668"
+    prefectureId: 1
+    municipalityName: 白糠郡 白糠町
+  01691:
+    municipalityCd: "01691"
+    prefectureId: 1
+    municipalityName: 野付郡 別海町
+  01692:
+    municipalityCd: "01692"
+    prefectureId: 1
+    municipalityName: 標津郡 中標津町
+  01693:
+    municipalityCd: "01693"
+    prefectureId: 1
+    municipalityName: 標津郡 標津町
+  01694:
+    municipalityCd: "01694"
+    prefectureId: 1
+    municipalityName: 目梨郡 羅臼町
+  02201:
+    municipalityCd: "02201"
+    prefectureId: 2
+    municipalityName: 青森市
+  02202:
+    municipalityCd: "02202"
+    prefectureId: 2
+    municipalityName: 弘前市
+  02203:
+    municipalityCd: "02203"
+    prefectureId: 2
+    municipalityName: 八戸市
+  02204:
+    municipalityCd: "02204"
+    prefectureId: 2
+    municipalityName: 黒石市
+  02205:
+    municipalityCd: "02205"
+    prefectureId: 2
+    municipalityName: 五所川原市
+  02206:
+    municipalityCd: "02206"
+    prefectureId: 2
+    municipalityName: 十和田市
+  02207:
+    municipalityCd: "02207"
+    prefectureId: 2
+    municipalityName: 三沢市
+  02208:
+    municipalityCd: "02208"
+    prefectureId: 2
+    municipalityName: むつ市
+  02209:
+    municipalityCd: "02209"
+    prefectureId: 2
+    municipalityName: つがる市
+  02210:
+    municipalityCd: "02210"
+    prefectureId: 2
+    municipalityName: 平川市
+  02301:
+    municipalityCd: "02301"
+    prefectureId: 2
+    municipalityName: 東津軽郡 平内町
+  02303:
+    municipalityCd: "02303"
+    prefectureId: 2
+    municipalityName: 東津軽郡 今別町
+  02304:
+    municipalityCd: "02304"
+    prefectureId: 2
+    municipalityName: 東津軽郡 蓬田村
+  02307:
+    municipalityCd: "02307"
+    prefectureId: 2
+    municipalityName: 東津軽郡 外ヶ浜町
+  02321:
+    municipalityCd: "02321"
+    prefectureId: 2
+    municipalityName: 西津軽郡 鰺ヶ沢町
+  02323:
+    municipalityCd: "02323"
+    prefectureId: 2
+    municipalityName: 西津軽郡 深浦町
+  02343:
+    municipalityCd: "02343"
+    prefectureId: 2
+    municipalityName: 中津軽郡 西目屋村
+  02361:
+    municipalityCd: "02361"
+    prefectureId: 2
+    municipalityName: 南津軽郡 藤崎町
+  02362:
+    municipalityCd: "02362"
+    prefectureId: 2
+    municipalityName: 南津軽郡 大鰐町
+  02367:
+    municipalityCd: "02367"
+    prefectureId: 2
+    municipalityName: 南津軽郡 田舎館村
+  02381:
+    municipalityCd: "02381"
+    prefectureId: 2
+    municipalityName: 北津軽郡 板柳町
+  02384:
+    municipalityCd: "02384"
+    prefectureId: 2
+    municipalityName: 北津軽郡 鶴田町
+  02387:
+    municipalityCd: "02387"
+    prefectureId: 2
+    municipalityName: 北津軽郡 中泊町
+  02401:
+    municipalityCd: "02401"
+    prefectureId: 2
+    municipalityName: 上北郡 野辺地町
+  02402:
+    municipalityCd: "02402"
+    prefectureId: 2
+    municipalityName: 上北郡 七戸町
+  02405:
+    municipalityCd: "02405"
+    prefectureId: 2
+    municipalityName: 上北郡 六戸町
+  02406:
+    municipalityCd: "02406"
+    prefectureId: 2
+    municipalityName: 上北郡 横浜町
+  02408:
+    municipalityCd: "02408"
+    prefectureId: 2
+    municipalityName: 上北郡 東北町
+  02411:
+    municipalityCd: "02411"
+    prefectureId: 2
+    municipalityName: 上北郡 六ケ所村
+  02412:
+    municipalityCd: "02412"
+    prefectureId: 2
+    municipalityName: 上北郡 おいらせ町
+  02423:
+    municipalityCd: "02423"
+    prefectureId: 2
+    municipalityName: 下北郡 大間町
+  02424:
+    municipalityCd: "02424"
+    prefectureId: 2
+    municipalityName: 下北郡 東通村
+  02425:
+    municipalityCd: "02425"
+    prefectureId: 2
+    municipalityName: 下北郡 風間浦村
+  02426:
+    municipalityCd: "02426"
+    prefectureId: 2
+    municipalityName: 下北郡 佐井村
+  02441:
+    municipalityCd: "02441"
+    prefectureId: 2
+    municipalityName: 三戸郡 三戸町
+  02442:
+    municipalityCd: "02442"
+    prefectureId: 2
+    municipalityName: 三戸郡 五戸町
+  02443:
+    municipalityCd: "02443"
+    prefectureId: 2
+    municipalityName: 三戸郡 田子町
+  02445:
+    municipalityCd: "02445"
+    prefectureId: 2
+    municipalityName: 三戸郡 南部町
+  02446:
+    municipalityCd: "02446"
+    prefectureId: 2
+    municipalityName: 三戸郡 階上町
+  02450:
+    municipalityCd: "02450"
+    prefectureId: 2
+    municipalityName: 三戸郡 新郷村
+  03201:
+    municipalityCd: "03201"
+    prefectureId: 3
+    municipalityName: 盛岡市
+  03202:
+    municipalityCd: "03202"
+    prefectureId: 3
+    municipalityName: 宮古市
+  03203:
+    municipalityCd: "03203"
+    prefectureId: 3
+    municipalityName: 大船渡市
+  03205:
+    municipalityCd: "03205"
+    prefectureId: 3
+    municipalityName: 花巻市
+  03206:
+    municipalityCd: "03206"
+    prefectureId: 3
+    municipalityName: 北上市
+  03207:
+    municipalityCd: "03207"
+    prefectureId: 3
+    municipalityName: 久慈市
+  03208:
+    municipalityCd: "03208"
+    prefectureId: 3
+    municipalityName: 遠野市
+  03209:
+    municipalityCd: "03209"
+    prefectureId: 3
+    municipalityName: 一関市
+  03210:
+    municipalityCd: "03210"
+    prefectureId: 3
+    municipalityName: 陸前高田市
+  03211:
+    municipalityCd: "03211"
+    prefectureId: 3
+    municipalityName: 釜石市
+  03213:
+    municipalityCd: "03213"
+    prefectureId: 3
+    municipalityName: 二戸市
+  03214:
+    municipalityCd: "03214"
+    prefectureId: 3
+    municipalityName: 八幡平市
+  03215:
+    municipalityCd: "03215"
+    prefectureId: 3
+    municipalityName: 奥州市
+  03301:
+    municipalityCd: "03301"
+    prefectureId: 3
+    municipalityName: 岩手郡 雫石町
+  03302:
+    municipalityCd: "03302"
+    prefectureId: 3
+    municipalityName: 岩手郡 葛巻町
+  03303:
+    municipalityCd: "03303"
+    prefectureId: 3
+    municipalityName: 岩手郡 岩手町
+  03305:
+    municipalityCd: "03305"
+    prefectureId: 3
+    municipalityName: 岩手郡 滝沢村
+  03321:
+    municipalityCd: "03321"
+    prefectureId: 3
+    municipalityName: 紫波郡 紫波町
+  03322:
+    municipalityCd: "03322"
+    prefectureId: 3
+    municipalityName: 紫波郡 矢巾町
+  03366:
+    municipalityCd: "03366"
+    prefectureId: 3
+    municipalityName: 和賀郡 西和賀町
+  03381:
+    municipalityCd: "03381"
+    prefectureId: 3
+    municipalityName: 胆沢郡 金ヶ崎町
+  03402:
+    municipalityCd: "03402"
+    prefectureId: 3
+    municipalityName: 西磐井郡 平泉町
+  03422:
+    municipalityCd: "03422"
+    prefectureId: 3
+    municipalityName: 東磐井郡 藤沢町
+  03441:
+    municipalityCd: "03441"
+    prefectureId: 3
+    municipalityName: 気仙郡 住田町
+  03461:
+    municipalityCd: "03461"
+    prefectureId: 3
+    municipalityName: 上閉伊郡 大槌町
+  03482:
+    municipalityCd: "03482"
+    prefectureId: 3
+    municipalityName: 下閉伊郡 山田町
+  03483:
+    municipalityCd: "03483"
+    prefectureId: 3
+    municipalityName: 下閉伊郡 岩泉町
+  03484:
+    municipalityCd: "03484"
+    prefectureId: 3
+    municipalityName: 下閉伊郡 田野畑村
+  03485:
+    municipalityCd: "03485"
+    prefectureId: 3
+    municipalityName: 下閉伊郡 普代村
+  03501:
+    municipalityCd: "03501"
+    prefectureId: 3
+    municipalityName: 九戸郡 軽米町
+  03503:
+    municipalityCd: "03503"
+    prefectureId: 3
+    municipalityName: 九戸郡 野田村
+  03506:
+    municipalityCd: "03506"
+    prefectureId: 3
+    municipalityName: 九戸郡 九戸村
+  03507:
+    municipalityCd: "03507"
+    prefectureId: 3
+    municipalityName: 九戸郡 洋野町
+  03524:
+    municipalityCd: "03524"
+    prefectureId: 3
+    municipalityName: 二戸郡 一戸町
+  04101:
+    municipalityCd: "04101"
+    prefectureId: 4
+    municipalityName: 仙台市 青葉区
+  04102:
+    municipalityCd: "04102"
+    prefectureId: 4
+    municipalityName: 仙台市 宮城野区
+  04103:
+    municipalityCd: "04103"
+    prefectureId: 4
+    municipalityName: 仙台市 若林区
+  04104:
+    municipalityCd: "04104"
+    prefectureId: 4
+    municipalityName: 仙台市 太白区
+  04105:
+    municipalityCd: "04105"
+    prefectureId: 4
+    municipalityName: 仙台市 泉区
+  04202:
+    municipalityCd: "04202"
+    prefectureId: 4
+    municipalityName: 石巻市
+  04203:
+    municipalityCd: "04203"
+    prefectureId: 4
+    municipalityName: 塩竃市
+  04205:
+    municipalityCd: "04205"
+    prefectureId: 4
+    municipalityName: 気仙沼市
+  04206:
+    municipalityCd: "04206"
+    prefectureId: 4
+    municipalityName: 白石市
+  04207:
+    municipalityCd: "04207"
+    prefectureId: 4
+    municipalityName: 名取市
+  04208:
+    municipalityCd: "04208"
+    prefectureId: 4
+    municipalityName: 角田市
+  04209:
+    municipalityCd: "04209"
+    prefectureId: 4
+    municipalityName: 多賀城市
+  04211:
+    municipalityCd: "04211"
+    prefectureId: 4
+    municipalityName: 岩沼市
+  04212:
+    municipalityCd: "04212"
+    prefectureId: 4
+    municipalityName: 登米市
+  04213:
+    municipalityCd: "04213"
+    prefectureId: 4
+    municipalityName: 栗原市
+  04214:
+    municipalityCd: "04214"
+    prefectureId: 4
+    municipalityName: 東松島市
+  04215:
+    municipalityCd: "04215"
+    prefectureId: 4
+    municipalityName: 大崎市
+  04301:
+    municipalityCd: "04301"
+    prefectureId: 4
+    municipalityName: 刈田郡 蔵王町
+  04302:
+    municipalityCd: "04302"
+    prefectureId: 4
+    municipalityName: 刈田郡 七ケ宿町
+  04321:
+    municipalityCd: "04321"
+    prefectureId: 4
+    municipalityName: 柴田郡 大河原町
+  04322:
+    municipalityCd: "04322"
+    prefectureId: 4
+    municipalityName: 柴田郡 村田町
+  04323:
+    municipalityCd: "04323"
+    prefectureId: 4
+    municipalityName: 柴田郡 柴田町
+  04324:
+    municipalityCd: "04324"
+    prefectureId: 4
+    municipalityName: 柴田郡 川崎町
+  04341:
+    municipalityCd: "04341"
+    prefectureId: 4
+    municipalityName: 伊具郡 丸森町
+  04361:
+    municipalityCd: "04361"
+    prefectureId: 4
+    municipalityName: 亘理郡 亘理町
+  04362:
+    municipalityCd: "04362"
+    prefectureId: 4
+    municipalityName: 亘理郡 山元町
+  04401:
+    municipalityCd: "04401"
+    prefectureId: 4
+    municipalityName: 宮城郡 松島町
+  04404:
+    municipalityCd: "04404"
+    prefectureId: 4
+    municipalityName: 宮城郡 七ケ浜町
+  04406:
+    municipalityCd: "04406"
+    prefectureId: 4
+    municipalityName: 宮城郡 利府町
+  04421:
+    municipalityCd: "04421"
+    prefectureId: 4
+    municipalityName: 黒川郡 大和町
+  04422:
+    municipalityCd: "04422"
+    prefectureId: 4
+    municipalityName: 黒川郡 大郷町
+  04423:
+    municipalityCd: "04423"
+    prefectureId: 4
+    municipalityName: 黒川郡 富谷町
+  04424:
+    municipalityCd: "04424"
+    prefectureId: 4
+    municipalityName: 黒川郡 大衡村
+  04444:
+    municipalityCd: "04444"
+    prefectureId: 4
+    municipalityName: 加美郡 色麻町
+  04445:
+    municipalityCd: "04445"
+    prefectureId: 4
+    municipalityName: 加美郡 加美町
+  04501:
+    municipalityCd: "04501"
+    prefectureId: 4
+    municipalityName: 遠田郡 涌谷町
+  04505:
+    municipalityCd: "04505"
+    prefectureId: 4
+    municipalityName: 遠田郡 美里町
+  04581:
+    municipalityCd: "04581"
+    prefectureId: 4
+    municipalityName: 牡鹿郡 女川町
+  04606:
+    municipalityCd: "04606"
+    prefectureId: 4
+    municipalityName: 本吉郡 南三陸町
+  05201:
+    municipalityCd: "05201"
+    prefectureId: 5
+    municipalityName: 秋田市
+  05202:
+    municipalityCd: "05202"
+    prefectureId: 5
+    municipalityName: 能代市
+  05203:
+    municipalityCd: "05203"
+    prefectureId: 5
+    municipalityName: 横手市
+  05204:
+    municipalityCd: "05204"
+    prefectureId: 5
+    municipalityName: 大館市
+  05206:
+    municipalityCd: "05206"
+    prefectureId: 5
+    municipalityName: 男鹿市
+  05207:
+    municipalityCd: "05207"
+    prefectureId: 5
+    municipalityName: 湯沢市
+  05209:
+    municipalityCd: "05209"
+    prefectureId: 5
+    municipalityName: 鹿角市
+  05210:
+    municipalityCd: "05210"
+    prefectureId: 5
+    municipalityName: 由利本荘市
+  05211:
+    municipalityCd: "05211"
+    prefectureId: 5
+    municipalityName: 潟上市
+  05212:
+    municipalityCd: "05212"
+    prefectureId: 5
+    municipalityName: 大仙市
+  05213:
+    municipalityCd: "05213"
+    prefectureId: 5
+    municipalityName: 北秋田市
+  05214:
+    municipalityCd: "05214"
+    prefectureId: 5
+    municipalityName: にかほ市
+  05215:
+    municipalityCd: "05215"
+    prefectureId: 5
+    municipalityName: 仙北市
+  05303:
+    municipalityCd: "05303"
+    prefectureId: 5
+    municipalityName: 鹿角郡 小坂町
+  05327:
+    municipalityCd: "05327"
+    prefectureId: 5
+    municipalityName: 北秋田郡 上小阿仁村
+  05346:
+    municipalityCd: "05346"
+    prefectureId: 5
+    municipalityName: 山本郡 藤里町
+  05348:
+    municipalityCd: "05348"
+    prefectureId: 5
+    municipalityName: 山本郡 三種町
+  05349:
+    municipalityCd: "05349"
+    prefectureId: 5
+    municipalityName: 山本郡 八峰町
+  05361:
+    municipalityCd: "05361"
+    prefectureId: 5
+    municipalityName: 南秋田郡 五城目町
+  05363:
+    municipalityCd: "05363"
+    prefectureId: 5
+    municipalityName: 南秋田郡 八郎潟町
+  05366:
+    municipalityCd: "05366"
+    prefectureId: 5
+    municipalityName: 南秋田郡 井川町
+  05368:
+    municipalityCd: "05368"
+    prefectureId: 5
+    municipalityName: 南秋田郡 大潟村
+  05434:
+    municipalityCd: "05434"
+    prefectureId: 5
+    municipalityName: 仙北郡 美郷町
+  05463:
+    municipalityCd: "05463"
+    prefectureId: 5
+    municipalityName: 雄勝郡 羽後町
+  05464:
+    municipalityCd: "05464"
+    prefectureId: 5
+    municipalityName: 雄勝郡 東成瀬村
+  06201:
+    municipalityCd: "06201"
+    prefectureId: 6
+    municipalityName: 山形市
+  06202:
+    municipalityCd: "06202"
+    prefectureId: 6
+    municipalityName: 米沢市
+  06203:
+    municipalityCd: "06203"
+    prefectureId: 6
+    municipalityName: 鶴岡市
+  06204:
+    municipalityCd: "06204"
+    prefectureId: 6
+    municipalityName: 酒田市
+  06205:
+    municipalityCd: "06205"
+    prefectureId: 6
+    municipalityName: 新庄市
+  06206:
+    municipalityCd: "06206"
+    prefectureId: 6
+    municipalityName: 寒河江市
+  06207:
+    municipalityCd: "06207"
+    prefectureId: 6
+    municipalityName: 上山市
+  06208:
+    municipalityCd: "06208"
+    prefectureId: 6
+    municipalityName: 村山市
+  06209:
+    municipalityCd: "06209"
+    prefectureId: 6
+    municipalityName: 長井市
+  06210:
+    municipalityCd: "06210"
+    prefectureId: 6
+    municipalityName: 天童市
+  06211:
+    municipalityCd: "06211"
+    prefectureId: 6
+    municipalityName: 東根市
+  06212:
+    municipalityCd: "06212"
+    prefectureId: 6
+    municipalityName: 尾花沢市
+  06213:
+    municipalityCd: "06213"
+    prefectureId: 6
+    municipalityName: 南陽市
+  06301:
+    municipalityCd: "06301"
+    prefectureId: 6
+    municipalityName: 東村山郡 山辺町
+  06302:
+    municipalityCd: "06302"
+    prefectureId: 6
+    municipalityName: 東村山郡 中山町
+  06321:
+    municipalityCd: "06321"
+    prefectureId: 6
+    municipalityName: 西村山郡 河北町
+  06322:
+    municipalityCd: "06322"
+    prefectureId: 6
+    municipalityName: 西村山郡 西川町
+  06323:
+    municipalityCd: "06323"
+    prefectureId: 6
+    municipalityName: 西村山郡 朝日町
+  06324:
+    municipalityCd: "06324"
+    prefectureId: 6
+    municipalityName: 西村山郡 大江町
+  06341:
+    municipalityCd: "06341"
+    prefectureId: 6
+    municipalityName: 北村山郡 大石田町
+  06361:
+    municipalityCd: "06361"
+    prefectureId: 6
+    municipalityName: 最上郡 金山町
+  06362:
+    municipalityCd: "06362"
+    prefectureId: 6
+    municipalityName: 最上郡 最上町
+  06363:
+    municipalityCd: "06363"
+    prefectureId: 6
+    municipalityName: 最上郡 舟形町
+  06364:
+    municipalityCd: "06364"
+    prefectureId: 6
+    municipalityName: 最上郡 真室川町
+  06365:
+    municipalityCd: "06365"
+    prefectureId: 6
+    municipalityName: 最上郡 大蔵村
+  06366:
+    municipalityCd: "06366"
+    prefectureId: 6
+    municipalityName: 最上郡 鮭川村
+  06367:
+    municipalityCd: "06367"
+    prefectureId: 6
+    municipalityName: 最上郡 戸沢村
+  06381:
+    municipalityCd: "06381"
+    prefectureId: 6
+    municipalityName: 東置賜郡 高畠町
+  06382:
+    municipalityCd: "06382"
+    prefectureId: 6
+    municipalityName: 東置賜郡 川西町
+  06401:
+    municipalityCd: "06401"
+    prefectureId: 6
+    municipalityName: 西置賜郡 小国町
+  06402:
+    municipalityCd: "06402"
+    prefectureId: 6
+    municipalityName: 西置賜郡 白鷹町
+  06403:
+    municipalityCd: "06403"
+    prefectureId: 6
+    municipalityName: 西置賜郡 飯豊町
+  06426:
+    municipalityCd: "06426"
+    prefectureId: 6
+    municipalityName: 東田川郡 三川町
+  06428:
+    municipalityCd: "06428"
+    prefectureId: 6
+    municipalityName: 東田川郡 庄内町
+  06461:
+    municipalityCd: "06461"
+    prefectureId: 6
+    municipalityName: 飽海郡 遊佐町
+  07201:
+    municipalityCd: "07201"
+    prefectureId: 7
+    municipalityName: 福島市
+  07202:
+    municipalityCd: "07202"
+    prefectureId: 7
+    municipalityName: 会津若松市
+  07203:
+    municipalityCd: "07203"
+    prefectureId: 7
+    municipalityName: 郡山市
+  07204:
+    municipalityCd: "07204"
+    prefectureId: 7
+    municipalityName: いわき市
+  07205:
+    municipalityCd: "07205"
+    prefectureId: 7
+    municipalityName: 白河市
+  07207:
+    municipalityCd: "07207"
+    prefectureId: 7
+    municipalityName: 須賀川市
+  07208:
+    municipalityCd: "07208"
+    prefectureId: 7
+    municipalityName: 喜多方市
+  07209:
+    municipalityCd: "07209"
+    prefectureId: 7
+    municipalityName: 相馬市
+  07210:
+    municipalityCd: "07210"
+    prefectureId: 7
+    municipalityName: 二本松市
+  07211:
+    municipalityCd: "07211"
+    prefectureId: 7
+    municipalityName: 田村市
+  07212:
+    municipalityCd: "07212"
+    prefectureId: 7
+    municipalityName: 南相馬市
+  07213:
+    municipalityCd: "07213"
+    prefectureId: 7
+    municipalityName: 伊達市
+  07214:
+    municipalityCd: "07214"
+    prefectureId: 7
+    municipalityName: 本宮市
+  07301:
+    municipalityCd: "07301"
+    prefectureId: 7
+    municipalityName: 伊達郡 桑折町
+  07303:
+    municipalityCd: "07303"
+    prefectureId: 7
+    municipalityName: 伊達郡 国見町
+  07308:
+    municipalityCd: "07308"
+    prefectureId: 7
+    municipalityName: 伊達郡 川俣町
+  07322:
+    municipalityCd: "07322"
+    prefectureId: 7
+    municipalityName: 安達郡 大玉村
+  07342:
+    municipalityCd: "07342"
+    prefectureId: 7
+    municipalityName: 岩瀬郡 鏡石町
+  07344:
+    municipalityCd: "07344"
+    prefectureId: 7
+    municipalityName: 岩瀬郡 天栄村
+  07362:
+    municipalityCd: "07362"
+    prefectureId: 7
+    municipalityName: 南会津郡 下郷町
+  07364:
+    municipalityCd: "07364"
+    prefectureId: 7
+    municipalityName: 南会津郡 桧枝岐村
+  07367:
+    municipalityCd: "07367"
+    prefectureId: 7
+    municipalityName: 南会津郡 只見町
+  07368:
+    municipalityCd: "07368"
+    prefectureId: 7
+    municipalityName: 南会津郡 南会津町
+  07402:
+    municipalityCd: "07402"
+    prefectureId: 7
+    municipalityName: 耶麻郡 北塩原村
+  07405:
+    municipalityCd: "07405"
+    prefectureId: 7
+    municipalityName: 耶麻郡 西会津町
+  07407:
+    municipalityCd: "07407"
+    prefectureId: 7
+    municipalityName: 耶麻郡 磐梯町
+  07408:
+    municipalityCd: "07408"
+    prefectureId: 7
+    municipalityName: 耶麻郡 猪苗代町
+  07421:
+    municipalityCd: "07421"
+    prefectureId: 7
+    municipalityName: 河沼郡 会津坂下町
+  07422:
+    municipalityCd: "07422"
+    prefectureId: 7
+    municipalityName: 河沼郡 湯川村
+  07423:
+    municipalityCd: "07423"
+    prefectureId: 7
+    municipalityName: 河沼郡 柳津町
+  07444:
+    municipalityCd: "07444"
+    prefectureId: 7
+    municipalityName: 大沼郡 三島町
+  07445:
+    municipalityCd: "07445"
+    prefectureId: 7
+    municipalityName: 大沼郡 金山町
+  07446:
+    municipalityCd: "07446"
+    prefectureId: 7
+    municipalityName: 大沼郡 昭和村
+  07447:
+    municipalityCd: "07447"
+    prefectureId: 7
+    municipalityName: 大沼郡 会津美里町
+  07461:
+    municipalityCd: "07461"
+    prefectureId: 7
+    municipalityName: 西白河郡 西郷村
+  07464:
+    municipalityCd: "07464"
+    prefectureId: 7
+    municipalityName: 西白河郡 泉崎村
+  07465:
+    municipalityCd: "07465"
+    prefectureId: 7
+    municipalityName: 西白河郡 中島村
+  07466:
+    municipalityCd: "07466"
+    prefectureId: 7
+    municipalityName: 西白河郡 矢吹町
+  07481:
+    municipalityCd: "07481"
+    prefectureId: 7
+    municipalityName: 東白川郡 棚倉町
+  07482:
+    municipalityCd: "07482"
+    prefectureId: 7
+    municipalityName: 東白川郡 矢祭町
+  07483:
+    municipalityCd: "07483"
+    prefectureId: 7
+    municipalityName: 東白川郡 塙町
+  07484:
+    municipalityCd: "07484"
+    prefectureId: 7
+    municipalityName: 東白川郡 鮫川村
+  07501:
+    municipalityCd: "07501"
+    prefectureId: 7
+    municipalityName: 石川郡 石川町
+  07502:
+    municipalityCd: "07502"
+    prefectureId: 7
+    municipalityName: 石川郡 玉川村
+  07503:
+    municipalityCd: "07503"
+    prefectureId: 7
+    municipalityName: 石川郡 平田村
+  07504:
+    municipalityCd: "07504"
+    prefectureId: 7
+    municipalityName: 石川郡 浅川町
+  07505:
+    municipalityCd: "07505"
+    prefectureId: 7
+    municipalityName: 石川郡 古殿町
+  07521:
+    municipalityCd: "07521"
+    prefectureId: 7
+    municipalityName: 田村郡 三春町
+  07522:
+    municipalityCd: "07522"
+    prefectureId: 7
+    municipalityName: 田村郡 小野町
+  07541:
+    municipalityCd: "07541"
+    prefectureId: 7
+    municipalityName: 双葉郡 広野町
+  07542:
+    municipalityCd: "07542"
+    prefectureId: 7
+    municipalityName: 双葉郡 楢葉町
+  07543:
+    municipalityCd: "07543"
+    prefectureId: 7
+    municipalityName: 双葉郡 富岡町
+  07544:
+    municipalityCd: "07544"
+    prefectureId: 7
+    municipalityName: 双葉郡 川内村
+  07545:
+    municipalityCd: "07545"
+    prefectureId: 7
+    municipalityName: 双葉郡 大熊町
+  07546:
+    municipalityCd: "07546"
+    prefectureId: 7
+    municipalityName: 双葉郡 双葉町
+  07547:
+    municipalityCd: "07547"
+    prefectureId: 7
+    municipalityName: 双葉郡 浪江町
+  07548:
+    municipalityCd: "07548"
+    prefectureId: 7
+    municipalityName: 双葉郡 葛尾村
+  07561:
+    municipalityCd: "07561"
+    prefectureId: 7
+    municipalityName: 相馬郡 新地町
+  07564:
+    municipalityCd: "07564"
+    prefectureId: 7
+    municipalityName: 相馬郡 飯舘村
+  08201:
+    municipalityCd: "08201"
+    prefectureId: 8
+    municipalityName: 水戸市
+  08202:
+    municipalityCd: "08202"
+    prefectureId: 8
+    municipalityName: 日立市
+  08203:
+    municipalityCd: "08203"
+    prefectureId: 8
+    municipalityName: 土浦市
+  08204:
+    municipalityCd: "08204"
+    prefectureId: 8
+    municipalityName: 古河市
+  08205:
+    municipalityCd: "08205"
+    prefectureId: 8
+    municipalityName: 石岡市
+  08207:
+    municipalityCd: "08207"
+    prefectureId: 8
+    municipalityName: 結城市
+  08208:
+    municipalityCd: "08208"
+    prefectureId: 8
+    municipalityName: 龍ケ崎市
+  08210:
+    municipalityCd: "08210"
+    prefectureId: 8
+    municipalityName: 下妻市
+  08211:
+    municipalityCd: "08211"
+    prefectureId: 8
+    municipalityName: 常総市
+  08212:
+    municipalityCd: "08212"
+    prefectureId: 8
+    municipalityName: 常陸太田市
+  08214:
+    municipalityCd: "08214"
+    prefectureId: 8
+    municipalityName: 高萩市
+  08215:
+    municipalityCd: "08215"
+    prefectureId: 8
+    municipalityName: 北茨城市
+  08216:
+    municipalityCd: "08216"
+    prefectureId: 8
+    municipalityName: 笠間市
+  08217:
+    municipalityCd: "08217"
+    prefectureId: 8
+    municipalityName: 取手市
+  08219:
+    municipalityCd: "08219"
+    prefectureId: 8
+    municipalityName: 牛久市
+  08220:
+    municipalityCd: "08220"
+    prefectureId: 8
+    municipalityName: つくば市
+  08221:
+    municipalityCd: "08221"
+    prefectureId: 8
+    municipalityName: ひたちなか市
+  08222:
+    municipalityCd: "08222"
+    prefectureId: 8
+    municipalityName: 鹿嶋市
+  08223:
+    municipalityCd: "08223"
+    prefectureId: 8
+    municipalityName: 潮来市
+  08224:
+    municipalityCd: "08224"
+    prefectureId: 8
+    municipalityName: 守谷市
+  08225:
+    municipalityCd: "08225"
+    prefectureId: 8
+    municipalityName: 常陸大宮市
+  08226:
+    municipalityCd: "08226"
+    prefectureId: 8
+    municipalityName: 那珂市
+  08227:
+    municipalityCd: "08227"
+    prefectureId: 8
+    municipalityName: 筑西市
+  08228:
+    municipalityCd: "08228"
+    prefectureId: 8
+    municipalityName: 坂東市
+  08229:
+    municipalityCd: "08229"
+    prefectureId: 8
+    municipalityName: 稲敷市
+  08230:
+    municipalityCd: "08230"
+    prefectureId: 8
+    municipalityName: かすみがうら市
+  08231:
+    municipalityCd: "08231"
+    prefectureId: 8
+    municipalityName: 桜川市
+  08232:
+    municipalityCd: "08232"
+    prefectureId: 8
+    municipalityName: 神栖市
+  08233:
+    municipalityCd: "08233"
+    prefectureId: 8
+    municipalityName: 行方市
+  08234:
+    municipalityCd: "08234"
+    prefectureId: 8
+    municipalityName: 鉾田市
+  08235:
+    municipalityCd: "08235"
+    prefectureId: 8
+    municipalityName: つくばみらい市
+  08236:
+    municipalityCd: "08236"
+    prefectureId: 8
+    municipalityName: 小美玉市
+  08302:
+    municipalityCd: "08302"
+    prefectureId: 8
+    municipalityName: 東茨城郡 茨城町
+  08309:
+    municipalityCd: "08309"
+    prefectureId: 8
+    municipalityName: 東茨城郡 大洗町
+  08310:
+    municipalityCd: "08310"
+    prefectureId: 8
+    municipalityName: 東茨城郡 城里町
+  08341:
+    municipalityCd: "08341"
+    prefectureId: 8
+    municipalityName: 那珂郡 東海村
+  08364:
+    municipalityCd: "08364"
+    prefectureId: 8
+    municipalityName: 久慈郡 大子町
+  08442:
+    municipalityCd: "08442"
+    prefectureId: 8
+    municipalityName: 稲敷郡 美浦村
+  08443:
+    municipalityCd: "08443"
+    prefectureId: 8
+    municipalityName: 稲敷郡 阿見町
+  08447:
+    municipalityCd: "08447"
+    prefectureId: 8
+    municipalityName: 稲敷郡 河内町
+  08521:
+    municipalityCd: "08521"
+    prefectureId: 8
+    municipalityName: 結城郡 八千代町
+  08542:
+    municipalityCd: "08542"
+    prefectureId: 8
+    municipalityName: 猿島郡 五霞町
+  08546:
+    municipalityCd: "08546"
+    prefectureId: 8
+    municipalityName: 猿島郡 境町
+  08564:
+    municipalityCd: "08564"
+    prefectureId: 8
+    municipalityName: 北相馬郡 利根町
+  09201:
+    municipalityCd: "09201"
+    prefectureId: 9
+    municipalityName: 宇都宮市
+  09202:
+    municipalityCd: "09202"
+    prefectureId: 9
+    municipalityName: 足利市
+  09203:
+    municipalityCd: "09203"
+    prefectureId: 9
+    municipalityName: 栃木市
+  09204:
+    municipalityCd: "09204"
+    prefectureId: 9
+    municipalityName: 佐野市
+  09205:
+    municipalityCd: "09205"
+    prefectureId: 9
+    municipalityName: 鹿沼市
+  09206:
+    municipalityCd: "09206"
+    prefectureId: 9
+    municipalityName: 日光市
+  09208:
+    municipalityCd: "09208"
+    prefectureId: 9
+    municipalityName: 小山市
+  09209:
+    municipalityCd: "09209"
+    prefectureId: 9
+    municipalityName: 真岡市
+  09210:
+    municipalityCd: "09210"
+    prefectureId: 9
+    municipalityName: 大田原市
+  09211:
+    municipalityCd: "09211"
+    prefectureId: 9
+    municipalityName: 矢板市
+  09213:
+    municipalityCd: "09213"
+    prefectureId: 9
+    municipalityName: 那須塩原市
+  09214:
+    municipalityCd: "09214"
+    prefectureId: 9
+    municipalityName: さくら市
+  09215:
+    municipalityCd: "09215"
+    prefectureId: 9
+    municipalityName: 那須烏山市
+  09216:
+    municipalityCd: "09216"
+    prefectureId: 9
+    municipalityName: 下野市
+  09301:
+    municipalityCd: "09301"
+    prefectureId: 9
+    municipalityName: 河内郡 上三川町
+  09321:
+    municipalityCd: "09321"
+    prefectureId: 9
+    municipalityName: 上都賀郡 西方町
+  09342:
+    municipalityCd: "09342"
+    prefectureId: 9
+    municipalityName: 芳賀郡 益子町
+  09343:
+    municipalityCd: "09343"
+    prefectureId: 9
+    municipalityName: 芳賀郡 茂木町
+  09344:
+    municipalityCd: "09344"
+    prefectureId: 9
+    municipalityName: 芳賀郡 市貝町
+  09345:
+    municipalityCd: "09345"
+    prefectureId: 9
+    municipalityName: 芳賀郡 芳賀町
+  09361:
+    municipalityCd: "09361"
+    prefectureId: 9
+    municipalityName: 下都賀郡 壬生町
+  09364:
+    municipalityCd: "09364"
+    prefectureId: 9
+    municipalityName: 下都賀郡 野木町
+  09367:
+    municipalityCd: "09367"
+    prefectureId: 9
+    municipalityName: 下都賀郡 岩舟町
+  09384:
+    municipalityCd: "09384"
+    prefectureId: 9
+    municipalityName: 塩谷郡 塩谷町
+  09386:
+    municipalityCd: "09386"
+    prefectureId: 9
+    municipalityName: 塩谷郡 高根沢町
+  09407:
+    municipalityCd: "09407"
+    prefectureId: 9
+    municipalityName: 那須郡 那須町
+  09411:
+    municipalityCd: "09411"
+    prefectureId: 9
+    municipalityName: 那須郡 那珂川町
+  10201:
+    municipalityCd: "10201"
+    prefectureId: 10
+    municipalityName: 前橋市
+  10202:
+    municipalityCd: "10202"
+    prefectureId: 10
+    municipalityName: 高崎市
+  10203:
+    municipalityCd: "10203"
+    prefectureId: 10
+    municipalityName: 桐生市
+  10204:
+    municipalityCd: "10204"
+    prefectureId: 10
+    municipalityName: 伊勢崎市
+  10205:
+    municipalityCd: "10205"
+    prefectureId: 10
+    municipalityName: 太田市
+  10206:
+    municipalityCd: "10206"
+    prefectureId: 10
+    municipalityName: 沼田市
+  10207:
+    municipalityCd: "10207"
+    prefectureId: 10
+    municipalityName: 館林市
+  10208:
+    municipalityCd: "10208"
+    prefectureId: 10
+    municipalityName: 渋川市
+  10209:
+    municipalityCd: "10209"
+    prefectureId: 10
+    municipalityName: 藤岡市
+  10210:
+    municipalityCd: "10210"
+    prefectureId: 10
+    municipalityName: 富岡市
+  10211:
+    municipalityCd: "10211"
+    prefectureId: 10
+    municipalityName: 安中市
+  10212:
+    municipalityCd: "10212"
+    prefectureId: 10
+    municipalityName: みどり市
+  10344:
+    municipalityCd: "10344"
+    prefectureId: 10
+    municipalityName: 北群馬郡 榛東村
+  10345:
+    municipalityCd: "10345"
+    prefectureId: 10
+    municipalityName: 北群馬郡 吉岡町
+  10366:
+    municipalityCd: "10366"
+    prefectureId: 10
+    municipalityName: 多野郡 上野村
+  10367:
+    municipalityCd: "10367"
+    prefectureId: 10
+    municipalityName: 多野郡 神流町
+  10382:
+    municipalityCd: "10382"
+    prefectureId: 10
+    municipalityName: 甘楽郡 下仁田町
+  10383:
+    municipalityCd: "10383"
+    prefectureId: 10
+    municipalityName: 甘楽郡 南牧村
+  10384:
+    municipalityCd: "10384"
+    prefectureId: 10
+    municipalityName: 甘楽郡 甘楽町
+  10421:
+    municipalityCd: "10421"
+    prefectureId: 10
+    municipalityName: 吾妻郡 中之条町
+  10424:
+    municipalityCd: "10424"
+    prefectureId: 10
+    municipalityName: 吾妻郡 長野原町
+  10425:
+    municipalityCd: "10425"
+    prefectureId: 10
+    municipalityName: 吾妻郡 嬬恋村
+  10426:
+    municipalityCd: "10426"
+    prefectureId: 10
+    municipalityName: 吾妻郡 草津町
+  10428:
+    municipalityCd: "10428"
+    prefectureId: 10
+    municipalityName: 吾妻郡 高山村
+  10429:
+    municipalityCd: "10429"
+    prefectureId: 10
+    municipalityName: 吾妻郡 東吾妻町
+  10443:
+    municipalityCd: "10443"
+    prefectureId: 10
+    municipalityName: 利根郡 片品村
+  10444:
+    municipalityCd: "10444"
+    prefectureId: 10
+    municipalityName: 利根郡 川場村
+  10448:
+    municipalityCd: "10448"
+    prefectureId: 10
+    municipalityName: 利根郡 昭和村
+  10449:
+    municipalityCd: "10449"
+    prefectureId: 10
+    municipalityName: 利根郡 みなかみ町
+  10464:
+    municipalityCd: "10464"
+    prefectureId: 10
+    municipalityName: 佐波郡 玉村町
+  10521:
+    municipalityCd: "10521"
+    prefectureId: 10
+    municipalityName: 邑楽郡 板倉町
+  10522:
+    municipalityCd: "10522"
+    prefectureId: 10
+    municipalityName: 邑楽郡 明和町
+  10523:
+    municipalityCd: "10523"
+    prefectureId: 10
+    municipalityName: 邑楽郡 千代田町
+  10524:
+    municipalityCd: "10524"
+    prefectureId: 10
+    municipalityName: 邑楽郡 大泉町
+  10525:
+    municipalityCd: "10525"
+    prefectureId: 10
+    municipalityName: 邑楽郡 邑楽町
+  11101:
+    municipalityCd: "11101"
+    prefectureId: 11
+    municipalityName: さいたま市 西区
+  11102:
+    municipalityCd: "11102"
+    prefectureId: 11
+    municipalityName: さいたま市 北区
+  11103:
+    municipalityCd: "11103"
+    prefectureId: 11
+    municipalityName: さいたま市 大宮区
+  11104:
+    municipalityCd: "11104"
+    prefectureId: 11
+    municipalityName: さいたま市 見沼区
+  11105:
+    municipalityCd: "11105"
+    prefectureId: 11
+    municipalityName: さいたま市 中央区
+  11106:
+    municipalityCd: "11106"
+    prefectureId: 11
+    municipalityName: さいたま市 桜区
+  11107:
+    municipalityCd: "11107"
+    prefectureId: 11
+    municipalityName: さいたま市 浦和区
+  11108:
+    municipalityCd: "11108"
+    prefectureId: 11
+    municipalityName: さいたま市 南区
+  11109:
+    municipalityCd: "11109"
+    prefectureId: 11
+    municipalityName: さいたま市 緑区
+  11110:
+    municipalityCd: "11110"
+    prefectureId: 11
+    municipalityName: さいたま市 岩槻区
+  11201:
+    municipalityCd: "11201"
+    prefectureId: 11
+    municipalityName: 川越市
+  11202:
+    municipalityCd: "11202"
+    prefectureId: 11
+    municipalityName: 熊谷市
+  11203:
+    municipalityCd: "11203"
+    prefectureId: 11
+    municipalityName: 川口市
+  11206:
+    municipalityCd: "11206"
+    prefectureId: 11
+    municipalityName: 行田市
+  11207:
+    municipalityCd: "11207"
+    prefectureId: 11
+    municipalityName: 秩父市
+  11208:
+    municipalityCd: "11208"
+    prefectureId: 11
+    municipalityName: 所沢市
+  11209:
+    municipalityCd: "11209"
+    prefectureId: 11
+    municipalityName: 飯能市
+  11210:
+    municipalityCd: "11210"
+    prefectureId: 11
+    municipalityName: 加須市
+  11211:
+    municipalityCd: "11211"
+    prefectureId: 11
+    municipalityName: 本庄市
+  11212:
+    municipalityCd: "11212"
+    prefectureId: 11
+    municipalityName: 東松山市
+  11214:
+    municipalityCd: "11214"
+    prefectureId: 11
+    municipalityName: 春日部市
+  11215:
+    municipalityCd: "11215"
+    prefectureId: 11
+    municipalityName: 狭山市
+  11216:
+    municipalityCd: "11216"
+    prefectureId: 11
+    municipalityName: 羽生市
+  11217:
+    municipalityCd: "11217"
+    prefectureId: 11
+    municipalityName: 鴻巣市
+  11218:
+    municipalityCd: "11218"
+    prefectureId: 11
+    municipalityName: 深谷市
+  11219:
+    municipalityCd: "11219"
+    prefectureId: 11
+    municipalityName: 上尾市
+  11221:
+    municipalityCd: "11221"
+    prefectureId: 11
+    municipalityName: 草加市
+  11222:
+    municipalityCd: "11222"
+    prefectureId: 11
+    municipalityName: 越谷市
+  11223:
+    municipalityCd: "11223"
+    prefectureId: 11
+    municipalityName: 蕨市
+  11224:
+    municipalityCd: "11224"
+    prefectureId: 11
+    municipalityName: 戸田市
+  11225:
+    municipalityCd: "11225"
+    prefectureId: 11
+    municipalityName: 入間市
+  11226:
+    municipalityCd: "11226"
+    prefectureId: 11
+    municipalityName: 鳩ヶ谷市
+  11227:
+    municipalityCd: "11227"
+    prefectureId: 11
+    municipalityName: 朝霞市
+  11228:
+    municipalityCd: "11228"
+    prefectureId: 11
+    municipalityName: 志木市
+  11229:
+    municipalityCd: "11229"
+    prefectureId: 11
+    municipalityName: 和光市
+  11230:
+    municipalityCd: "11230"
+    prefectureId: 11
+    municipalityName: 新座市
+  11231:
+    municipalityCd: "11231"
+    prefectureId: 11
+    municipalityName: 桶川市
+  11232:
+    municipalityCd: "11232"
+    prefectureId: 11
+    municipalityName: 久喜市
+  11233:
+    municipalityCd: "11233"
+    prefectureId: 11
+    municipalityName: 北本市
+  11234:
+    municipalityCd: "11234"
+    prefectureId: 11
+    municipalityName: 八潮市
+  11235:
+    municipalityCd: "11235"
+    prefectureId: 11
+    municipalityName: 富士見市
+  11237:
+    municipalityCd: "11237"
+    prefectureId: 11
+    municipalityName: 三郷市
+  11238:
+    municipalityCd: "11238"
+    prefectureId: 11
+    municipalityName: 蓮田市
+  11239:
+    municipalityCd: "11239"
+    prefectureId: 11
+    municipalityName: 坂戸市
+  11240:
+    municipalityCd: "11240"
+    prefectureId: 11
+    municipalityName: 幸手市
+  11241:
+    municipalityCd: "11241"
+    prefectureId: 11
+    municipalityName: 鶴ヶ島市
+  11242:
+    municipalityCd: "11242"
+    prefectureId: 11
+    municipalityName: 日高市
+  11243:
+    municipalityCd: "11243"
+    prefectureId: 11
+    municipalityName: 吉川市
+  11245:
+    municipalityCd: "11245"
+    prefectureId: 11
+    municipalityName: ふじみ野市
+  11301:
+    municipalityCd: "11301"
+    prefectureId: 11
+    municipalityName: 北足立郡 伊奈町
+  11324:
+    municipalityCd: "11324"
+    prefectureId: 11
+    municipalityName: 入間郡 三芳町
+  11326:
+    municipalityCd: "11326"
+    prefectureId: 11
+    municipalityName: 入間郡 毛呂山町
+  11327:
+    municipalityCd: "11327"
+    prefectureId: 11
+    municipalityName: 入間郡 越生町
+  11341:
+    municipalityCd: "11341"
+    prefectureId: 11
+    municipalityName: 比企郡 滑川町
+  11342:
+    municipalityCd: "11342"
+    prefectureId: 11
+    municipalityName: 比企郡 嵐山町
+  11343:
+    municipalityCd: "11343"
+    prefectureId: 11
+    municipalityName: 比企郡 小川町
+  11346:
+    municipalityCd: "11346"
+    prefectureId: 11
+    municipalityName: 比企郡 川島町
+  11347:
+    municipalityCd: "11347"
+    prefectureId: 11
+    municipalityName: 比企郡 吉見町
+  11348:
+    municipalityCd: "11348"
+    prefectureId: 11
+    municipalityName: 比企郡 鳩山町
+  11349:
+    municipalityCd: "11349"
+    prefectureId: 11
+    municipalityName: 比企郡 ときがわ町
+  11361:
+    municipalityCd: "11361"
+    prefectureId: 11
+    municipalityName: 秩父郡 横瀬町
+  11362:
+    municipalityCd: "11362"
+    prefectureId: 11
+    municipalityName: 秩父郡 皆野町
+  11363:
+    municipalityCd: "11363"
+    prefectureId: 11
+    municipalityName: 秩父郡 長瀞町
+  11365:
+    municipalityCd: "11365"
+    prefectureId: 11
+    municipalityName: 秩父郡 小鹿野町
+  11369:
+    municipalityCd: "11369"
+    prefectureId: 11
+    municipalityName: 秩父郡 東秩父村
+  11381:
+    municipalityCd: "11381"
+    prefectureId: 11
+    municipalityName: 児玉郡 美里町
+  11383:
+    municipalityCd: "11383"
+    prefectureId: 11
+    municipalityName: 児玉郡 神川町
+  11385:
+    municipalityCd: "11385"
+    prefectureId: 11
+    municipalityName: 児玉郡 上里町
+  11408:
+    municipalityCd: "11408"
+    prefectureId: 11
+    municipalityName: 大里郡 寄居町
+  11442:
+    municipalityCd: "11442"
+    prefectureId: 11
+    municipalityName: 南埼玉郡 宮代町
+  11445:
+    municipalityCd: "11445"
+    prefectureId: 11
+    municipalityName: 南埼玉郡 白岡町
+  11464:
+    municipalityCd: "11464"
+    prefectureId: 11
+    municipalityName: 北葛飾郡 杉戸町
+  11465:
+    municipalityCd: "11465"
+    prefectureId: 11
+    municipalityName: 北葛飾郡 松伏町
+  12101:
+    municipalityCd: "12101"
+    prefectureId: 12
+    municipalityName: 千葉市 中央区
+  12102:
+    municipalityCd: "12102"
+    prefectureId: 12
+    municipalityName: 千葉市 花見川区
+  12103:
+    municipalityCd: "12103"
+    prefectureId: 12
+    municipalityName: 千葉市 稲毛区
+  12104:
+    municipalityCd: "12104"
+    prefectureId: 12
+    municipalityName: 千葉市 若葉区
+  12105:
+    municipalityCd: "12105"
+    prefectureId: 12
+    municipalityName: 千葉市 緑区
+  12106:
+    municipalityCd: "12106"
+    prefectureId: 12
+    municipalityName: 千葉市 美浜区
+  12202:
+    municipalityCd: "12202"
+    prefectureId: 12
+    municipalityName: 銚子市
+  12203:
+    municipalityCd: "12203"
+    prefectureId: 12
+    municipalityName: 市川市
+  12204:
+    municipalityCd: "12204"
+    prefectureId: 12
+    municipalityName: 船橋市
+  12205:
+    municipalityCd: "12205"
+    prefectureId: 12
+    municipalityName: 館山市
+  12206:
+    municipalityCd: "12206"
+    prefectureId: 12
+    municipalityName: 木更津市
+  12207:
+    municipalityCd: "12207"
+    prefectureId: 12
+    municipalityName: 松戸市
+  12208:
+    municipalityCd: "12208"
+    prefectureId: 12
+    municipalityName: 野田市
+  12210:
+    municipalityCd: "12210"
+    prefectureId: 12
+    municipalityName: 茂原市
+  12211:
+    municipalityCd: "12211"
+    prefectureId: 12
+    municipalityName: 成田市
+  12212:
+    municipalityCd: "12212"
+    prefectureId: 12
+    municipalityName: 佐倉市
+  12213:
+    municipalityCd: "12213"
+    prefectureId: 12
+    municipalityName: 東金市
+  12215:
+    municipalityCd: "12215"
+    prefectureId: 12
+    municipalityName: 旭市
+  12216:
+    municipalityCd: "12216"
+    prefectureId: 12
+    municipalityName: 習志野市
+  12217:
+    municipalityCd: "12217"
+    prefectureId: 12
+    municipalityName: 柏市
+  12218:
+    municipalityCd: "12218"
+    prefectureId: 12
+    municipalityName: 勝浦市
+  12219:
+    municipalityCd: "12219"
+    prefectureId: 12
+    municipalityName: 市原市
+  12220:
+    municipalityCd: "12220"
+    prefectureId: 12
+    municipalityName: 流山市
+  12221:
+    municipalityCd: "12221"
+    prefectureId: 12
+    municipalityName: 八千代市
+  12222:
+    municipalityCd: "12222"
+    prefectureId: 12
+    municipalityName: 我孫子市
+  12223:
+    municipalityCd: "12223"
+    prefectureId: 12
+    municipalityName: 鴨川市
+  12224:
+    municipalityCd: "12224"
+    prefectureId: 12
+    municipalityName: 鎌ケ谷市
+  12225:
+    municipalityCd: "12225"
+    prefectureId: 12
+    municipalityName: 君津市
+  12226:
+    municipalityCd: "12226"
+    prefectureId: 12
+    municipalityName: 富津市
+  12227:
+    municipalityCd: "12227"
+    prefectureId: 12
+    municipalityName: 浦安市
+  12228:
+    municipalityCd: "12228"
+    prefectureId: 12
+    municipalityName: 四街道市
+  12229:
+    municipalityCd: "12229"
+    prefectureId: 12
+    municipalityName: 袖ケ浦市
+  12230:
+    municipalityCd: "12230"
+    prefectureId: 12
+    municipalityName: 八街市
+  12231:
+    municipalityCd: "12231"
+    prefectureId: 12
+    municipalityName: 印西市
+  12232:
+    municipalityCd: "12232"
+    prefectureId: 12
+    municipalityName: 白井市
+  12233:
+    municipalityCd: "12233"
+    prefectureId: 12
+    municipalityName: 富里市
+  12234:
+    municipalityCd: "12234"
+    prefectureId: 12
+    municipalityName: 南房総市
+  12235:
+    municipalityCd: "12235"
+    prefectureId: 12
+    municipalityName: 匝瑳市
+  12236:
+    municipalityCd: "12236"
+    prefectureId: 12
+    municipalityName: 香取市
+  12237:
+    municipalityCd: "12237"
+    prefectureId: 12
+    municipalityName: 山武市
+  12238:
+    municipalityCd: "12238"
+    prefectureId: 12
+    municipalityName: いすみ市
+  12322:
+    municipalityCd: "12322"
+    prefectureId: 12
+    municipalityName: 印旛郡 酒々井町
+  12329:
+    municipalityCd: "12329"
+    prefectureId: 12
+    municipalityName: 印旛郡 栄町
+  12342:
+    municipalityCd: "12342"
+    prefectureId: 12
+    municipalityName: 香取郡 神崎町
+  12347:
+    municipalityCd: "12347"
+    prefectureId: 12
+    municipalityName: 香取郡 多古町
+  12349:
+    municipalityCd: "12349"
+    prefectureId: 12
+    municipalityName: 香取郡 東庄町
+  12402:
+    municipalityCd: "12402"
+    prefectureId: 12
+    municipalityName: 山武郡 大網白里町
+  12403:
+    municipalityCd: "12403"
+    prefectureId: 12
+    municipalityName: 山武郡 九十九里町
+  12409:
+    municipalityCd: "12409"
+    prefectureId: 12
+    municipalityName: 山武郡 芝山町
+  12410:
+    municipalityCd: "12410"
+    prefectureId: 12
+    municipalityName: 山武郡 横芝光町
+  12421:
+    municipalityCd: "12421"
+    prefectureId: 12
+    municipalityName: 長生郡 一宮町
+  12422:
+    municipalityCd: "12422"
+    prefectureId: 12
+    municipalityName: 長生郡 睦沢町
+  12423:
+    municipalityCd: "12423"
+    prefectureId: 12
+    municipalityName: 長生郡 長生村
+  12424:
+    municipalityCd: "12424"
+    prefectureId: 12
+    municipalityName: 長生郡 白子町
+  12426:
+    municipalityCd: "12426"
+    prefectureId: 12
+    municipalityName: 長生郡 長柄町
+  12427:
+    municipalityCd: "12427"
+    prefectureId: 12
+    municipalityName: 長生郡 長南町
+  12441:
+    municipalityCd: "12441"
+    prefectureId: 12
+    municipalityName: 夷隅郡 大多喜町
+  12443:
+    municipalityCd: "12443"
+    prefectureId: 12
+    municipalityName: 夷隅郡 御宿町
+  12463:
+    municipalityCd: "12463"
+    prefectureId: 12
+    municipalityName: 安房郡 鋸南町
+  13101:
+    municipalityCd: "13101"
+    prefectureId: 13
+    municipalityName: 千代田区
+  13102:
+    municipalityCd: "13102"
+    prefectureId: 13
+    municipalityName: 中央区
+  13103:
+    municipalityCd: "13103"
+    prefectureId: 13
+    municipalityName: 港区
+  13104:
+    municipalityCd: "13104"
+    prefectureId: 13
+    municipalityName: 新宿区
+  13105:
+    municipalityCd: "13105"
+    prefectureId: 13
+    municipalityName: 文京区
+  13106:
+    municipalityCd: "13106"
+    prefectureId: 13
+    municipalityName: 台東区
+  13107:
+    municipalityCd: "13107"
+    prefectureId: 13
+    municipalityName: 墨田区
+  13108:
+    municipalityCd: "13108"
+    prefectureId: 13
+    municipalityName: 江東区
+  13109:
+    municipalityCd: "13109"
+    prefectureId: 13
+    municipalityName: 品川区
+  13110:
+    municipalityCd: "13110"
+    prefectureId: 13
+    municipalityName: 目黒区
+  13111:
+    municipalityCd: "13111"
+    prefectureId: 13
+    municipalityName: 大田区
+  13112:
+    municipalityCd: "13112"
+    prefectureId: 13
+    municipalityName: 世田谷区
+  13113:
+    municipalityCd: "13113"
+    prefectureId: 13
+    municipalityName: 渋谷区
+  13114:
+    municipalityCd: "13114"
+    prefectureId: 13
+    municipalityName: 中野区
+  13115:
+    municipalityCd: "13115"
+    prefectureId: 13
+    municipalityName: 杉並区
+  13116:
+    municipalityCd: "13116"
+    prefectureId: 13
+    municipalityName: 豊島区
+  13117:
+    municipalityCd: "13117"
+    prefectureId: 13
+    municipalityName: 北区
+  13118:
+    municipalityCd: "13118"
+    prefectureId: 13
+    municipalityName: 荒川区
+  13119:
+    municipalityCd: "13119"
+    prefectureId: 13
+    municipalityName: 板橋区
+  13120:
+    municipalityCd: "13120"
+    prefectureId: 13
+    municipalityName: 練馬区
+  13121:
+    municipalityCd: "13121"
+    prefectureId: 13
+    municipalityName: 足立区
+  13122:
+    municipalityCd: "13122"
+    prefectureId: 13
+    municipalityName: 葛飾区
+  13123:
+    municipalityCd: "13123"
+    prefectureId: 13
+    municipalityName: 江戸川区
+  13201:
+    municipalityCd: "13201"
+    prefectureId: 13
+    municipalityName: 八王子市
+  13202:
+    municipalityCd: "13202"
+    prefectureId: 13
+    municipalityName: 立川市
+  13203:
+    municipalityCd: "13203"
+    prefectureId: 13
+    municipalityName: 武蔵野市
+  13204:
+    municipalityCd: "13204"
+    prefectureId: 13
+    municipalityName: 三鷹市
+  13205:
+    municipalityCd: "13205"
+    prefectureId: 13
+    municipalityName: 青梅市
+  13206:
+    municipalityCd: "13206"
+    prefectureId: 13
+    municipalityName: 府中市
+  13207:
+    municipalityCd: "13207"
+    prefectureId: 13
+    municipalityName: 昭島市
+  13208:
+    municipalityCd: "13208"
+    prefectureId: 13
+    municipalityName: 調布市
+  13209:
+    municipalityCd: "13209"
+    prefectureId: 13
+    municipalityName: 町田市
+  13210:
+    municipalityCd: "13210"
+    prefectureId: 13
+    municipalityName: 小金井市
+  13211:
+    municipalityCd: "13211"
+    prefectureId: 13
+    municipalityName: 小平市
+  13212:
+    municipalityCd: "13212"
+    prefectureId: 13
+    municipalityName: 日野市
+  13213:
+    municipalityCd: "13213"
+    prefectureId: 13
+    municipalityName: 東村山市
+  13214:
+    municipalityCd: "13214"
+    prefectureId: 13
+    municipalityName: 国分寺市
+  13215:
+    municipalityCd: "13215"
+    prefectureId: 13
+    municipalityName: 国立市
+  13218:
+    municipalityCd: "13218"
+    prefectureId: 13
+    municipalityName: 福生市
+  13219:
+    municipalityCd: "13219"
+    prefectureId: 13
+    municipalityName: 狛江市
+  13220:
+    municipalityCd: "13220"
+    prefectureId: 13
+    municipalityName: 東大和市
+  13221:
+    municipalityCd: "13221"
+    prefectureId: 13
+    municipalityName: 清瀬市
+  13222:
+    municipalityCd: "13222"
+    prefectureId: 13
+    municipalityName: 東久留米市
+  13223:
+    municipalityCd: "13223"
+    prefectureId: 13
+    municipalityName: 武蔵村山市
+  13224:
+    municipalityCd: "13224"
+    prefectureId: 13
+    municipalityName: 多摩市
+  13225:
+    municipalityCd: "13225"
+    prefectureId: 13
+    municipalityName: 稲城市
+  13227:
+    municipalityCd: "13227"
+    prefectureId: 13
+    municipalityName: 羽村市
+  13228:
+    municipalityCd: "13228"
+    prefectureId: 13
+    municipalityName: あきる野市
+  13229:
+    municipalityCd: "13229"
+    prefectureId: 13
+    municipalityName: 西東京市
+  13303:
+    municipalityCd: "13303"
+    prefectureId: 13
+    municipalityName: 西多摩郡 瑞穂町
+  13305:
+    municipalityCd: "13305"
+    prefectureId: 13
+    municipalityName: 西多摩郡 日の出町
+  13307:
+    municipalityCd: "13307"
+    prefectureId: 13
+    municipalityName: 西多摩郡 檜原村
+  13308:
+    municipalityCd: "13308"
+    prefectureId: 13
+    municipalityName: 西多摩郡 奥多摩町
+  13361:
+    municipalityCd: "13361"
+    prefectureId: 13
+    municipalityName: 大島町
+  13362:
+    municipalityCd: "13362"
+    prefectureId: 13
+    municipalityName: 利島村
+  13363:
+    municipalityCd: "13363"
+    prefectureId: 13
+    municipalityName: 新島村
+  13364:
+    municipalityCd: "13364"
+    prefectureId: 13
+    municipalityName: 神津島村
+  13381:
+    municipalityCd: "13381"
+    prefectureId: 13
+    municipalityName: 三宅村
+  13382:
+    municipalityCd: "13382"
+    prefectureId: 13
+    municipalityName: 御蔵島村
+  13401:
+    municipalityCd: "13401"
+    prefectureId: 13
+    municipalityName: 八丈町
+  13402:
+    municipalityCd: "13402"
+    prefectureId: 13
+    municipalityName: 青ケ島村
+  13421:
+    municipalityCd: "13421"
+    prefectureId: 13
+    municipalityName: 小笠原村
+  14101:
+    municipalityCd: "14101"
+    prefectureId: 14
+    municipalityName: 横浜市 鶴見区
+  14102:
+    municipalityCd: "14102"
+    prefectureId: 14
+    municipalityName: 横浜市 神奈川区
+  14103:
+    municipalityCd: "14103"
+    prefectureId: 14
+    municipalityName: 横浜市 西区
+  14104:
+    municipalityCd: "14104"
+    prefectureId: 14
+    municipalityName: 横浜市 中区
+  14105:
+    municipalityCd: "14105"
+    prefectureId: 14
+    municipalityName: 横浜市 南区
+  14106:
+    municipalityCd: "14106"
+    prefectureId: 14
+    municipalityName: 横浜市 保土ヶ谷区
+  14107:
+    municipalityCd: "14107"
+    prefectureId: 14
+    municipalityName: 横浜市 磯子区
+  14108:
+    municipalityCd: "14108"
+    prefectureId: 14
+    municipalityName: 横浜市 金沢区
+  14109:
+    municipalityCd: "14109"
+    prefectureId: 14
+    municipalityName: 横浜市 港北区
+  14110:
+    municipalityCd: "14110"
+    prefectureId: 14
+    municipalityName: 横浜市 戸塚区
+  14111:
+    municipalityCd: "14111"
+    prefectureId: 14
+    municipalityName: 横浜市 港南区
+  14112:
+    municipalityCd: "14112"
+    prefectureId: 14
+    municipalityName: 横浜市 旭区
+  14113:
+    municipalityCd: "14113"
+    prefectureId: 14
+    municipalityName: 横浜市 緑区
+  14114:
+    municipalityCd: "14114"
+    prefectureId: 14
+    municipalityName: 横浜市 瀬谷区
+  14115:
+    municipalityCd: "14115"
+    prefectureId: 14
+    municipalityName: 横浜市 栄区
+  14116:
+    municipalityCd: "14116"
+    prefectureId: 14
+    municipalityName: 横浜市 泉区
+  14117:
+    municipalityCd: "14117"
+    prefectureId: 14
+    municipalityName: 横浜市 青葉区
+  14118:
+    municipalityCd: "14118"
+    prefectureId: 14
+    municipalityName: 横浜市 都筑区
+  14131:
+    municipalityCd: "14131"
+    prefectureId: 14
+    municipalityName: 川崎市 川崎区
+  14132:
+    municipalityCd: "14132"
+    prefectureId: 14
+    municipalityName: 川崎市 幸区
+  14133:
+    municipalityCd: "14133"
+    prefectureId: 14
+    municipalityName: 川崎市 中原区
+  14134:
+    municipalityCd: "14134"
+    prefectureId: 14
+    municipalityName: 川崎市 高津区
+  14135:
+    municipalityCd: "14135"
+    prefectureId: 14
+    municipalityName: 川崎市 多摩区
+  14136:
+    municipalityCd: "14136"
+    prefectureId: 14
+    municipalityName: 川崎市 宮前区
+  14137:
+    municipalityCd: "14137"
+    prefectureId: 14
+    municipalityName: 川崎市 麻生区
+  14151:
+    municipalityCd: "14151"
+    prefectureId: 14
+    municipalityName: 相模原市 緑区
+  14152:
+    municipalityCd: "14152"
+    prefectureId: 14
+    municipalityName: 相模原市 中央区
+  14153:
+    municipalityCd: "14153"
+    prefectureId: 14
+    municipalityName: 相模原市 南区
+  14201:
+    municipalityCd: "14201"
+    prefectureId: 14
+    municipalityName: 横須賀市
+  14203:
+    municipalityCd: "14203"
+    prefectureId: 14
+    municipalityName: 平塚市
+  14204:
+    municipalityCd: "14204"
+    prefectureId: 14
+    municipalityName: 鎌倉市
+  14205:
+    municipalityCd: "14205"
+    prefectureId: 14
+    municipalityName: 藤沢市
+  14206:
+    municipalityCd: "14206"
+    prefectureId: 14
+    municipalityName: 小田原市
+  14207:
+    municipalityCd: "14207"
+    prefectureId: 14
+    municipalityName: 茅ケ崎市
+  14208:
+    municipalityCd: "14208"
+    prefectureId: 14
+    municipalityName: 逗子市
+  14209:
+    municipalityCd: "14209"
+    prefectureId: 14
+    municipalityName: 相模原市
+  14210:
+    municipalityCd: "14210"
+    prefectureId: 14
+    municipalityName: 三浦市
+  14211:
+    municipalityCd: "14211"
+    prefectureId: 14
+    municipalityName: 秦野市
+  14212:
+    municipalityCd: "14212"
+    prefectureId: 14
+    municipalityName: 厚木市
+  14213:
+    municipalityCd: "14213"
+    prefectureId: 14
+    municipalityName: 大和市
+  14214:
+    municipalityCd: "14214"
+    prefectureId: 14
+    municipalityName: 伊勢原市
+  14215:
+    municipalityCd: "14215"
+    prefectureId: 14
+    municipalityName: 海老名市
+  14216:
+    municipalityCd: "14216"
+    prefectureId: 14
+    municipalityName: 座間市
+  14217:
+    municipalityCd: "14217"
+    prefectureId: 14
+    municipalityName: 南足柄市
+  14218:
+    municipalityCd: "14218"
+    prefectureId: 14
+    municipalityName: 綾瀬市
+  14301:
+    municipalityCd: "14301"
+    prefectureId: 14
+    municipalityName: 三浦郡 葉山町
+  14321:
+    municipalityCd: "14321"
+    prefectureId: 14
+    municipalityName: 高座郡 寒川町
+  14341:
+    municipalityCd: "14341"
+    prefectureId: 14
+    municipalityName: 中郡 大磯町
+  14342:
+    municipalityCd: "14342"
+    prefectureId: 14
+    municipalityName: 中郡 二宮町
+  14361:
+    municipalityCd: "14361"
+    prefectureId: 14
+    municipalityName: 足柄上郡 中井町
+  14362:
+    municipalityCd: "14362"
+    prefectureId: 14
+    municipalityName: 足柄上郡 大井町
+  14363:
+    municipalityCd: "14363"
+    prefectureId: 14
+    municipalityName: 足柄上郡 松田町
+  14364:
+    municipalityCd: "14364"
+    prefectureId: 14
+    municipalityName: 足柄上郡 山北町
+  14366:
+    municipalityCd: "14366"
+    prefectureId: 14
+    municipalityName: 足柄上郡 開成町
+  14382:
+    municipalityCd: "14382"
+    prefectureId: 14
+    municipalityName: 足柄下郡 箱根町
+  14383:
+    municipalityCd: "14383"
+    prefectureId: 14
+    municipalityName: 足柄下郡 真鶴町
+  14384:
+    municipalityCd: "14384"
+    prefectureId: 14
+    municipalityName: 足柄下郡 湯河原町
+  14401:
+    municipalityCd: "14401"
+    prefectureId: 14
+    municipalityName: 愛甲郡 愛川町
+  14402:
+    municipalityCd: "14402"
+    prefectureId: 14
+    municipalityName: 愛甲郡 清川村
+  15101:
+    municipalityCd: "15101"
+    prefectureId: 15
+    municipalityName: 新潟市 北区
+  15102:
+    municipalityCd: "15102"
+    prefectureId: 15
+    municipalityName: 新潟市 東区
+  15103:
+    municipalityCd: "15103"
+    prefectureId: 15
+    municipalityName: 新潟市 中央区
+  15104:
+    municipalityCd: "15104"
+    prefectureId: 15
+    municipalityName: 新潟市 江南区
+  15105:
+    municipalityCd: "15105"
+    prefectureId: 15
+    municipalityName: 新潟市 秋葉区
+  15106:
+    municipalityCd: "15106"
+    prefectureId: 15
+    municipalityName: 新潟市 南区
+  15107:
+    municipalityCd: "15107"
+    prefectureId: 15
+    municipalityName: 新潟市 西区
+  15108:
+    municipalityCd: "15108"
+    prefectureId: 15
+    municipalityName: 新潟市 西蒲区
+  15202:
+    municipalityCd: "15202"
+    prefectureId: 15
+    municipalityName: 長岡市
+  15204:
+    municipalityCd: "15204"
+    prefectureId: 15
+    municipalityName: 三条市
+  15205:
+    municipalityCd: "15205"
+    prefectureId: 15
+    municipalityName: 柏崎市
+  15206:
+    municipalityCd: "15206"
+    prefectureId: 15
+    municipalityName: 新発田市
+  15208:
+    municipalityCd: "15208"
+    prefectureId: 15
+    municipalityName: 小千谷市
+  15209:
+    municipalityCd: "15209"
+    prefectureId: 15
+    municipalityName: 加茂市
+  15210:
+    municipalityCd: "15210"
+    prefectureId: 15
+    municipalityName: 十日町市
+  15211:
+    municipalityCd: "15211"
+    prefectureId: 15
+    municipalityName: 見附市
+  15212:
+    municipalityCd: "15212"
+    prefectureId: 15
+    municipalityName: 村上市
+  15213:
+    municipalityCd: "15213"
+    prefectureId: 15
+    municipalityName: 燕市
+  15216:
+    municipalityCd: "15216"
+    prefectureId: 15
+    municipalityName: 糸魚川市
+  15217:
+    municipalityCd: "15217"
+    prefectureId: 15
+    municipalityName: 妙高市
+  15218:
+    municipalityCd: "15218"
+    prefectureId: 15
+    municipalityName: 五泉市
+  15222:
+    municipalityCd: "15222"
+    prefectureId: 15
+    municipalityName: 上越市
+  15223:
+    municipalityCd: "15223"
+    prefectureId: 15
+    municipalityName: 阿賀野市
+  15224:
+    municipalityCd: "15224"
+    prefectureId: 15
+    municipalityName: 佐渡市
+  15225:
+    municipalityCd: "15225"
+    prefectureId: 15
+    municipalityName: 魚沼市
+  15226:
+    municipalityCd: "15226"
+    prefectureId: 15
+    municipalityName: 南魚沼市
+  15227:
+    municipalityCd: "15227"
+    prefectureId: 15
+    municipalityName: 胎内市
+  15307:
+    municipalityCd: "15307"
+    prefectureId: 15
+    municipalityName: 北蒲原郡 聖籠町
+  15342:
+    municipalityCd: "15342"
+    prefectureId: 15
+    municipalityName: 西蒲原郡 弥彦村
+  15361:
+    municipalityCd: "15361"
+    prefectureId: 15
+    municipalityName: 南蒲原郡 田上町
+  15385:
+    municipalityCd: "15385"
+    prefectureId: 15
+    municipalityName: 東蒲原郡 阿賀町
+  15405:
+    municipalityCd: "15405"
+    prefectureId: 15
+    municipalityName: 三島郡 出雲崎町
+  15441:
+    municipalityCd: "15441"
+    prefectureId: 15
+    municipalityName: 北魚沼郡 川口町
+  15461:
+    municipalityCd: "15461"
+    prefectureId: 15
+    municipalityName: 南魚沼郡 湯沢町
+  15482:
+    municipalityCd: "15482"
+    prefectureId: 15
+    municipalityName: 中魚沼郡 津南町
+  15504:
+    municipalityCd: "15504"
+    prefectureId: 15
+    municipalityName: 刈羽郡 刈羽村
+  15581:
+    municipalityCd: "15581"
+    prefectureId: 15
+    municipalityName: 岩船郡 関川村
+  15586:
+    municipalityCd: "15586"
+    prefectureId: 15
+    municipalityName: 岩船郡 粟島浦村
+  16201:
+    municipalityCd: "16201"
+    prefectureId: 16
+    municipalityName: 富山市
+  16202:
+    municipalityCd: "16202"
+    prefectureId: 16
+    municipalityName: 高岡市
+  16204:
+    municipalityCd: "16204"
+    prefectureId: 16
+    municipalityName: 魚津市
+  16205:
+    municipalityCd: "16205"
+    prefectureId: 16
+    municipalityName: 氷見市
+  16206:
+    municipalityCd: "16206"
+    prefectureId: 16
+    municipalityName: 滑川市
+  16207:
+    municipalityCd: "16207"
+    prefectureId: 16
+    municipalityName: 黒部市
+  16208:
+    municipalityCd: "16208"
+    prefectureId: 16
+    municipalityName: 砺波市
+  16209:
+    municipalityCd: "16209"
+    prefectureId: 16
+    municipalityName: 小矢部市
+  16210:
+    municipalityCd: "16210"
+    prefectureId: 16
+    municipalityName: 南砺市
+  16211:
+    municipalityCd: "16211"
+    prefectureId: 16
+    municipalityName: 射水市
+  16321:
+    municipalityCd: "16321"
+    prefectureId: 16
+    municipalityName: 中新川郡 舟橋村
+  16322:
+    municipalityCd: "16322"
+    prefectureId: 16
+    municipalityName: 中新川郡 上市町
+  16323:
+    municipalityCd: "16323"
+    prefectureId: 16
+    municipalityName: 中新川郡 立山町
+  16342:
+    municipalityCd: "16342"
+    prefectureId: 16
+    municipalityName: 下新川郡 入善町
+  16343:
+    municipalityCd: "16343"
+    prefectureId: 16
+    municipalityName: 下新川郡 朝日町
+  17201:
+    municipalityCd: "17201"
+    prefectureId: 17
+    municipalityName: 金沢市
+  17202:
+    municipalityCd: "17202"
+    prefectureId: 17
+    municipalityName: 七尾市
+  17203:
+    municipalityCd: "17203"
+    prefectureId: 17
+    municipalityName: 小松市
+  17204:
+    municipalityCd: "17204"
+    prefectureId: 17
+    municipalityName: 輪島市
+  17205:
+    municipalityCd: "17205"
+    prefectureId: 17
+    municipalityName: 珠洲市
+  17206:
+    municipalityCd: "17206"
+    prefectureId: 17
+    municipalityName: 加賀市
+  17207:
+    municipalityCd: "17207"
+    prefectureId: 17
+    municipalityName: 羽咋市
+  17209:
+    municipalityCd: "17209"
+    prefectureId: 17
+    municipalityName: かほく市
+  17210:
+    municipalityCd: "17210"
+    prefectureId: 17
+    municipalityName: 白山市
+  17211:
+    municipalityCd: "17211"
+    prefectureId: 17
+    municipalityName: 能美市
+  17324:
+    municipalityCd: "17324"
+    prefectureId: 17
+    municipalityName: 能美郡 川北町
+  17344:
+    municipalityCd: "17344"
+    prefectureId: 17
+    municipalityName: 石川郡 野々市町
+  17361:
+    municipalityCd: "17361"
+    prefectureId: 17
+    municipalityName: 河北郡 津幡町
+  17365:
+    municipalityCd: "17365"
+    prefectureId: 17
+    municipalityName: 河北郡 内灘町
+  17384:
+    municipalityCd: "17384"
+    prefectureId: 17
+    municipalityName: 羽咋郡 志賀町
+  17386:
+    municipalityCd: "17386"
+    prefectureId: 17
+    municipalityName: 羽咋郡 宝達志水町
+  17407:
+    municipalityCd: "17407"
+    prefectureId: 17
+    municipalityName: 鹿島郡 中能登町
+  17461:
+    municipalityCd: "17461"
+    prefectureId: 17
+    municipalityName: 鳳珠郡 穴水町
+  17463:
+    municipalityCd: "17463"
+    prefectureId: 17
+    municipalityName: 鳳珠郡 能登町
+  18201:
+    municipalityCd: "18201"
+    prefectureId: 18
+    municipalityName: 福井市
+  18202:
+    municipalityCd: "18202"
+    prefectureId: 18
+    municipalityName: 敦賀市
+  18204:
+    municipalityCd: "18204"
+    prefectureId: 18
+    municipalityName: 小浜市
+  18205:
+    municipalityCd: "18205"
+    prefectureId: 18
+    municipalityName: 大野市
+  18206:
+    municipalityCd: "18206"
+    prefectureId: 18
+    municipalityName: 勝山市
+  18207:
+    municipalityCd: "18207"
+    prefectureId: 18
+    municipalityName: 鯖江市
+  18208:
+    municipalityCd: "18208"
+    prefectureId: 18
+    municipalityName: あわら市
+  18209:
+    municipalityCd: "18209"
+    prefectureId: 18
+    municipalityName: 越前市
+  18210:
+    municipalityCd: "18210"
+    prefectureId: 18
+    municipalityName: 坂井市
+  18322:
+    municipalityCd: "18322"
+    prefectureId: 18
+    municipalityName: 吉田郡 永平寺町
+  18382:
+    municipalityCd: "18382"
+    prefectureId: 18
+    municipalityName: 今立郡 池田町
+  18404:
+    municipalityCd: "18404"
+    prefectureId: 18
+    municipalityName: 南条郡 南越前町
+  18423:
+    municipalityCd: "18423"
+    prefectureId: 18
+    municipalityName: 丹生郡 越前町
+  18442:
+    municipalityCd: "18442"
+    prefectureId: 18
+    municipalityName: 三方郡 美浜町
+  18481:
+    municipalityCd: "18481"
+    prefectureId: 18
+    municipalityName: 大飯郡 高浜町
+  18483:
+    municipalityCd: "18483"
+    prefectureId: 18
+    municipalityName: おおい町
+  18501:
+    municipalityCd: "18501"
+    prefectureId: 18
+    municipalityName: 三方上中郡 若狭町
+  19201:
+    municipalityCd: "19201"
+    prefectureId: 19
+    municipalityName: 甲府市
+  19202:
+    municipalityCd: "19202"
+    prefectureId: 19
+    municipalityName: 富士吉田市
+  19204:
+    municipalityCd: "19204"
+    prefectureId: 19
+    municipalityName: 都留市
+  19205:
+    municipalityCd: "19205"
+    prefectureId: 19
+    municipalityName: 山梨市
+  19206:
+    municipalityCd: "19206"
+    prefectureId: 19
+    municipalityName: 大月市
+  19207:
+    municipalityCd: "19207"
+    prefectureId: 19
+    municipalityName: 韮崎市
+  19208:
+    municipalityCd: "19208"
+    prefectureId: 19
+    municipalityName: 南アルプス市
+  19209:
+    municipalityCd: "19209"
+    prefectureId: 19
+    municipalityName: 北杜市
+  19210:
+    municipalityCd: "19210"
+    prefectureId: 19
+    municipalityName: 甲斐市
+  19211:
+    municipalityCd: "19211"
+    prefectureId: 19
+    municipalityName: 笛吹市
+  19212:
+    municipalityCd: "19212"
+    prefectureId: 19
+    municipalityName: 上野原市
+  19213:
+    municipalityCd: "19213"
+    prefectureId: 19
+    municipalityName: 甲州市
+  19214:
+    municipalityCd: "19214"
+    prefectureId: 19
+    municipalityName: 中央市
+  19346:
+    municipalityCd: "19346"
+    prefectureId: 19
+    municipalityName: 西八代郡 市川三郷町
+  19364:
+    municipalityCd: "19364"
+    prefectureId: 19
+    municipalityName: 南巨摩郡 早川町
+  19365:
+    municipalityCd: "19365"
+    prefectureId: 19
+    municipalityName: 南巨摩郡 身延町
+  19366:
+    municipalityCd: "19366"
+    prefectureId: 19
+    municipalityName: 南巨摩郡 南部町
+  19368:
+    municipalityCd: "19368"
+    prefectureId: 19
+    municipalityName: 南巨摩郡 富士川町
+  19384:
+    municipalityCd: "19384"
+    prefectureId: 19
+    municipalityName: 中巨摩郡 昭和町
+  19422:
+    municipalityCd: "19422"
+    prefectureId: 19
+    municipalityName: 南都留郡 道志村
+  19423:
+    municipalityCd: "19423"
+    prefectureId: 19
+    municipalityName: 南都留郡 西桂町
+  19424:
+    municipalityCd: "19424"
+    prefectureId: 19
+    municipalityName: 南都留郡 忍野村
+  19425:
+    municipalityCd: "19425"
+    prefectureId: 19
+    municipalityName: 南都留郡 山中湖村
+  19429:
+    municipalityCd: "19429"
+    prefectureId: 19
+    municipalityName: 南都留郡 鳴沢村
+  19430:
+    municipalityCd: "19430"
+    prefectureId: 19
+    municipalityName: 南都留郡 富士河口湖町
+  19442:
+    municipalityCd: "19442"
+    prefectureId: 19
+    municipalityName: 北都留郡 小菅村
+  19443:
+    municipalityCd: "19443"
+    prefectureId: 19
+    municipalityName: 北都留郡 丹波山村
+  20201:
+    municipalityCd: "20201"
+    prefectureId: 20
+    municipalityName: 長野市
+  20202:
+    municipalityCd: "20202"
+    prefectureId: 20
+    municipalityName: 松本市
+  20203:
+    municipalityCd: "20203"
+    prefectureId: 20
+    municipalityName: 上田市
+  20204:
+    municipalityCd: "20204"
+    prefectureId: 20
+    municipalityName: 岡谷市
+  20205:
+    municipalityCd: "20205"
+    prefectureId: 20
+    municipalityName: 飯田市
+  20206:
+    municipalityCd: "20206"
+    prefectureId: 20
+    municipalityName: 諏訪市
+  20207:
+    municipalityCd: "20207"
+    prefectureId: 20
+    municipalityName: 須坂市
+  20208:
+    municipalityCd: "20208"
+    prefectureId: 20
+    municipalityName: 小諸市
+  20209:
+    municipalityCd: "20209"
+    prefectureId: 20
+    municipalityName: 伊那市
+  20210:
+    municipalityCd: "20210"
+    prefectureId: 20
+    municipalityName: 駒ヶ根市
+  20211:
+    municipalityCd: "20211"
+    prefectureId: 20
+    municipalityName: 中野市
+  20212:
+    municipalityCd: "20212"
+    prefectureId: 20
+    municipalityName: 大町市
+  20213:
+    municipalityCd: "20213"
+    prefectureId: 20
+    municipalityName: 飯山市
+  20214:
+    municipalityCd: "20214"
+    prefectureId: 20
+    municipalityName: 茅野市
+  20215:
+    municipalityCd: "20215"
+    prefectureId: 20
+    municipalityName: 塩尻市
+  20217:
+    municipalityCd: "20217"
+    prefectureId: 20
+    municipalityName: 佐久市
+  20218:
+    municipalityCd: "20218"
+    prefectureId: 20
+    municipalityName: 千曲市
+  20219:
+    municipalityCd: "20219"
+    prefectureId: 20
+    municipalityName: 東御市
+  20220:
+    municipalityCd: "20220"
+    prefectureId: 20
+    municipalityName: 安曇野市
+  20303:
+    municipalityCd: "20303"
+    prefectureId: 20
+    municipalityName: 南佐久郡 小海町
+  20304:
+    municipalityCd: "20304"
+    prefectureId: 20
+    municipalityName: 南佐久郡 川上村
+  20305:
+    municipalityCd: "20305"
+    prefectureId: 20
+    municipalityName: 南佐久郡 南牧村
+  20306:
+    municipalityCd: "20306"
+    prefectureId: 20
+    municipalityName: 南佐久郡 南相木村
+  20307:
+    municipalityCd: "20307"
+    prefectureId: 20
+    municipalityName: 南佐久郡 北相木村
+  20309:
+    municipalityCd: "20309"
+    prefectureId: 20
+    municipalityName: 南佐久郡 佐久穂町
+  20321:
+    municipalityCd: "20321"
+    prefectureId: 20
+    municipalityName: 北佐久郡 軽井沢町
+  20323:
+    municipalityCd: "20323"
+    prefectureId: 20
+    municipalityName: 北佐久郡 御代田町
+  20324:
+    municipalityCd: "20324"
+    prefectureId: 20
+    municipalityName: 北佐久郡 立科町
+  20349:
+    municipalityCd: "20349"
+    prefectureId: 20
+    municipalityName: 小県郡 青木村
+  20350:
+    municipalityCd: "20350"
+    prefectureId: 20
+    municipalityName: 小県郡 長和町
+  20361:
+    municipalityCd: "20361"
+    prefectureId: 20
+    municipalityName: 諏訪郡 下諏訪町
+  20362:
+    municipalityCd: "20362"
+    prefectureId: 20
+    municipalityName: 諏訪郡 富士見町
+  20363:
+    municipalityCd: "20363"
+    prefectureId: 20
+    municipalityName: 諏訪郡 原村
+  20382:
+    municipalityCd: "20382"
+    prefectureId: 20
+    municipalityName: 上伊那郡 辰野町
+  20383:
+    municipalityCd: "20383"
+    prefectureId: 20
+    municipalityName: 上伊那郡 箕輪町
+  20384:
+    municipalityCd: "20384"
+    prefectureId: 20
+    municipalityName: 上伊那郡 飯島町
+  20385:
+    municipalityCd: "20385"
+    prefectureId: 20
+    municipalityName: 上伊那郡 南箕輪村
+  20386:
+    municipalityCd: "20386"
+    prefectureId: 20
+    municipalityName: 上伊那郡 中川村
+  20388:
+    municipalityCd: "20388"
+    prefectureId: 20
+    municipalityName: 上伊那郡 宮田村
+  20402:
+    municipalityCd: "20402"
+    prefectureId: 20
+    municipalityName: 下伊那郡 松川町
+  20403:
+    municipalityCd: "20403"
+    prefectureId: 20
+    municipalityName: 下伊那郡 高森町
+  20404:
+    municipalityCd: "20404"
+    prefectureId: 20
+    municipalityName: 下伊那郡 阿南町
+  20407:
+    municipalityCd: "20407"
+    prefectureId: 20
+    municipalityName: 下伊那郡 阿智村
+  20409:
+    municipalityCd: "20409"
+    prefectureId: 20
+    municipalityName: 下伊那郡 平谷村
+  20410:
+    municipalityCd: "20410"
+    prefectureId: 20
+    municipalityName: 下伊那郡 根羽村
+  20411:
+    municipalityCd: "20411"
+    prefectureId: 20
+    municipalityName: 下伊那郡 下條村
+  20412:
+    municipalityCd: "20412"
+    prefectureId: 20
+    municipalityName: 下伊那郡 売木村
+  20413:
+    municipalityCd: "20413"
+    prefectureId: 20
+    municipalityName: 下伊那郡 天龍村
+  20414:
+    municipalityCd: "20414"
+    prefectureId: 20
+    municipalityName: 下伊那郡 泰阜村
+  20415:
+    municipalityCd: "20415"
+    prefectureId: 20
+    municipalityName: 下伊那郡 喬木村
+  20416:
+    municipalityCd: "20416"
+    prefectureId: 20
+    municipalityName: 下伊那郡 豊丘村
+  20417:
+    municipalityCd: "20417"
+    prefectureId: 20
+    municipalityName: 下伊那郡 大鹿村
+  20422:
+    municipalityCd: "20422"
+    prefectureId: 20
+    municipalityName: 木曽郡 上松町
+  20423:
+    municipalityCd: "20423"
+    prefectureId: 20
+    municipalityName: 木曽郡 南木曽町
+  20425:
+    municipalityCd: "20425"
+    prefectureId: 20
+    municipalityName: 木曽郡 木祖村
+  20429:
+    municipalityCd: "20429"
+    prefectureId: 20
+    municipalityName: 木曽郡 王滝村
+  20430:
+    municipalityCd: "20430"
+    prefectureId: 20
+    municipalityName: 木曽郡 大桑村
+  20432:
+    municipalityCd: "20432"
+    prefectureId: 20
+    municipalityName: 木曽郡 木曽町
+  20446:
+    municipalityCd: "20446"
+    prefectureId: 20
+    municipalityName: 東筑摩郡 麻績村
+  20448:
+    municipalityCd: "20448"
+    prefectureId: 20
+    municipalityName: 東筑摩郡 生坂村
+  20449:
+    municipalityCd: "20449"
+    prefectureId: 20
+    municipalityName: 東筑摩郡 波田町
+  20450:
+    municipalityCd: "20450"
+    prefectureId: 20
+    municipalityName: 東筑摩郡 山形村
+  20451:
+    municipalityCd: "20451"
+    prefectureId: 20
+    municipalityName: 東筑摩郡 朝日村
+  20452:
+    municipalityCd: "20452"
+    prefectureId: 20
+    municipalityName: 東筑摩郡 筑北村
+  20481:
+    municipalityCd: "20481"
+    prefectureId: 20
+    municipalityName: 北安曇郡 池田町
+  20482:
+    municipalityCd: "20482"
+    prefectureId: 20
+    municipalityName: 北安曇郡 松川村
+  20485:
+    municipalityCd: "20485"
+    prefectureId: 20
+    municipalityName: 北安曇郡 白馬村
+  20486:
+    municipalityCd: "20486"
+    prefectureId: 20
+    municipalityName: 北安曇郡 小谷村
+  20521:
+    municipalityCd: "20521"
+    prefectureId: 20
+    municipalityName: 埴科郡 坂城町
+  20541:
+    municipalityCd: "20541"
+    prefectureId: 20
+    municipalityName: 上高井郡 小布施町
+  20543:
+    municipalityCd: "20543"
+    prefectureId: 20
+    municipalityName: 上高井郡 高山村
+  20561:
+    municipalityCd: "20561"
+    prefectureId: 20
+    municipalityName: 下高井郡 山ノ内町
+  20562:
+    municipalityCd: "20562"
+    prefectureId: 20
+    municipalityName: 下高井郡 木島平村
+  20563:
+    municipalityCd: "20563"
+    prefectureId: 20
+    municipalityName: 下高井郡 野沢温泉村
+  20583:
+    municipalityCd: "20583"
+    prefectureId: 20
+    municipalityName: 上水内郡 信濃町
+  20588:
+    municipalityCd: "20588"
+    prefectureId: 20
+    municipalityName: 上水内郡 小川村
+  20590:
+    municipalityCd: "20590"
+    prefectureId: 20
+    municipalityName: 上水内郡 飯綱町
+  20602:
+    municipalityCd: "20602"
+    prefectureId: 20
+    municipalityName: 下水内郡 栄村
+  21201:
+    municipalityCd: "21201"
+    prefectureId: 21
+    municipalityName: 岐阜市
+  21202:
+    municipalityCd: "21202"
+    prefectureId: 21
+    municipalityName: 大垣市
+  21203:
+    municipalityCd: "21203"
+    prefectureId: 21
+    municipalityName: 高山市
+  21204:
+    municipalityCd: "21204"
+    prefectureId: 21
+    municipalityName: 多治見市
+  21205:
+    municipalityCd: "21205"
+    prefectureId: 21
+    municipalityName: 関市
+  21206:
+    municipalityCd: "21206"
+    prefectureId: 21
+    municipalityName: 中津川市
+  21207:
+    municipalityCd: "21207"
+    prefectureId: 21
+    municipalityName: 美濃市
+  21208:
+    municipalityCd: "21208"
+    prefectureId: 21
+    municipalityName: 瑞浪市
+  21209:
+    municipalityCd: "21209"
+    prefectureId: 21
+    municipalityName: 羽島市
+  21210:
+    municipalityCd: "21210"
+    prefectureId: 21
+    municipalityName: 恵那市
+  21211:
+    municipalityCd: "21211"
+    prefectureId: 21
+    municipalityName: 美濃加茂市
+  21212:
+    municipalityCd: "21212"
+    prefectureId: 21
+    municipalityName: 土岐市
+  21213:
+    municipalityCd: "21213"
+    prefectureId: 21
+    municipalityName: 各務原市
+  21214:
+    municipalityCd: "21214"
+    prefectureId: 21
+    municipalityName: 可児市
+  21215:
+    municipalityCd: "21215"
+    prefectureId: 21
+    municipalityName: 山県市
+  21216:
+    municipalityCd: "21216"
+    prefectureId: 21
+    municipalityName: 瑞穂市
+  21217:
+    municipalityCd: "21217"
+    prefectureId: 21
+    municipalityName: 飛騨市
+  21218:
+    municipalityCd: "21218"
+    prefectureId: 21
+    municipalityName: 本巣市
+  21219:
+    municipalityCd: "21219"
+    prefectureId: 21
+    municipalityName: 郡上市
+  21220:
+    municipalityCd: "21220"
+    prefectureId: 21
+    municipalityName: 下呂市
+  21221:
+    municipalityCd: "21221"
+    prefectureId: 21
+    municipalityName: 海津市
+  21302:
+    municipalityCd: "21302"
+    prefectureId: 21
+    municipalityName: 羽島郡 岐南町
+  21303:
+    municipalityCd: "21303"
+    prefectureId: 21
+    municipalityName: 羽島郡 笠松町
+  21341:
+    municipalityCd: "21341"
+    prefectureId: 21
+    municipalityName: 養老郡 養老町
+  21361:
+    municipalityCd: "21361"
+    prefectureId: 21
+    municipalityName: 不破郡 垂井町
+  21362:
+    municipalityCd: "21362"
+    prefectureId: 21
+    municipalityName: 不破郡 関ケ原町
+  21381:
+    municipalityCd: "21381"
+    prefectureId: 21
+    municipalityName: 安八郡 神戸町
+  21382:
+    municipalityCd: "21382"
+    prefectureId: 21
+    municipalityName: 安八郡 輪之内町
+  21383:
+    municipalityCd: "21383"
+    prefectureId: 21
+    municipalityName: 安八郡 安八町
+  21401:
+    municipalityCd: "21401"
+    prefectureId: 21
+    municipalityName: 揖斐郡 揖斐川町
+  21403:
+    municipalityCd: "21403"
+    prefectureId: 21
+    municipalityName: 揖斐郡 大野町
+  21404:
+    municipalityCd: "21404"
+    prefectureId: 21
+    municipalityName: 揖斐郡 池田町
+  21421:
+    municipalityCd: "21421"
+    prefectureId: 21
+    municipalityName: 本巣郡 北方町
+  21501:
+    municipalityCd: "21501"
+    prefectureId: 21
+    municipalityName: 加茂郡 坂祝町
+  21502:
+    municipalityCd: "21502"
+    prefectureId: 21
+    municipalityName: 加茂郡 富加町
+  21503:
+    municipalityCd: "21503"
+    prefectureId: 21
+    municipalityName: 加茂郡 川辺町
+  21504:
+    municipalityCd: "21504"
+    prefectureId: 21
+    municipalityName: 加茂郡 七宗町
+  21505:
+    municipalityCd: "21505"
+    prefectureId: 21
+    municipalityName: 加茂郡 八百津町
+  21506:
+    municipalityCd: "21506"
+    prefectureId: 21
+    municipalityName: 加茂郡 白川町
+  21507:
+    municipalityCd: "21507"
+    prefectureId: 21
+    municipalityName: 加茂郡 東白川村
+  21521:
+    municipalityCd: "21521"
+    prefectureId: 21
+    municipalityName: 可児郡 御嵩町
+  21604:
+    municipalityCd: "21604"
+    prefectureId: 21
+    municipalityName: 大野郡 白川村
+  22101:
+    municipalityCd: "22101"
+    prefectureId: 22
+    municipalityName: 静岡市 葵区
+  22102:
+    municipalityCd: "22102"
+    prefectureId: 22
+    municipalityName: 静岡市 駿河区
+  22103:
+    municipalityCd: "22103"
+    prefectureId: 22
+    municipalityName: 静岡市 清水区
+  22131:
+    municipalityCd: "22131"
+    prefectureId: 22
+    municipalityName: 浜松市 中区
+  22132:
+    municipalityCd: "22132"
+    prefectureId: 22
+    municipalityName: 浜松市 東区
+  22133:
+    municipalityCd: "22133"
+    prefectureId: 22
+    municipalityName: 浜松市 西区
+  22134:
+    municipalityCd: "22134"
+    prefectureId: 22
+    municipalityName: 浜松市 南区
+  22135:
+    municipalityCd: "22135"
+    prefectureId: 22
+    municipalityName: 浜松市 北区
+  22136:
+    municipalityCd: "22136"
+    prefectureId: 22
+    municipalityName: 浜松市 浜北区
+  22137:
+    municipalityCd: "22137"
+    prefectureId: 22
+    municipalityName: 浜松市 天竜区
+  22203:
+    municipalityCd: "22203"
+    prefectureId: 22
+    municipalityName: 沼津市
+  22205:
+    municipalityCd: "22205"
+    prefectureId: 22
+    municipalityName: 熱海市
+  22206:
+    municipalityCd: "22206"
+    prefectureId: 22
+    municipalityName: 三島市
+  22207:
+    municipalityCd: "22207"
+    prefectureId: 22
+    municipalityName: 富士宮市
+  22208:
+    municipalityCd: "22208"
+    prefectureId: 22
+    municipalityName: 伊東市
+  22209:
+    municipalityCd: "22209"
+    prefectureId: 22
+    municipalityName: 島田市
+  22210:
+    municipalityCd: "22210"
+    prefectureId: 22
+    municipalityName: 富士市
+  22211:
+    municipalityCd: "22211"
+    prefectureId: 22
+    municipalityName: 磐田市
+  22212:
+    municipalityCd: "22212"
+    prefectureId: 22
+    municipalityName: 焼津市
+  22213:
+    municipalityCd: "22213"
+    prefectureId: 22
+    municipalityName: 掛川市
+  22214:
+    municipalityCd: "22214"
+    prefectureId: 22
+    municipalityName: 藤枝市
+  22215:
+    municipalityCd: "22215"
+    prefectureId: 22
+    municipalityName: 御殿場市
+  22216:
+    municipalityCd: "22216"
+    prefectureId: 22
+    municipalityName: 袋井市
+  22219:
+    municipalityCd: "22219"
+    prefectureId: 22
+    municipalityName: 下田市
+  22220:
+    municipalityCd: "22220"
+    prefectureId: 22
+    municipalityName: 裾野市
+  22221:
+    municipalityCd: "22221"
+    prefectureId: 22
+    municipalityName: 湖西市
+  22222:
+    municipalityCd: "22222"
+    prefectureId: 22
+    municipalityName: 伊豆市
+  22223:
+    municipalityCd: "22223"
+    prefectureId: 22
+    municipalityName: 御前崎市
+  22224:
+    municipalityCd: "22224"
+    prefectureId: 22
+    municipalityName: 菊川市
+  22225:
+    municipalityCd: "22225"
+    prefectureId: 22
+    municipalityName: 伊豆の国市
+  22226:
+    municipalityCd: "22226"
+    prefectureId: 22
+    municipalityName: 牧之原市
+  22301:
+    municipalityCd: "22301"
+    prefectureId: 22
+    municipalityName: 賀茂郡 東伊豆町
+  22302:
+    municipalityCd: "22302"
+    prefectureId: 22
+    municipalityName: 賀茂郡 河津町
+  22304:
+    municipalityCd: "22304"
+    prefectureId: 22
+    municipalityName: 賀茂郡 南伊豆町
+  22305:
+    municipalityCd: "22305"
+    prefectureId: 22
+    municipalityName: 賀茂郡 松崎町
+  22306:
+    municipalityCd: "22306"
+    prefectureId: 22
+    municipalityName: 賀茂郡 西伊豆町
+  22325:
+    municipalityCd: "22325"
+    prefectureId: 22
+    municipalityName: 田方郡 函南町
+  22341:
+    municipalityCd: "22341"
+    prefectureId: 22
+    municipalityName: 駿東郡 清水町
+  22342:
+    municipalityCd: "22342"
+    prefectureId: 22
+    municipalityName: 駿東郡 長泉町
+  22344:
+    municipalityCd: "22344"
+    prefectureId: 22
+    municipalityName: 駿東郡 小山町
+  22424:
+    municipalityCd: "22424"
+    prefectureId: 22
+    municipalityName: 榛原郡 吉田町
+  22429:
+    municipalityCd: "22429"
+    prefectureId: 22
+    municipalityName: 榛原郡 川根本町
+  22461:
+    municipalityCd: "22461"
+    prefectureId: 22
+    municipalityName: 周智郡 森町
+  23101:
+    municipalityCd: "23101"
+    prefectureId: 23
+    municipalityName: 名古屋市 千種区
+  23102:
+    municipalityCd: "23102"
+    prefectureId: 23
+    municipalityName: 名古屋市 東区
+  23103:
+    municipalityCd: "23103"
+    prefectureId: 23
+    municipalityName: 名古屋市 北区
+  23104:
+    municipalityCd: "23104"
+    prefectureId: 23
+    municipalityName: 名古屋市 西区
+  23105:
+    municipalityCd: "23105"
+    prefectureId: 23
+    municipalityName: 名古屋市 中村区
+  23106:
+    municipalityCd: "23106"
+    prefectureId: 23
+    municipalityName: 名古屋市 中区
+  23107:
+    municipalityCd: "23107"
+    prefectureId: 23
+    municipalityName: 名古屋市 昭和区
+  23108:
+    municipalityCd: "23108"
+    prefectureId: 23
+    municipalityName: 名古屋市 瑞穂区
+  23109:
+    municipalityCd: "23109"
+    prefectureId: 23
+    municipalityName: 名古屋市 熱田区
+  23110:
+    municipalityCd: "23110"
+    prefectureId: 23
+    municipalityName: 名古屋市 中川区
+  23111:
+    municipalityCd: "23111"
+    prefectureId: 23
+    municipalityName: 名古屋市 港区
+  23112:
+    municipalityCd: "23112"
+    prefectureId: 23
+    municipalityName: 名古屋市 南区
+  23113:
+    municipalityCd: "23113"
+    prefectureId: 23
+    municipalityName: 名古屋市 守山区
+  23114:
+    municipalityCd: "23114"
+    prefectureId: 23
+    municipalityName: 名古屋市 緑区
+  23115:
+    municipalityCd: "23115"
+    prefectureId: 23
+    municipalityName: 名古屋市 名東区
+  23116:
+    municipalityCd: "23116"
+    prefectureId: 23
+    municipalityName: 名古屋市 天白区
+  23201:
+    municipalityCd: "23201"
+    prefectureId: 23
+    municipalityName: 豊橋市
+  23202:
+    municipalityCd: "23202"
+    prefectureId: 23
+    municipalityName: 岡崎市
+  23203:
+    municipalityCd: "23203"
+    prefectureId: 23
+    municipalityName: 一宮市
+  23204:
+    municipalityCd: "23204"
+    prefectureId: 23
+    municipalityName: 瀬戸市
+  23205:
+    municipalityCd: "23205"
+    prefectureId: 23
+    municipalityName: 半田市
+  23206:
+    municipalityCd: "23206"
+    prefectureId: 23
+    municipalityName: 春日井市
+  23207:
+    municipalityCd: "23207"
+    prefectureId: 23
+    municipalityName: 豊川市
+  23208:
+    municipalityCd: "23208"
+    prefectureId: 23
+    municipalityName: 津島市
+  23209:
+    municipalityCd: "23209"
+    prefectureId: 23
+    municipalityName: 碧南市
+  23210:
+    municipalityCd: "23210"
+    prefectureId: 23
+    municipalityName: 刈谷市
+  23211:
+    municipalityCd: "23211"
+    prefectureId: 23
+    municipalityName: 豊田市
+  23212:
+    municipalityCd: "23212"
+    prefectureId: 23
+    municipalityName: 安城市
+  23213:
+    municipalityCd: "23213"
+    prefectureId: 23
+    municipalityName: 西尾市
+  23214:
+    municipalityCd: "23214"
+    prefectureId: 23
+    municipalityName: 蒲郡市
+  23215:
+    municipalityCd: "23215"
+    prefectureId: 23
+    municipalityName: 犬山市
+  23216:
+    municipalityCd: "23216"
+    prefectureId: 23
+    municipalityName: 常滑市
+  23217:
+    municipalityCd: "23217"
+    prefectureId: 23
+    municipalityName: 江南市
+  23219:
+    municipalityCd: "23219"
+    prefectureId: 23
+    municipalityName: 小牧市
+  23220:
+    municipalityCd: "23220"
+    prefectureId: 23
+    municipalityName: 稲沢市
+  23221:
+    municipalityCd: "23221"
+    prefectureId: 23
+    municipalityName: 新城市
+  23222:
+    municipalityCd: "23222"
+    prefectureId: 23
+    municipalityName: 東海市
+  23223:
+    municipalityCd: "23223"
+    prefectureId: 23
+    municipalityName: 大府市
+  23224:
+    municipalityCd: "23224"
+    prefectureId: 23
+    municipalityName: 知多市
+  23225:
+    municipalityCd: "23225"
+    prefectureId: 23
+    municipalityName: 知立市
+  23226:
+    municipalityCd: "23226"
+    prefectureId: 23
+    municipalityName: 尾張旭市
+  23227:
+    municipalityCd: "23227"
+    prefectureId: 23
+    municipalityName: 高浜市
+  23228:
+    municipalityCd: "23228"
+    prefectureId: 23
+    municipalityName: 岩倉市
+  23229:
+    municipalityCd: "23229"
+    prefectureId: 23
+    municipalityName: 豊明市
+  23230:
+    municipalityCd: "23230"
+    prefectureId: 23
+    municipalityName: 日進市
+  23231:
+    municipalityCd: "23231"
+    prefectureId: 23
+    municipalityName: 田原市
+  23232:
+    municipalityCd: "23232"
+    prefectureId: 23
+    municipalityName: 愛西市
+  23233:
+    municipalityCd: "23233"
+    prefectureId: 23
+    municipalityName: 清須市
+  23234:
+    municipalityCd: "23234"
+    prefectureId: 23
+    municipalityName: 北名古屋市
+  23235:
+    municipalityCd: "23235"
+    prefectureId: 23
+    municipalityName: 弥富市
+  23236:
+    municipalityCd: "23236"
+    prefectureId: 23
+    municipalityName: みよし市
+  23237:
+    municipalityCd: "23237"
+    prefectureId: 23
+    municipalityName: あま市
+  23302:
+    municipalityCd: "23302"
+    prefectureId: 23
+    municipalityName: 愛知郡 東郷町
+  23304:
+    municipalityCd: "23304"
+    prefectureId: 23
+    municipalityName: 愛知郡 長久手町
+  23342:
+    municipalityCd: "23342"
+    prefectureId: 23
+    municipalityName: 西春日井郡 豊山町
+  23361:
+    municipalityCd: "23361"
+    prefectureId: 23
+    municipalityName: 丹羽郡 大口町
+  23362:
+    municipalityCd: "23362"
+    prefectureId: 23
+    municipalityName: 丹羽郡 扶桑町
+  23424:
+    municipalityCd: "23424"
+    prefectureId: 23
+    municipalityName: 海部郡 大治町
+  23425:
+    municipalityCd: "23425"
+    prefectureId: 23
+    municipalityName: 海部郡 蟹江町
+  23427:
+    municipalityCd: "23427"
+    prefectureId: 23
+    municipalityName: 海部郡 飛島村
+  23441:
+    municipalityCd: "23441"
+    prefectureId: 23
+    municipalityName: 知多郡 阿久比町
+  23442:
+    municipalityCd: "23442"
+    prefectureId: 23
+    municipalityName: 知多郡 東浦町
+  23445:
+    municipalityCd: "23445"
+    prefectureId: 23
+    municipalityName: 知多郡 南知多町
+  23446:
+    municipalityCd: "23446"
+    prefectureId: 23
+    municipalityName: 知多郡 美浜町
+  23447:
+    municipalityCd: "23447"
+    prefectureId: 23
+    municipalityName: 知多郡 武豊町
+  23481:
+    municipalityCd: "23481"
+    prefectureId: 23
+    municipalityName: 幡豆郡 一色町
+  23482:
+    municipalityCd: "23482"
+    prefectureId: 23
+    municipalityName: 幡豆郡 吉良町
+  23483:
+    municipalityCd: "23483"
+    prefectureId: 23
+    municipalityName: 幡豆郡 幡豆町
+  23501:
+    municipalityCd: "23501"
+    prefectureId: 23
+    municipalityName: 額田郡 幸田町
+  23561:
+    municipalityCd: "23561"
+    prefectureId: 23
+    municipalityName: 北設楽郡 設楽町
+  23562:
+    municipalityCd: "23562"
+    prefectureId: 23
+    municipalityName: 北設楽郡 東栄町
+  23563:
+    municipalityCd: "23563"
+    prefectureId: 23
+    municipalityName: 北設楽郡 豊根村
+  24201:
+    municipalityCd: "24201"
+    prefectureId: 24
+    municipalityName: 津市
+  24202:
+    municipalityCd: "24202"
+    prefectureId: 24
+    municipalityName: 四日市市
+  24203:
+    municipalityCd: "24203"
+    prefectureId: 24
+    municipalityName: 伊勢市
+  24204:
+    municipalityCd: "24204"
+    prefectureId: 24
+    municipalityName: 松阪市
+  24205:
+    municipalityCd: "24205"
+    prefectureId: 24
+    municipalityName: 桑名市
+  24207:
+    municipalityCd: "24207"
+    prefectureId: 24
+    municipalityName: 鈴鹿市
+  24208:
+    municipalityCd: "24208"
+    prefectureId: 24
+    municipalityName: 名張市
+  24209:
+    municipalityCd: "24209"
+    prefectureId: 24
+    municipalityName: 尾鷲市
+  24210:
+    municipalityCd: "24210"
+    prefectureId: 24
+    municipalityName: 亀山市
+  24211:
+    municipalityCd: "24211"
+    prefectureId: 24
+    municipalityName: 鳥羽市
+  24212:
+    municipalityCd: "24212"
+    prefectureId: 24
+    municipalityName: 熊野市
+  24214:
+    municipalityCd: "24214"
+    prefectureId: 24
+    municipalityName: いなべ市
+  24215:
+    municipalityCd: "24215"
+    prefectureId: 24
+    municipalityName: 志摩市
+  24216:
+    municipalityCd: "24216"
+    prefectureId: 24
+    municipalityName: 伊賀市
+  24303:
+    municipalityCd: "24303"
+    prefectureId: 24
+    municipalityName: 桑名郡 木曽岬町
+  24324:
+    municipalityCd: "24324"
+    prefectureId: 24
+    municipalityName: 員弁郡 東員町
+  24341:
+    municipalityCd: "24341"
+    prefectureId: 24
+    municipalityName: 三重郡 菰野町
+  24343:
+    municipalityCd: "24343"
+    prefectureId: 24
+    municipalityName: 三重郡 朝日町
+  24344:
+    municipalityCd: "24344"
+    prefectureId: 24
+    municipalityName: 三重郡 川越町
+  24441:
+    municipalityCd: "24441"
+    prefectureId: 24
+    municipalityName: 多気郡 多気町
+  24442:
+    municipalityCd: "24442"
+    prefectureId: 24
+    municipalityName: 多気郡 明和町
+  24443:
+    municipalityCd: "24443"
+    prefectureId: 24
+    municipalityName: 多気郡 大台町
+  24461:
+    municipalityCd: "24461"
+    prefectureId: 24
+    municipalityName: 度会郡 玉城町
+  24470:
+    municipalityCd: "24470"
+    prefectureId: 24
+    municipalityName: 度会郡 度会町
+  24471:
+    municipalityCd: "24471"
+    prefectureId: 24
+    municipalityName: 度会郡 大紀町
+  24472:
+    municipalityCd: "24472"
+    prefectureId: 24
+    municipalityName: 度会郡 南伊勢町
+  24543:
+    municipalityCd: "24543"
+    prefectureId: 24
+    municipalityName: 北牟婁郡 紀北町
+  24561:
+    municipalityCd: "24561"
+    prefectureId: 24
+    municipalityName: 南牟婁郡 御浜町
+  24562:
+    municipalityCd: "24562"
+    prefectureId: 24
+    municipalityName: 南牟婁郡 紀宝町
+  25201:
+    municipalityCd: "25201"
+    prefectureId: 25
+    municipalityName: 大津市
+  25202:
+    municipalityCd: "25202"
+    prefectureId: 25
+    municipalityName: 彦根市
+  25203:
+    municipalityCd: "25203"
+    prefectureId: 25
+    municipalityName: 長浜市
+  25204:
+    municipalityCd: "25204"
+    prefectureId: 25
+    municipalityName: 近江八幡市
+  25206:
+    municipalityCd: "25206"
+    prefectureId: 25
+    municipalityName: 草津市
+  25207:
+    municipalityCd: "25207"
+    prefectureId: 25
+    municipalityName: 守山市
+  25208:
+    municipalityCd: "25208"
+    prefectureId: 25
+    municipalityName: 栗東市
+  25209:
+    municipalityCd: "25209"
+    prefectureId: 25
+    municipalityName: 甲賀市
+  25210:
+    municipalityCd: "25210"
+    prefectureId: 25
+    municipalityName: 野洲市
+  25211:
+    municipalityCd: "25211"
+    prefectureId: 25
+    municipalityName: 湖南市
+  25212:
+    municipalityCd: "25212"
+    prefectureId: 25
+    municipalityName: 高島市
+  25213:
+    municipalityCd: "25213"
+    prefectureId: 25
+    municipalityName: 東近江市
+  25214:
+    municipalityCd: "25214"
+    prefectureId: 25
+    municipalityName: 米原市
+  25383:
+    municipalityCd: "25383"
+    prefectureId: 25
+    municipalityName: 蒲生郡 日野町
+  25384:
+    municipalityCd: "25384"
+    prefectureId: 25
+    municipalityName: 蒲生郡 竜王町
+  25425:
+    municipalityCd: "25425"
+    prefectureId: 25
+    municipalityName: 愛知郡 愛荘町
+  25441:
+    municipalityCd: "25441"
+    prefectureId: 25
+    municipalityName: 犬上郡 豊郷町
+  25442:
+    municipalityCd: "25442"
+    prefectureId: 25
+    municipalityName: 犬上郡 甲良町
+  25443:
+    municipalityCd: "25443"
+    prefectureId: 25
+    municipalityName: 犬上郡 多賀町
+  26101:
+    municipalityCd: "26101"
+    prefectureId: 26
+    municipalityName: 京都市 北区
+  26102:
+    municipalityCd: "26102"
+    prefectureId: 26
+    municipalityName: 京都市 上京区
+  26103:
+    municipalityCd: "26103"
+    prefectureId: 26
+    municipalityName: 京都市 左京区
+  26104:
+    municipalityCd: "26104"
+    prefectureId: 26
+    municipalityName: 京都市 中京区
+  26105:
+    municipalityCd: "26105"
+    prefectureId: 26
+    municipalityName: 京都市 東山区
+  26106:
+    municipalityCd: "26106"
+    prefectureId: 26
+    municipalityName: 京都市 下京区
+  26107:
+    municipalityCd: "26107"
+    prefectureId: 26
+    municipalityName: 京都市 南区
+  26108:
+    municipalityCd: "26108"
+    prefectureId: 26
+    municipalityName: 京都市 右京区
+  26109:
+    municipalityCd: "26109"
+    prefectureId: 26
+    municipalityName: 京都市 伏見区
+  26110:
+    municipalityCd: "26110"
+    prefectureId: 26
+    municipalityName: 京都市 山科区
+  26111:
+    municipalityCd: "26111"
+    prefectureId: 26
+    municipalityName: 京都市 西京区
+  26201:
+    municipalityCd: "26201"
+    prefectureId: 26
+    municipalityName: 福知山市
+  26202:
+    municipalityCd: "26202"
+    prefectureId: 26
+    municipalityName: 舞鶴市
+  26203:
+    municipalityCd: "26203"
+    prefectureId: 26
+    municipalityName: 綾部市
+  26204:
+    municipalityCd: "26204"
+    prefectureId: 26
+    municipalityName: 宇治市
+  26205:
+    municipalityCd: "26205"
+    prefectureId: 26
+    municipalityName: 宮津市
+  26206:
+    municipalityCd: "26206"
+    prefectureId: 26
+    municipalityName: 亀岡市
+  26207:
+    municipalityCd: "26207"
+    prefectureId: 26
+    municipalityName: 城陽市
+  26208:
+    municipalityCd: "26208"
+    prefectureId: 26
+    municipalityName: 向日市
+  26209:
+    municipalityCd: "26209"
+    prefectureId: 26
+    municipalityName: 長岡京市
+  26210:
+    municipalityCd: "26210"
+    prefectureId: 26
+    municipalityName: 八幡市
+  26211:
+    municipalityCd: "26211"
+    prefectureId: 26
+    municipalityName: 京田辺市
+  26212:
+    municipalityCd: "26212"
+    prefectureId: 26
+    municipalityName: 京丹後市
+  26213:
+    municipalityCd: "26213"
+    prefectureId: 26
+    municipalityName: 南丹市
+  26214:
+    municipalityCd: "26214"
+    prefectureId: 26
+    municipalityName: 木津川市
+  26303:
+    municipalityCd: "26303"
+    prefectureId: 26
+    municipalityName: 乙訓郡 大山崎町
+  26322:
+    municipalityCd: "26322"
+    prefectureId: 26
+    municipalityName: 久世郡 久御山町
+  26343:
+    municipalityCd: "26343"
+    prefectureId: 26
+    municipalityName: 綴喜郡 井手町
+  26344:
+    municipalityCd: "26344"
+    prefectureId: 26
+    municipalityName: 綴喜郡 宇治田原町
+  26364:
+    municipalityCd: "26364"
+    prefectureId: 26
+    municipalityName: 相楽郡 笠置町
+  26365:
+    municipalityCd: "26365"
+    prefectureId: 26
+    municipalityName: 相楽郡 和束町
+  26366:
+    municipalityCd: "26366"
+    prefectureId: 26
+    municipalityName: 相楽郡 精華町
+  26367:
+    municipalityCd: "26367"
+    prefectureId: 26
+    municipalityName: 相楽郡 南山城村
+  26407:
+    municipalityCd: "26407"
+    prefectureId: 26
+    municipalityName: 船井郡 京丹波町
+  26463:
+    municipalityCd: "26463"
+    prefectureId: 26
+    municipalityName: 与謝郡 伊根町
+  26465:
+    municipalityCd: "26465"
+    prefectureId: 26
+    municipalityName: 与謝郡 与謝野町
+  27102:
+    municipalityCd: "27102"
+    prefectureId: 27
+    municipalityName: 大阪市 都島区
+  27103:
+    municipalityCd: "27103"
+    prefectureId: 27
+    municipalityName: 大阪市 福島区
+  27104:
+    municipalityCd: "27104"
+    prefectureId: 27
+    municipalityName: 大阪市 此花区
+  27106:
+    municipalityCd: "27106"
+    prefectureId: 27
+    municipalityName: 大阪市 西区
+  27107:
+    municipalityCd: "27107"
+    prefectureId: 27
+    municipalityName: 大阪市 港区
+  27108:
+    municipalityCd: "27108"
+    prefectureId: 27
+    municipalityName: 大阪市 大正区
+  27109:
+    municipalityCd: "27109"
+    prefectureId: 27
+    municipalityName: 大阪市 天王寺区
+  27111:
+    municipalityCd: "27111"
+    prefectureId: 27
+    municipalityName: 大阪市 浪速区
+  27113:
+    municipalityCd: "27113"
+    prefectureId: 27
+    municipalityName: 大阪市 西淀川区
+  27114:
+    municipalityCd: "27114"
+    prefectureId: 27
+    municipalityName: 大阪市 東淀川区
+  27115:
+    municipalityCd: "27115"
+    prefectureId: 27
+    municipalityName: 大阪市 東成区
+  27116:
+    municipalityCd: "27116"
+    prefectureId: 27
+    municipalityName: 大阪市 生野区
+  27117:
+    municipalityCd: "27117"
+    prefectureId: 27
+    municipalityName: 大阪市 旭区
+  27118:
+    municipalityCd: "27118"
+    prefectureId: 27
+    municipalityName: 大阪市 城東区
+  27119:
+    municipalityCd: "27119"
+    prefectureId: 27
+    municipalityName: 大阪市 阿倍野区
+  27120:
+    municipalityCd: "27120"
+    prefectureId: 27
+    municipalityName: 大阪市 住吉区
+  27121:
+    municipalityCd: "27121"
+    prefectureId: 27
+    municipalityName: 大阪市 東住吉区
+  27122:
+    municipalityCd: "27122"
+    prefectureId: 27
+    municipalityName: 大阪市 西成区
+  27123:
+    municipalityCd: "27123"
+    prefectureId: 27
+    municipalityName: 大阪市 淀川区
+  27124:
+    municipalityCd: "27124"
+    prefectureId: 27
+    municipalityName: 大阪市 鶴見区
+  27125:
+    municipalityCd: "27125"
+    prefectureId: 27
+    municipalityName: 大阪市 住之江区
+  27126:
+    municipalityCd: "27126"
+    prefectureId: 27
+    municipalityName: 大阪市 平野区
+  27127:
+    municipalityCd: "27127"
+    prefectureId: 27
+    municipalityName: 大阪市 北区
+  27128:
+    municipalityCd: "27128"
+    prefectureId: 27
+    municipalityName: 大阪市 中央区
+  27141:
+    municipalityCd: "27141"
+    prefectureId: 27
+    municipalityName: 堺市 堺区
+  27142:
+    municipalityCd: "27142"
+    prefectureId: 27
+    municipalityName: 堺市 中区
+  27143:
+    municipalityCd: "27143"
+    prefectureId: 27
+    municipalityName: 堺市 東区
+  27144:
+    municipalityCd: "27144"
+    prefectureId: 27
+    municipalityName: 堺市 西区
+  27145:
+    municipalityCd: "27145"
+    prefectureId: 27
+    municipalityName: 堺市 南区
+  27146:
+    municipalityCd: "27146"
+    prefectureId: 27
+    municipalityName: 堺市 北区
+  27147:
+    municipalityCd: "27147"
+    prefectureId: 27
+    municipalityName: 堺市 美原区
+  27202:
+    municipalityCd: "27202"
+    prefectureId: 27
+    municipalityName: 岸和田市
+  27203:
+    municipalityCd: "27203"
+    prefectureId: 27
+    municipalityName: 豊中市
+  27204:
+    municipalityCd: "27204"
+    prefectureId: 27
+    municipalityName: 池田市
+  27205:
+    municipalityCd: "27205"
+    prefectureId: 27
+    municipalityName: 吹田市
+  27206:
+    municipalityCd: "27206"
+    prefectureId: 27
+    municipalityName: 泉大津市
+  27207:
+    municipalityCd: "27207"
+    prefectureId: 27
+    municipalityName: 高槻市
+  27208:
+    municipalityCd: "27208"
+    prefectureId: 27
+    municipalityName: 貝塚市
+  27209:
+    municipalityCd: "27209"
+    prefectureId: 27
+    municipalityName: 守口市
+  27210:
+    municipalityCd: "27210"
+    prefectureId: 27
+    municipalityName: 枚方市
+  27211:
+    municipalityCd: "27211"
+    prefectureId: 27
+    municipalityName: 茨木市
+  27212:
+    municipalityCd: "27212"
+    prefectureId: 27
+    municipalityName: 八尾市
+  27213:
+    municipalityCd: "27213"
+    prefectureId: 27
+    municipalityName: 泉佐野市
+  27214:
+    municipalityCd: "27214"
+    prefectureId: 27
+    municipalityName: 富田林市
+  27215:
+    municipalityCd: "27215"
+    prefectureId: 27
+    municipalityName: 寝屋川市
+  27216:
+    municipalityCd: "27216"
+    prefectureId: 27
+    municipalityName: 河内長野市
+  27217:
+    municipalityCd: "27217"
+    prefectureId: 27
+    municipalityName: 松原市
+  27218:
+    municipalityCd: "27218"
+    prefectureId: 27
+    municipalityName: 大東市
+  27219:
+    municipalityCd: "27219"
+    prefectureId: 27
+    municipalityName: 和泉市
+  27220:
+    municipalityCd: "27220"
+    prefectureId: 27
+    municipalityName: 箕面市
+  27221:
+    municipalityCd: "27221"
+    prefectureId: 27
+    municipalityName: 柏原市
+  27222:
+    municipalityCd: "27222"
+    prefectureId: 27
+    municipalityName: 羽曳野市
+  27223:
+    municipalityCd: "27223"
+    prefectureId: 27
+    municipalityName: 門真市
+  27224:
+    municipalityCd: "27224"
+    prefectureId: 27
+    municipalityName: 摂津市
+  27225:
+    municipalityCd: "27225"
+    prefectureId: 27
+    municipalityName: 高石市
+  27226:
+    municipalityCd: "27226"
+    prefectureId: 27
+    municipalityName: 藤井寺市
+  27227:
+    municipalityCd: "27227"
+    prefectureId: 27
+    municipalityName: 東大阪市
+  27228:
+    municipalityCd: "27228"
+    prefectureId: 27
+    municipalityName: 泉南市
+  27229:
+    municipalityCd: "27229"
+    prefectureId: 27
+    municipalityName: 四条畷市
+  27230:
+    municipalityCd: "27230"
+    prefectureId: 27
+    municipalityName: 交野市
+  27231:
+    municipalityCd: "27231"
+    prefectureId: 27
+    municipalityName: 大阪狭山市
+  27232:
+    municipalityCd: "27232"
+    prefectureId: 27
+    municipalityName: 阪南市
+  27301:
+    municipalityCd: "27301"
+    prefectureId: 27
+    municipalityName: 三島郡 島本町
+  27321:
+    municipalityCd: "27321"
+    prefectureId: 27
+    municipalityName: 豊能郡 豊能町
+  27322:
+    municipalityCd: "27322"
+    prefectureId: 27
+    municipalityName: 豊能郡 能勢町
+  27341:
+    municipalityCd: "27341"
+    prefectureId: 27
+    municipalityName: 泉北郡 忠岡町
+  27361:
+    municipalityCd: "27361"
+    prefectureId: 27
+    municipalityName: 泉南郡 熊取町
+  27362:
+    municipalityCd: "27362"
+    prefectureId: 27
+    municipalityName: 泉南郡 田尻町
+  27366:
+    municipalityCd: "27366"
+    prefectureId: 27
+    municipalityName: 泉南郡 岬町
+  27381:
+    municipalityCd: "27381"
+    prefectureId: 27
+    municipalityName: 南河内郡 太子町
+  27382:
+    municipalityCd: "27382"
+    prefectureId: 27
+    municipalityName: 南河内郡 河南町
+  27383:
+    municipalityCd: "27383"
+    prefectureId: 27
+    municipalityName: 南河内郡 千早赤阪村
+  28101:
+    municipalityCd: "28101"
+    prefectureId: 28
+    municipalityName: 神戸市 東灘区
+  28102:
+    municipalityCd: "28102"
+    prefectureId: 28
+    municipalityName: 神戸市 灘区
+  28105:
+    municipalityCd: "28105"
+    prefectureId: 28
+    municipalityName: 神戸市 兵庫区
+  28106:
+    municipalityCd: "28106"
+    prefectureId: 28
+    municipalityName: 神戸市 長田区
+  28107:
+    municipalityCd: "28107"
+    prefectureId: 28
+    municipalityName: 神戸市 須磨区
+  28108:
+    municipalityCd: "28108"
+    prefectureId: 28
+    municipalityName: 神戸市 垂水区
+  28109:
+    municipalityCd: "28109"
+    prefectureId: 28
+    municipalityName: 神戸市 北区
+  28110:
+    municipalityCd: "28110"
+    prefectureId: 28
+    municipalityName: 神戸市 中央区
+  28111:
+    municipalityCd: "28111"
+    prefectureId: 28
+    municipalityName: 神戸市 西区
+  28201:
+    municipalityCd: "28201"
+    prefectureId: 28
+    municipalityName: 姫路市
+  28202:
+    municipalityCd: "28202"
+    prefectureId: 28
+    municipalityName: 尼崎市
+  28203:
+    municipalityCd: "28203"
+    prefectureId: 28
+    municipalityName: 明石市
+  28204:
+    municipalityCd: "28204"
+    prefectureId: 28
+    municipalityName: 西宮市
+  28205:
+    municipalityCd: "28205"
+    prefectureId: 28
+    municipalityName: 洲本市
+  28206:
+    municipalityCd: "28206"
+    prefectureId: 28
+    municipalityName: 芦屋市
+  28207:
+    municipalityCd: "28207"
+    prefectureId: 28
+    municipalityName: 伊丹市
+  28208:
+    municipalityCd: "28208"
+    prefectureId: 28
+    municipalityName: 相生市
+  28209:
+    municipalityCd: "28209"
+    prefectureId: 28
+    municipalityName: 豊岡市
+  28210:
+    municipalityCd: "28210"
+    prefectureId: 28
+    municipalityName: 加古川市
+  28212:
+    municipalityCd: "28212"
+    prefectureId: 28
+    municipalityName: 赤穂市
+  28213:
+    municipalityCd: "28213"
+    prefectureId: 28
+    municipalityName: 西脇市
+  28214:
+    municipalityCd: "28214"
+    prefectureId: 28
+    municipalityName: 宝塚市
+  28215:
+    municipalityCd: "28215"
+    prefectureId: 28
+    municipalityName: 三木市
+  28216:
+    municipalityCd: "28216"
+    prefectureId: 28
+    municipalityName: 高砂市
+  28217:
+    municipalityCd: "28217"
+    prefectureId: 28
+    municipalityName: 川西市
+  28218:
+    municipalityCd: "28218"
+    prefectureId: 28
+    municipalityName: 小野市
+  28219:
+    municipalityCd: "28219"
+    prefectureId: 28
+    municipalityName: 三田市
+  28220:
+    municipalityCd: "28220"
+    prefectureId: 28
+    municipalityName: 加西市
+  28221:
+    municipalityCd: "28221"
+    prefectureId: 28
+    municipalityName: 篠山市
+  28222:
+    municipalityCd: "28222"
+    prefectureId: 28
+    municipalityName: 養父市
+  28223:
+    municipalityCd: "28223"
+    prefectureId: 28
+    municipalityName: 丹波市
+  28224:
+    municipalityCd: "28224"
+    prefectureId: 28
+    municipalityName: 南あわじ市
+  28225:
+    municipalityCd: "28225"
+    prefectureId: 28
+    municipalityName: 朝来市
+  28226:
+    municipalityCd: "28226"
+    prefectureId: 28
+    municipalityName: 淡路市
+  28227:
+    municipalityCd: "28227"
+    prefectureId: 28
+    municipalityName: 宍粟市
+  28228:
+    municipalityCd: "28228"
+    prefectureId: 28
+    municipalityName: 加東市
+  28229:
+    municipalityCd: "28229"
+    prefectureId: 28
+    municipalityName: たつの市
+  28301:
+    municipalityCd: "28301"
+    prefectureId: 28
+    municipalityName: 川辺郡 猪名川町
+  28365:
+    municipalityCd: "28365"
+    prefectureId: 28
+    municipalityName: 多可郡 多可町
+  28381:
+    municipalityCd: "28381"
+    prefectureId: 28
+    municipalityName: 加古郡 稲美町
+  28382:
+    municipalityCd: "28382"
+    prefectureId: 28
+    municipalityName: 加古郡 播磨町
+  28442:
+    municipalityCd: "28442"
+    prefectureId: 28
+    municipalityName: 神崎郡 市川町
+  28443:
+    municipalityCd: "28443"
+    prefectureId: 28
+    municipalityName: 神崎郡 福崎町
+  28446:
+    municipalityCd: "28446"
+    prefectureId: 28
+    municipalityName: 神崎郡 神河町
+  28464:
+    municipalityCd: "28464"
+    prefectureId: 28
+    municipalityName: 揖保郡 太子町
+  28481:
+    municipalityCd: "28481"
+    prefectureId: 28
+    municipalityName: 赤穂郡 上郡町
+  28501:
+    municipalityCd: "28501"
+    prefectureId: 28
+    municipalityName: 佐用郡 佐用町
+  28585:
+    municipalityCd: "28585"
+    prefectureId: 28
+    municipalityName: 美方郡 香美町
+  28586:
+    municipalityCd: "28586"
+    prefectureId: 28
+    municipalityName: 美方郡 新温泉町
+  29201:
+    municipalityCd: "29201"
+    prefectureId: 29
+    municipalityName: 奈良市
+  29202:
+    municipalityCd: "29202"
+    prefectureId: 29
+    municipalityName: 大和高田市
+  29203:
+    municipalityCd: "29203"
+    prefectureId: 29
+    municipalityName: 大和郡山市
+  29204:
+    municipalityCd: "29204"
+    prefectureId: 29
+    municipalityName: 天理市
+  29205:
+    municipalityCd: "29205"
+    prefectureId: 29
+    municipalityName: 橿原市
+  29206:
+    municipalityCd: "29206"
+    prefectureId: 29
+    municipalityName: 桜井市
+  29207:
+    municipalityCd: "29207"
+    prefectureId: 29
+    municipalityName: 五條市
+  29208:
+    municipalityCd: "29208"
+    prefectureId: 29
+    municipalityName: 御所市
+  29209:
+    municipalityCd: "29209"
+    prefectureId: 29
+    municipalityName: 生駒市
+  29210:
+    municipalityCd: "29210"
+    prefectureId: 29
+    municipalityName: 香芝市
+  29211:
+    municipalityCd: "29211"
+    prefectureId: 29
+    municipalityName: 葛城市
+  29212:
+    municipalityCd: "29212"
+    prefectureId: 29
+    municipalityName: 宇陀市
+  29322:
+    municipalityCd: "29322"
+    prefectureId: 29
+    municipalityName: 山辺郡 山添村
+  29342:
+    municipalityCd: "29342"
+    prefectureId: 29
+    municipalityName: 生駒郡 平群町
+  29343:
+    municipalityCd: "29343"
+    prefectureId: 29
+    municipalityName: 生駒郡 三郷町
+  29344:
+    municipalityCd: "29344"
+    prefectureId: 29
+    municipalityName: 生駒郡 斑鳩町
+  29345:
+    municipalityCd: "29345"
+    prefectureId: 29
+    municipalityName: 生駒郡 安堵町
+  29361:
+    municipalityCd: "29361"
+    prefectureId: 29
+    municipalityName: 磯城郡 川西町
+  29362:
+    municipalityCd: "29362"
+    prefectureId: 29
+    municipalityName: 磯城郡 三宅町
+  29363:
+    municipalityCd: "29363"
+    prefectureId: 29
+    municipalityName: 磯城郡 田原本町
+  29385:
+    municipalityCd: "29385"
+    prefectureId: 29
+    municipalityName: 宇陀郡 曽爾村
+  29386:
+    municipalityCd: "29386"
+    prefectureId: 29
+    municipalityName: 宇陀郡 御杖村
+  29401:
+    municipalityCd: "29401"
+    prefectureId: 29
+    municipalityName: 高市郡 高取町
+  29402:
+    municipalityCd: "29402"
+    prefectureId: 29
+    municipalityName: 高市郡 明日香村
+  29424:
+    municipalityCd: "29424"
+    prefectureId: 29
+    municipalityName: 北葛城郡 上牧町
+  29425:
+    municipalityCd: "29425"
+    prefectureId: 29
+    municipalityName: 北葛城郡 王寺町
+  29426:
+    municipalityCd: "29426"
+    prefectureId: 29
+    municipalityName: 北葛城郡 広陵町
+  29427:
+    municipalityCd: "29427"
+    prefectureId: 29
+    municipalityName: 北葛城郡 河合町
+  29441:
+    municipalityCd: "29441"
+    prefectureId: 29
+    municipalityName: 吉野郡 吉野町
+  29442:
+    municipalityCd: "29442"
+    prefectureId: 29
+    municipalityName: 吉野郡 大淀町
+  29443:
+    municipalityCd: "29443"
+    prefectureId: 29
+    municipalityName: 吉野郡 下市町
+  29444:
+    municipalityCd: "29444"
+    prefectureId: 29
+    municipalityName: 吉野郡 黒滝村
+  29446:
+    municipalityCd: "29446"
+    prefectureId: 29
+    municipalityName: 吉野郡 天川村
+  29447:
+    municipalityCd: "29447"
+    prefectureId: 29
+    municipalityName: 吉野郡 野迫川村
+  29449:
+    municipalityCd: "29449"
+    prefectureId: 29
+    municipalityName: 吉野郡 十津川村
+  29450:
+    municipalityCd: "29450"
+    prefectureId: 29
+    municipalityName: 吉野郡 下北山村
+  29451:
+    municipalityCd: "29451"
+    prefectureId: 29
+    municipalityName: 吉野郡 上北山村
+  29452:
+    municipalityCd: "29452"
+    prefectureId: 29
+    municipalityName: 吉野郡 川上村
+  29453:
+    municipalityCd: "29453"
+    prefectureId: 29
+    municipalityName: 吉野郡 東吉野村
+  30201:
+    municipalityCd: "30201"
+    prefectureId: 30
+    municipalityName: 和歌山市
+  30202:
+    municipalityCd: "30202"
+    prefectureId: 30
+    municipalityName: 海南市
+  30203:
+    municipalityCd: "30203"
+    prefectureId: 30
+    municipalityName: 橋本市
+  30204:
+    municipalityCd: "30204"
+    prefectureId: 30
+    municipalityName: 有田市
+  30205:
+    municipalityCd: "30205"
+    prefectureId: 30
+    municipalityName: 御坊市
+  30206:
+    municipalityCd: "30206"
+    prefectureId: 30
+    municipalityName: 田辺市
+  30207:
+    municipalityCd: "30207"
+    prefectureId: 30
+    municipalityName: 新宮市
+  30208:
+    municipalityCd: "30208"
+    prefectureId: 30
+    municipalityName: 紀の川市
+  30209:
+    municipalityCd: "30209"
+    prefectureId: 30
+    municipalityName: 岩出市
+  30304:
+    municipalityCd: "30304"
+    prefectureId: 30
+    municipalityName: 海草郡 紀美野町
+  30341:
+    municipalityCd: "30341"
+    prefectureId: 30
+    municipalityName: 伊都郡 かつらぎ町
+  30343:
+    municipalityCd: "30343"
+    prefectureId: 30
+    municipalityName: 伊都郡 九度山町
+  30344:
+    municipalityCd: "30344"
+    prefectureId: 30
+    municipalityName: 伊都郡 高野町
+  30361:
+    municipalityCd: "30361"
+    prefectureId: 30
+    municipalityName: 有田郡 湯浅町
+  30362:
+    municipalityCd: "30362"
+    prefectureId: 30
+    municipalityName: 有田郡 広川町
+  30366:
+    municipalityCd: "30366"
+    prefectureId: 30
+    municipalityName: 有田郡 有田川町
+  30381:
+    municipalityCd: "30381"
+    prefectureId: 30
+    municipalityName: 日高郡 美浜町
+  30382:
+    municipalityCd: "30382"
+    prefectureId: 30
+    municipalityName: 日高郡 日高町
+  30383:
+    municipalityCd: "30383"
+    prefectureId: 30
+    municipalityName: 日高郡 由良町
+  30390:
+    municipalityCd: "30390"
+    prefectureId: 30
+    municipalityName: 日高郡 印南町
+  30391:
+    municipalityCd: "30391"
+    prefectureId: 30
+    municipalityName: 日高郡 みなべ町
+  30392:
+    municipalityCd: "30392"
+    prefectureId: 30
+    municipalityName: 日高郡 日高川町
+  30401:
+    municipalityCd: "30401"
+    prefectureId: 30
+    municipalityName: 西牟婁郡 白浜町
+  30404:
+    municipalityCd: "30404"
+    prefectureId: 30
+    municipalityName: 西牟婁郡 上富田町
+  30406:
+    municipalityCd: "30406"
+    prefectureId: 30
+    municipalityName: 西牟婁郡 すさみ町
+  30421:
+    municipalityCd: "30421"
+    prefectureId: 30
+    municipalityName: 東牟婁郡 那智勝浦町
+  30422:
+    municipalityCd: "30422"
+    prefectureId: 30
+    municipalityName: 東牟婁郡 太地町
+  30424:
+    municipalityCd: "30424"
+    prefectureId: 30
+    municipalityName: 東牟婁郡 古座川町
+  30427:
+    municipalityCd: "30427"
+    prefectureId: 30
+    municipalityName: 東牟婁郡 北山村
+  30428:
+    municipalityCd: "30428"
+    prefectureId: 30
+    municipalityName: 東牟婁郡 串本町
+  31201:
+    municipalityCd: "31201"
+    prefectureId: 31
+    municipalityName: 鳥取市
+  31202:
+    municipalityCd: "31202"
+    prefectureId: 31
+    municipalityName: 米子市
+  31203:
+    municipalityCd: "31203"
+    prefectureId: 31
+    municipalityName: 倉吉市
+  31204:
+    municipalityCd: "31204"
+    prefectureId: 31
+    municipalityName: 境港市
+  31302:
+    municipalityCd: "31302"
+    prefectureId: 31
+    municipalityName: 岩美郡 岩美町
+  31325:
+    municipalityCd: "31325"
+    prefectureId: 31
+    municipalityName: 八頭郡 若桜町
+  31328:
+    municipalityCd: "31328"
+    prefectureId: 31
+    municipalityName: 八頭郡 智頭町
+  31329:
+    municipalityCd: "31329"
+    prefectureId: 31
+    municipalityName: 八頭郡 八頭町
+  31364:
+    municipalityCd: "31364"
+    prefectureId: 31
+    municipalityName: 東伯郡 三朝町
+  31370:
+    municipalityCd: "31370"
+    prefectureId: 31
+    municipalityName: 東伯郡 湯梨浜町
+  31371:
+    municipalityCd: "31371"
+    prefectureId: 31
+    municipalityName: 東伯郡 琴浦町
+  31372:
+    municipalityCd: "31372"
+    prefectureId: 31
+    municipalityName: 東伯郡 北栄町
+  31384:
+    municipalityCd: "31384"
+    prefectureId: 31
+    municipalityName: 西伯郡 日吉津村
+  31386:
+    municipalityCd: "31386"
+    prefectureId: 31
+    municipalityName: 西伯郡 大山町
+  31389:
+    municipalityCd: "31389"
+    prefectureId: 31
+    municipalityName: 西伯郡 南部町
+  31390:
+    municipalityCd: "31390"
+    prefectureId: 31
+    municipalityName: 西伯郡 伯耆町
+  31401:
+    municipalityCd: "31401"
+    prefectureId: 31
+    municipalityName: 日野郡 日南町
+  31402:
+    municipalityCd: "31402"
+    prefectureId: 31
+    municipalityName: 日野郡 日野町
+  31403:
+    municipalityCd: "31403"
+    prefectureId: 31
+    municipalityName: 日野郡 江府町
+  32201:
+    municipalityCd: "32201"
+    prefectureId: 32
+    municipalityName: 松江市
+  32202:
+    municipalityCd: "32202"
+    prefectureId: 32
+    municipalityName: 浜田市
+  32203:
+    municipalityCd: "32203"
+    prefectureId: 32
+    municipalityName: 出雲市
+  32204:
+    municipalityCd: "32204"
+    prefectureId: 32
+    municipalityName: 益田市
+  32205:
+    municipalityCd: "32205"
+    prefectureId: 32
+    municipalityName: 大田市
+  32206:
+    municipalityCd: "32206"
+    prefectureId: 32
+    municipalityName: 安来市
+  32207:
+    municipalityCd: "32207"
+    prefectureId: 32
+    municipalityName: 江津市
+  32209:
+    municipalityCd: "32209"
+    prefectureId: 32
+    municipalityName: 雲南市
+  32304:
+    municipalityCd: "32304"
+    prefectureId: 32
+    municipalityName: 八束郡 東出雲町
+  32343:
+    municipalityCd: "32343"
+    prefectureId: 32
+    municipalityName: 仁多郡 奥出雲町
+  32386:
+    municipalityCd: "32386"
+    prefectureId: 32
+    municipalityName: 飯石郡 飯南町
+  32401:
+    municipalityCd: "32401"
+    prefectureId: 32
+    municipalityName: 簸川郡 斐川町
+  32441:
+    municipalityCd: "32441"
+    prefectureId: 32
+    municipalityName: 邑智郡 川本町
+  32448:
+    municipalityCd: "32448"
+    prefectureId: 32
+    municipalityName: 邑智郡 美郷町
+  32449:
+    municipalityCd: "32449"
+    prefectureId: 32
+    municipalityName: 邑智郡 邑南町
+  32501:
+    municipalityCd: "32501"
+    prefectureId: 32
+    municipalityName: 鹿足郡 津和野町
+  32505:
+    municipalityCd: "32505"
+    prefectureId: 32
+    municipalityName: 鹿足郡 吉賀町
+  32525:
+    municipalityCd: "32525"
+    prefectureId: 32
+    municipalityName: 隠岐郡 海士町
+  32526:
+    municipalityCd: "32526"
+    prefectureId: 32
+    municipalityName: 隠岐郡 西ノ島町
+  32527:
+    municipalityCd: "32527"
+    prefectureId: 32
+    municipalityName: 隠岐郡 知夫村
+  32528:
+    municipalityCd: "32528"
+    prefectureId: 32
+    municipalityName: 隠岐郡 隠岐の島町
+  33101:
+    municipalityCd: "33101"
+    prefectureId: 33
+    municipalityName: 岡山市 北区
+  33102:
+    municipalityCd: "33102"
+    prefectureId: 33
+    municipalityName: 岡山市 中区
+  33103:
+    municipalityCd: "33103"
+    prefectureId: 33
+    municipalityName: 岡山市 東区
+  33104:
+    municipalityCd: "33104"
+    prefectureId: 33
+    municipalityName: 岡山市 南区
+  33202:
+    municipalityCd: "33202"
+    prefectureId: 33
+    municipalityName: 倉敷市
+  33203:
+    municipalityCd: "33203"
+    prefectureId: 33
+    municipalityName: 津山市
+  33204:
+    municipalityCd: "33204"
+    prefectureId: 33
+    municipalityName: 玉野市
+  33205:
+    municipalityCd: "33205"
+    prefectureId: 33
+    municipalityName: 笠岡市
+  33207:
+    municipalityCd: "33207"
+    prefectureId: 33
+    municipalityName: 井原市
+  33208:
+    municipalityCd: "33208"
+    prefectureId: 33
+    municipalityName: 総社市
+  33209:
+    municipalityCd: "33209"
+    prefectureId: 33
+    municipalityName: 高梁市
+  33210:
+    municipalityCd: "33210"
+    prefectureId: 33
+    municipalityName: 新見市
+  33211:
+    municipalityCd: "33211"
+    prefectureId: 33
+    municipalityName: 備前市
+  33212:
+    municipalityCd: "33212"
+    prefectureId: 33
+    municipalityName: 瀬戸内市
+  33213:
+    municipalityCd: "33213"
+    prefectureId: 33
+    municipalityName: 赤磐市
+  33214:
+    municipalityCd: "33214"
+    prefectureId: 33
+    municipalityName: 真庭市
+  33215:
+    municipalityCd: "33215"
+    prefectureId: 33
+    municipalityName: 美作市
+  33216:
+    municipalityCd: "33216"
+    prefectureId: 33
+    municipalityName: 浅口市
+  33346:
+    municipalityCd: "33346"
+    prefectureId: 33
+    municipalityName: 和気郡 和気町
+  33423:
+    municipalityCd: "33423"
+    prefectureId: 33
+    municipalityName: 都窪郡 早島町
+  33445:
+    municipalityCd: "33445"
+    prefectureId: 33
+    municipalityName: 浅口郡 里庄町
+  33461:
+    municipalityCd: "33461"
+    prefectureId: 33
+    municipalityName: 小田郡 矢掛町
+  33586:
+    municipalityCd: "33586"
+    prefectureId: 33
+    municipalityName: 真庭郡 新庄村
+  33606:
+    municipalityCd: "33606"
+    prefectureId: 33
+    municipalityName: 苫田郡 鏡野町
+  33622:
+    municipalityCd: "33622"
+    prefectureId: 33
+    municipalityName: 勝田郡 勝央町
+  33623:
+    municipalityCd: "33623"
+    prefectureId: 33
+    municipalityName: 勝田郡 奈義町
+  33643:
+    municipalityCd: "33643"
+    prefectureId: 33
+    municipalityName: 英田郡 西粟倉村
+  33663:
+    municipalityCd: "33663"
+    prefectureId: 33
+    municipalityName: 久米郡 久米南町
+  33666:
+    municipalityCd: "33666"
+    prefectureId: 33
+    municipalityName: 久米郡 美咲町
+  33681:
+    municipalityCd: "33681"
+    prefectureId: 33
+    municipalityName: 加賀郡 吉備中央町
+  34101:
+    municipalityCd: "34101"
+    prefectureId: 34
+    municipalityName: 広島市 中区
+  34102:
+    municipalityCd: "34102"
+    prefectureId: 34
+    municipalityName: 広島市 東区
+  34103:
+    municipalityCd: "34103"
+    prefectureId: 34
+    municipalityName: 広島市 南区
+  34104:
+    municipalityCd: "34104"
+    prefectureId: 34
+    municipalityName: 広島市 西区
+  34105:
+    municipalityCd: "34105"
+    prefectureId: 34
+    municipalityName: 広島市 安佐南区
+  34106:
+    municipalityCd: "34106"
+    prefectureId: 34
+    municipalityName: 広島市 安佐北区
+  34107:
+    municipalityCd: "34107"
+    prefectureId: 34
+    municipalityName: 広島市 安芸区
+  34108:
+    municipalityCd: "34108"
+    prefectureId: 34
+    municipalityName: 広島市 佐伯区
+  34202:
+    municipalityCd: "34202"
+    prefectureId: 34
+    municipalityName: 呉市
+  34203:
+    municipalityCd: "34203"
+    prefectureId: 34
+    municipalityName: 竹原市
+  34204:
+    municipalityCd: "34204"
+    prefectureId: 34
+    municipalityName: 三原市
+  34205:
+    municipalityCd: "34205"
+    prefectureId: 34
+    municipalityName: 尾道市
+  34207:
+    municipalityCd: "34207"
+    prefectureId: 34
+    municipalityName: 福山市
+  34208:
+    municipalityCd: "34208"
+    prefectureId: 34
+    municipalityName: 府中市
+  34209:
+    municipalityCd: "34209"
+    prefectureId: 34
+    municipalityName: 三次市
+  34210:
+    municipalityCd: "34210"
+    prefectureId: 34
+    municipalityName: 庄原市
+  34211:
+    municipalityCd: "34211"
+    prefectureId: 34
+    municipalityName: 大竹市
+  34212:
+    municipalityCd: "34212"
+    prefectureId: 34
+    municipalityName: 東広島市
+  34213:
+    municipalityCd: "34213"
+    prefectureId: 34
+    municipalityName: 廿日市市
+  34214:
+    municipalityCd: "34214"
+    prefectureId: 34
+    municipalityName: 安芸高田市
+  34215:
+    municipalityCd: "34215"
+    prefectureId: 34
+    municipalityName: 江田島市
+  34302:
+    municipalityCd: "34302"
+    prefectureId: 34
+    municipalityName: 安芸郡 府中町
+  34304:
+    municipalityCd: "34304"
+    prefectureId: 34
+    municipalityName: 安芸郡 海田町
+  34307:
+    municipalityCd: "34307"
+    prefectureId: 34
+    municipalityName: 安芸郡 熊野町
+  34309:
+    municipalityCd: "34309"
+    prefectureId: 34
+    municipalityName: 安芸郡 坂町
+  34368:
+    municipalityCd: "34368"
+    prefectureId: 34
+    municipalityName: 山県郡 安芸太田町
+  34369:
+    municipalityCd: "34369"
+    prefectureId: 34
+    municipalityName: 山県郡 北広島町
+  34431:
+    municipalityCd: "34431"
+    prefectureId: 34
+    municipalityName: 豊田郡 大崎上島町
+  34462:
+    municipalityCd: "34462"
+    prefectureId: 34
+    municipalityName: 世羅郡 世羅町
+  34545:
+    municipalityCd: "34545"
+    prefectureId: 34
+    municipalityName: 神石郡 神石高原町
+  35201:
+    municipalityCd: "35201"
+    prefectureId: 35
+    municipalityName: 下関市
+  35202:
+    municipalityCd: "35202"
+    prefectureId: 35
+    municipalityName: 宇部市
+  35203:
+    municipalityCd: "35203"
+    prefectureId: 35
+    municipalityName: 山口市
+  35204:
+    municipalityCd: "35204"
+    prefectureId: 35
+    municipalityName: 萩市
+  35206:
+    municipalityCd: "35206"
+    prefectureId: 35
+    municipalityName: 防府市
+  35207:
+    municipalityCd: "35207"
+    prefectureId: 35
+    municipalityName: 下松市
+  35208:
+    municipalityCd: "35208"
+    prefectureId: 35
+    municipalityName: 岩国市
+  35210:
+    municipalityCd: "35210"
+    prefectureId: 35
+    municipalityName: 光市
+  35211:
+    municipalityCd: "35211"
+    prefectureId: 35
+    municipalityName: 長門市
+  35212:
+    municipalityCd: "35212"
+    prefectureId: 35
+    municipalityName: 柳井市
+  35213:
+    municipalityCd: "35213"
+    prefectureId: 35
+    municipalityName: 美祢市
+  35215:
+    municipalityCd: "35215"
+    prefectureId: 35
+    municipalityName: 周南市
+  35216:
+    municipalityCd: "35216"
+    prefectureId: 35
+    municipalityName: 山陽小野田市
+  35305:
+    municipalityCd: "35305"
+    prefectureId: 35
+    municipalityName: 大島郡 周防大島町
+  35321:
+    municipalityCd: "35321"
+    prefectureId: 35
+    municipalityName: 玖珂郡 和木町
+  35341:
+    municipalityCd: "35341"
+    prefectureId: 35
+    municipalityName: 熊毛郡 上関町
+  35343:
+    municipalityCd: "35343"
+    prefectureId: 35
+    municipalityName: 熊毛郡 田布施町
+  35344:
+    municipalityCd: "35344"
+    prefectureId: 35
+    municipalityName: 熊毛郡 平生町
+  35502:
+    municipalityCd: "35502"
+    prefectureId: 35
+    municipalityName: 阿武郡 阿武町
+  36201:
+    municipalityCd: "36201"
+    prefectureId: 36
+    municipalityName: 徳島市
+  36202:
+    municipalityCd: "36202"
+    prefectureId: 36
+    municipalityName: 鳴門市
+  36203:
+    municipalityCd: "36203"
+    prefectureId: 36
+    municipalityName: 小松島市
+  36204:
+    municipalityCd: "36204"
+    prefectureId: 36
+    municipalityName: 阿南市
+  36205:
+    municipalityCd: "36205"
+    prefectureId: 36
+    municipalityName: 吉野川市
+  36206:
+    municipalityCd: "36206"
+    prefectureId: 36
+    municipalityName: 阿波市
+  36207:
+    municipalityCd: "36207"
+    prefectureId: 36
+    municipalityName: 美馬市
+  36208:
+    municipalityCd: "36208"
+    prefectureId: 36
+    municipalityName: 三好市
+  36301:
+    municipalityCd: "36301"
+    prefectureId: 36
+    municipalityName: 勝浦郡 勝浦町
+  36302:
+    municipalityCd: "36302"
+    prefectureId: 36
+    municipalityName: 勝浦郡 上勝町
+  36321:
+    municipalityCd: "36321"
+    prefectureId: 36
+    municipalityName: 名東郡 佐那河内村
+  36341:
+    municipalityCd: "36341"
+    prefectureId: 36
+    municipalityName: 名西郡 石井町
+  36342:
+    municipalityCd: "36342"
+    prefectureId: 36
+    municipalityName: 名西郡 神山町
+  36368:
+    municipalityCd: "36368"
+    prefectureId: 36
+    municipalityName: 那賀郡 那賀町
+  36383:
+    municipalityCd: "36383"
+    prefectureId: 36
+    municipalityName: 海部郡 牟岐町
+  36387:
+    municipalityCd: "36387"
+    prefectureId: 36
+    municipalityName: 海部郡 美波町
+  36388:
+    municipalityCd: "36388"
+    prefectureId: 36
+    municipalityName: 海部郡 海陽町
+  36401:
+    municipalityCd: "36401"
+    prefectureId: 36
+    municipalityName: 板野郡 松茂町
+  36402:
+    municipalityCd: "36402"
+    prefectureId: 36
+    municipalityName: 板野郡 北島町
+  36403:
+    municipalityCd: "36403"
+    prefectureId: 36
+    municipalityName: 板野郡 藍住町
+  36404:
+    municipalityCd: "36404"
+    prefectureId: 36
+    municipalityName: 板野郡 板野町
+  36405:
+    municipalityCd: "36405"
+    prefectureId: 36
+    municipalityName: 板野郡 上板町
+  36468:
+    municipalityCd: "36468"
+    prefectureId: 36
+    municipalityName: 美馬郡 つるぎ町
+  36489:
+    municipalityCd: "36489"
+    prefectureId: 36
+    municipalityName: 三好郡 東みよし町
+  37201:
+    municipalityCd: "37201"
+    prefectureId: 37
+    municipalityName: 高松市
+  37202:
+    municipalityCd: "37202"
+    prefectureId: 37
+    municipalityName: 丸亀市
+  37203:
+    municipalityCd: "37203"
+    prefectureId: 37
+    municipalityName: 坂出市
+  37204:
+    municipalityCd: "37204"
+    prefectureId: 37
+    municipalityName: 善通寺市
+  37205:
+    municipalityCd: "37205"
+    prefectureId: 37
+    municipalityName: 観音寺市
+  37206:
+    municipalityCd: "37206"
+    prefectureId: 37
+    municipalityName: さぬき市
+  37207:
+    municipalityCd: "37207"
+    prefectureId: 37
+    municipalityName: 東かがわ市
+  37208:
+    municipalityCd: "37208"
+    prefectureId: 37
+    municipalityName: 三豊市
+  37322:
+    municipalityCd: "37322"
+    prefectureId: 37
+    municipalityName: 小豆郡 土庄町
+  37324:
+    municipalityCd: "37324"
+    prefectureId: 37
+    municipalityName: 小豆郡 小豆島町
+  37341:
+    municipalityCd: "37341"
+    prefectureId: 37
+    municipalityName: 木田郡 三木町
+  37364:
+    municipalityCd: "37364"
+    prefectureId: 37
+    municipalityName: 香川郡 直島町
+  37386:
+    municipalityCd: "37386"
+    prefectureId: 37
+    municipalityName: 綾歌郡 宇多津町
+  37387:
+    municipalityCd: "37387"
+    prefectureId: 37
+    municipalityName: 綾歌郡 綾川町
+  37403:
+    municipalityCd: "37403"
+    prefectureId: 37
+    municipalityName: 仲多度郡 琴平町
+  37404:
+    municipalityCd: "37404"
+    prefectureId: 37
+    municipalityName: 仲多度郡 多度津町
+  37406:
+    municipalityCd: "37406"
+    prefectureId: 37
+    municipalityName: 仲多度郡 まんのう町
+  38201:
+    municipalityCd: "38201"
+    prefectureId: 38
+    municipalityName: 松山市
+  38202:
+    municipalityCd: "38202"
+    prefectureId: 38
+    municipalityName: 今治市
+  38203:
+    municipalityCd: "38203"
+    prefectureId: 38
+    municipalityName: 宇和島市
+  38204:
+    municipalityCd: "38204"
+    prefectureId: 38
+    municipalityName: 八幡浜市
+  38205:
+    municipalityCd: "38205"
+    prefectureId: 38
+    municipalityName: 新居浜市
+  38206:
+    municipalityCd: "38206"
+    prefectureId: 38
+    municipalityName: 西条市
+  38207:
+    municipalityCd: "38207"
+    prefectureId: 38
+    municipalityName: 大洲市
+  38210:
+    municipalityCd: "38210"
+    prefectureId: 38
+    municipalityName: 伊予市
+  38213:
+    municipalityCd: "38213"
+    prefectureId: 38
+    municipalityName: 四国中央市
+  38214:
+    municipalityCd: "38214"
+    prefectureId: 38
+    municipalityName: 西予市
+  38215:
+    municipalityCd: "38215"
+    prefectureId: 38
+    municipalityName: 東温市
+  38356:
+    municipalityCd: "38356"
+    prefectureId: 38
+    municipalityName: 越智郡 上島町
+  38386:
+    municipalityCd: "38386"
+    prefectureId: 38
+    municipalityName: 上浮穴郡 久万高原町
+  38401:
+    municipalityCd: "38401"
+    prefectureId: 38
+    municipalityName: 伊予郡 松前町
+  38402:
+    municipalityCd: "38402"
+    prefectureId: 38
+    municipalityName: 伊予郡 砥部町
+  38422:
+    municipalityCd: "38422"
+    prefectureId: 38
+    municipalityName: 喜多郡 内子町
+  38442:
+    municipalityCd: "38442"
+    prefectureId: 38
+    municipalityName: 西宇和郡 伊方町
+  38484:
+    municipalityCd: "38484"
+    prefectureId: 38
+    municipalityName: 北宇和郡 松野町
+  38488:
+    municipalityCd: "38488"
+    prefectureId: 38
+    municipalityName: 北宇和郡 鬼北町
+  38506:
+    municipalityCd: "38506"
+    prefectureId: 38
+    municipalityName: 南宇和郡 愛南町
+  39201:
+    municipalityCd: "39201"
+    prefectureId: 39
+    municipalityName: 高知市
+  39202:
+    municipalityCd: "39202"
+    prefectureId: 39
+    municipalityName: 室戸市
+  39203:
+    municipalityCd: "39203"
+    prefectureId: 39
+    municipalityName: 安芸市
+  39204:
+    municipalityCd: "39204"
+    prefectureId: 39
+    municipalityName: 南国市
+  39205:
+    municipalityCd: "39205"
+    prefectureId: 39
+    municipalityName: 土佐市
+  39206:
+    municipalityCd: "39206"
+    prefectureId: 39
+    municipalityName: 須崎市
+  39208:
+    municipalityCd: "39208"
+    prefectureId: 39
+    municipalityName: 宿毛市
+  39209:
+    municipalityCd: "39209"
+    prefectureId: 39
+    municipalityName: 土佐清水市
+  39210:
+    municipalityCd: "39210"
+    prefectureId: 39
+    municipalityName: 四万十市
+  39211:
+    municipalityCd: "39211"
+    prefectureId: 39
+    municipalityName: 香南市
+  39212:
+    municipalityCd: "39212"
+    prefectureId: 39
+    municipalityName: 香美市
+  39301:
+    municipalityCd: "39301"
+    prefectureId: 39
+    municipalityName: 安芸郡 東洋町
+  39302:
+    municipalityCd: "39302"
+    prefectureId: 39
+    municipalityName: 安芸郡 奈半利町
+  39303:
+    municipalityCd: "39303"
+    prefectureId: 39
+    municipalityName: 安芸郡 田野町
+  39304:
+    municipalityCd: "39304"
+    prefectureId: 39
+    municipalityName: 安芸郡 安田町
+  39305:
+    municipalityCd: "39305"
+    prefectureId: 39
+    municipalityName: 安芸郡 北川村
+  39306:
+    municipalityCd: "39306"
+    prefectureId: 39
+    municipalityName: 安芸郡 馬路村
+  39307:
+    municipalityCd: "39307"
+    prefectureId: 39
+    municipalityName: 安芸郡 芸西村
+  39341:
+    municipalityCd: "39341"
+    prefectureId: 39
+    municipalityName: 長岡郡 本山町
+  39344:
+    municipalityCd: "39344"
+    prefectureId: 39
+    municipalityName: 長岡郡 大豊町
+  39363:
+    municipalityCd: "39363"
+    prefectureId: 39
+    municipalityName: 土佐郡 土佐町
+  39364:
+    municipalityCd: "39364"
+    prefectureId: 39
+    municipalityName: 土佐郡 大川村
+  39386:
+    municipalityCd: "39386"
+    prefectureId: 39
+    municipalityName: 吾川郡 いの町
+  39387:
+    municipalityCd: "39387"
+    prefectureId: 39
+    municipalityName: 吾川郡 仁淀川町
+  39401:
+    municipalityCd: "39401"
+    prefectureId: 39
+    municipalityName: 高岡郡 中土佐町
+  39402:
+    municipalityCd: "39402"
+    prefectureId: 39
+    municipalityName: 高岡郡 佐川町
+  39403:
+    municipalityCd: "39403"
+    prefectureId: 39
+    municipalityName: 高岡郡 越知町
+  39405:
+    municipalityCd: "39405"
+    prefectureId: 39
+    municipalityName: 高岡郡 梼原町
+  39410:
+    municipalityCd: "39410"
+    prefectureId: 39
+    municipalityName: 高岡郡 日高村
+  39411:
+    municipalityCd: "39411"
+    prefectureId: 39
+    municipalityName: 高岡郡 津野町
+  39412:
+    municipalityCd: "39412"
+    prefectureId: 39
+    municipalityName: 高岡郡 四万十町
+  39424:
+    municipalityCd: "39424"
+    prefectureId: 39
+    municipalityName: 幡多郡 大月町
+  39427:
+    municipalityCd: "39427"
+    prefectureId: 39
+    municipalityName: 幡多郡 三原村
+  39428:
+    municipalityCd: "39428"
+    prefectureId: 39
+    municipalityName: 幡多郡 黒潮町
+  40101:
+    municipalityCd: "40101"
+    prefectureId: 40
+    municipalityName: 北九州市 門司区
+  40103:
+    municipalityCd: "40103"
+    prefectureId: 40
+    municipalityName: 北九州市 若松区
+  40105:
+    municipalityCd: "40105"
+    prefectureId: 40
+    municipalityName: 北九州市 戸畑区
+  40106:
+    municipalityCd: "40106"
+    prefectureId: 40
+    municipalityName: 北九州市 小倉北区
+  40107:
+    municipalityCd: "40107"
+    prefectureId: 40
+    municipalityName: 北九州市 小倉南区
+  40108:
+    municipalityCd: "40108"
+    prefectureId: 40
+    municipalityName: 北九州市 八幡東区
+  40109:
+    municipalityCd: "40109"
+    prefectureId: 40
+    municipalityName: 北九州市 八幡西区
+  40131:
+    municipalityCd: "40131"
+    prefectureId: 40
+    municipalityName: 福岡市 東区
+  40132:
+    municipalityCd: "40132"
+    prefectureId: 40
+    municipalityName: 福岡市 博多区
+  40133:
+    municipalityCd: "40133"
+    prefectureId: 40
+    municipalityName: 福岡市 中央区
+  40134:
+    municipalityCd: "40134"
+    prefectureId: 40
+    municipalityName: 福岡市 南区
+  40135:
+    municipalityCd: "40135"
+    prefectureId: 40
+    municipalityName: 福岡市 西区
+  40136:
+    municipalityCd: "40136"
+    prefectureId: 40
+    municipalityName: 福岡市 城南区
+  40137:
+    municipalityCd: "40137"
+    prefectureId: 40
+    municipalityName: 福岡市 早良区
+  40202:
+    municipalityCd: "40202"
+    prefectureId: 40
+    municipalityName: 大牟田市
+  40203:
+    municipalityCd: "40203"
+    prefectureId: 40
+    municipalityName: 久留米市
+  40204:
+    municipalityCd: "40204"
+    prefectureId: 40
+    municipalityName: 直方市
+  40205:
+    municipalityCd: "40205"
+    prefectureId: 40
+    municipalityName: 飯塚市
+  40206:
+    municipalityCd: "40206"
+    prefectureId: 40
+    municipalityName: 田川市
+  40207:
+    municipalityCd: "40207"
+    prefectureId: 40
+    municipalityName: 柳川市
+  40210:
+    municipalityCd: "40210"
+    prefectureId: 40
+    municipalityName: 八女市
+  40211:
+    municipalityCd: "40211"
+    prefectureId: 40
+    municipalityName: 筑後市
+  40212:
+    municipalityCd: "40212"
+    prefectureId: 40
+    municipalityName: 大川市
+  40213:
+    municipalityCd: "40213"
+    prefectureId: 40
+    municipalityName: 行橋市
+  40214:
+    municipalityCd: "40214"
+    prefectureId: 40
+    municipalityName: 豊前市
+  40215:
+    municipalityCd: "40215"
+    prefectureId: 40
+    municipalityName: 中間市
+  40216:
+    municipalityCd: "40216"
+    prefectureId: 40
+    municipalityName: 小郡市
+  40217:
+    municipalityCd: "40217"
+    prefectureId: 40
+    municipalityName: 筑紫野市
+  40218:
+    municipalityCd: "40218"
+    prefectureId: 40
+    municipalityName: 春日市
+  40219:
+    municipalityCd: "40219"
+    prefectureId: 40
+    municipalityName: 大野城市
+  40220:
+    municipalityCd: "40220"
+    prefectureId: 40
+    municipalityName: 宗像市
+  40221:
+    municipalityCd: "40221"
+    prefectureId: 40
+    municipalityName: 太宰府市
+  40223:
+    municipalityCd: "40223"
+    prefectureId: 40
+    municipalityName: 古賀市
+  40224:
+    municipalityCd: "40224"
+    prefectureId: 40
+    municipalityName: 福津市
+  40225:
+    municipalityCd: "40225"
+    prefectureId: 40
+    municipalityName: うきは市
+  40226:
+    municipalityCd: "40226"
+    prefectureId: 40
+    municipalityName: 宮若市
+  40227:
+    municipalityCd: "40227"
+    prefectureId: 40
+    municipalityName: 嘉麻市
+  40228:
+    municipalityCd: "40228"
+    prefectureId: 40
+    municipalityName: 朝倉市
+  40229:
+    municipalityCd: "40229"
+    prefectureId: 40
+    municipalityName: みやま市
+  40230:
+    municipalityCd: "40230"
+    prefectureId: 40
+    municipalityName: 糸島市
+  40305:
+    municipalityCd: "40305"
+    prefectureId: 40
+    municipalityName: 筑紫郡 那珂川町
+  40341:
+    municipalityCd: "40341"
+    prefectureId: 40
+    municipalityName: 粕屋郡 宇美町
+  40342:
+    municipalityCd: "40342"
+    prefectureId: 40
+    municipalityName: 粕屋郡 篠栗町
+  40343:
+    municipalityCd: "40343"
+    prefectureId: 40
+    municipalityName: 粕屋郡 志免町
+  40344:
+    municipalityCd: "40344"
+    prefectureId: 40
+    municipalityName: 粕屋郡 須恵町
+  40345:
+    municipalityCd: "40345"
+    prefectureId: 40
+    municipalityName: 粕屋郡 新宮町
+  40348:
+    municipalityCd: "40348"
+    prefectureId: 40
+    municipalityName: 粕屋郡 久山町
+  40349:
+    municipalityCd: "40349"
+    prefectureId: 40
+    municipalityName: 粕屋郡 粕屋町
+  40381:
+    municipalityCd: "40381"
+    prefectureId: 40
+    municipalityName: 遠賀郡 芦屋町
+  40382:
+    municipalityCd: "40382"
+    prefectureId: 40
+    municipalityName: 遠賀郡 水巻町
+  40383:
+    municipalityCd: "40383"
+    prefectureId: 40
+    municipalityName: 遠賀郡 岡垣町
+  40384:
+    municipalityCd: "40384"
+    prefectureId: 40
+    municipalityName: 遠賀郡 遠賀町
+  40401:
+    municipalityCd: "40401"
+    prefectureId: 40
+    municipalityName: 鞍手郡 小竹町
+  40402:
+    municipalityCd: "40402"
+    prefectureId: 40
+    municipalityName: 鞍手郡 鞍手町
+  40421:
+    municipalityCd: "40421"
+    prefectureId: 40
+    municipalityName: 嘉穂郡 桂川町
+  40447:
+    municipalityCd: "40447"
+    prefectureId: 40
+    municipalityName: 朝倉郡 筑前町
+  40448:
+    municipalityCd: "40448"
+    prefectureId: 40
+    municipalityName: 朝倉郡 東峰村
+  40503:
+    municipalityCd: "40503"
+    prefectureId: 40
+    municipalityName: 三井郡 大刀洗町
+  40522:
+    municipalityCd: "40522"
+    prefectureId: 40
+    municipalityName: 三瀦郡 大木町
+  40544:
+    municipalityCd: "40544"
+    prefectureId: 40
+    municipalityName: 八女郡 広川町
+  40601:
+    municipalityCd: "40601"
+    prefectureId: 40
+    municipalityName: 田川郡 香春町
+  40602:
+    municipalityCd: "40602"
+    prefectureId: 40
+    municipalityName: 田川郡 添田町
+  40604:
+    municipalityCd: "40604"
+    prefectureId: 40
+    municipalityName: 田川郡 糸田町
+  40605:
+    municipalityCd: "40605"
+    prefectureId: 40
+    municipalityName: 田川郡 川崎町
+  40608:
+    municipalityCd: "40608"
+    prefectureId: 40
+    municipalityName: 田川郡 大任町
+  40609:
+    municipalityCd: "40609"
+    prefectureId: 40
+    municipalityName: 田川郡 赤村
+  40610:
+    municipalityCd: "40610"
+    prefectureId: 40
+    municipalityName: 田川郡 福智町
+  40621:
+    municipalityCd: "40621"
+    prefectureId: 40
+    municipalityName: 京都郡 苅田町
+  40625:
+    municipalityCd: "40625"
+    prefectureId: 40
+    municipalityName: 京都郡 みやこ町
+  40642:
+    municipalityCd: "40642"
+    prefectureId: 40
+    municipalityName: 築上郡 吉富町
+  40646:
+    municipalityCd: "40646"
+    prefectureId: 40
+    municipalityName: 築上郡 上毛町
+  40647:
+    municipalityCd: "40647"
+    prefectureId: 40
+    municipalityName: 築上郡 築上町
+  41201:
+    municipalityCd: "41201"
+    prefectureId: 41
+    municipalityName: 佐賀市
+  41202:
+    municipalityCd: "41202"
+    prefectureId: 41
+    municipalityName: 唐津市
+  41203:
+    municipalityCd: "41203"
+    prefectureId: 41
+    municipalityName: 鳥栖市
+  41204:
+    municipalityCd: "41204"
+    prefectureId: 41
+    municipalityName: 多久市
+  41205:
+    municipalityCd: "41205"
+    prefectureId: 41
+    municipalityName: 伊万里市
+  41206:
+    municipalityCd: "41206"
+    prefectureId: 41
+    municipalityName: 武雄市
+  41207:
+    municipalityCd: "41207"
+    prefectureId: 41
+    municipalityName: 鹿島市
+  41208:
+    municipalityCd: "41208"
+    prefectureId: 41
+    municipalityName: 小城市
+  41209:
+    municipalityCd: "41209"
+    prefectureId: 41
+    municipalityName: 嬉野市
+  41210:
+    municipalityCd: "41210"
+    prefectureId: 41
+    municipalityName: 神埼市
+  41327:
+    municipalityCd: "41327"
+    prefectureId: 41
+    municipalityName: 神埼郡 吉野ヶ里町
+  41341:
+    municipalityCd: "41341"
+    prefectureId: 41
+    municipalityName: 三養基郡 基山町
+  41345:
+    municipalityCd: "41345"
+    prefectureId: 41
+    municipalityName: 三養基郡 上峰町
+  41346:
+    municipalityCd: "41346"
+    prefectureId: 41
+    municipalityName: 三養基郡 みやき町
+  41387:
+    municipalityCd: "41387"
+    prefectureId: 41
+    municipalityName: 東松浦郡 玄海町
+  41401:
+    municipalityCd: "41401"
+    prefectureId: 41
+    municipalityName: 西松浦郡 有田町
+  41423:
+    municipalityCd: "41423"
+    prefectureId: 41
+    municipalityName: 杵島郡 大町町
+  41424:
+    municipalityCd: "41424"
+    prefectureId: 41
+    municipalityName: 杵島郡 江北町
+  41425:
+    municipalityCd: "41425"
+    prefectureId: 41
+    municipalityName: 杵島郡 白石町
+  41441:
+    municipalityCd: "41441"
+    prefectureId: 41
+    municipalityName: 藤津郡 太良町
+  42201:
+    municipalityCd: "42201"
+    prefectureId: 42
+    municipalityName: 長崎市
+  42202:
+    municipalityCd: "42202"
+    prefectureId: 42
+    municipalityName: 佐世保市
+  42203:
+    municipalityCd: "42203"
+    prefectureId: 42
+    municipalityName: 島原市
+  42204:
+    municipalityCd: "42204"
+    prefectureId: 42
+    municipalityName: 諫早市
+  42205:
+    municipalityCd: "42205"
+    prefectureId: 42
+    municipalityName: 大村市
+  42207:
+    municipalityCd: "42207"
+    prefectureId: 42
+    municipalityName: 平戸市
+  42208:
+    municipalityCd: "42208"
+    prefectureId: 42
+    municipalityName: 松浦市
+  42209:
+    municipalityCd: "42209"
+    prefectureId: 42
+    municipalityName: 対馬市
+  42210:
+    municipalityCd: "42210"
+    prefectureId: 42
+    municipalityName: 壱岐市
+  42211:
+    municipalityCd: "42211"
+    prefectureId: 42
+    municipalityName: 五島市
+  42212:
+    municipalityCd: "42212"
+    prefectureId: 42
+    municipalityName: 西海市
+  42213:
+    municipalityCd: "42213"
+    prefectureId: 42
+    municipalityName: 雲仙市
+  42214:
+    municipalityCd: "42214"
+    prefectureId: 42
+    municipalityName: 南島原市
+  42307:
+    municipalityCd: "42307"
+    prefectureId: 42
+    municipalityName: 西彼杵郡 長与町
+  42308:
+    municipalityCd: "42308"
+    prefectureId: 42
+    municipalityName: 西彼杵郡 時津町
+  42321:
+    municipalityCd: "42321"
+    prefectureId: 42
+    municipalityName: 東彼杵郡 東彼杵町
+  42322:
+    municipalityCd: "42322"
+    prefectureId: 42
+    municipalityName: 東彼杵郡 川棚町
+  42323:
+    municipalityCd: "42323"
+    prefectureId: 42
+    municipalityName: 東彼杵郡 波佐見町
+  42383:
+    municipalityCd: "42383"
+    prefectureId: 42
+    municipalityName: 北松浦郡 小値賀町
+  42388:
+    municipalityCd: "42388"
+    prefectureId: 42
+    municipalityName: 北松浦郡 江迎町
+  42389:
+    municipalityCd: "42389"
+    prefectureId: 42
+    municipalityName: 北松浦郡 鹿町町
+  42391:
+    municipalityCd: "42391"
+    prefectureId: 42
+    municipalityName: 北松浦郡 佐々町
+  42411:
+    municipalityCd: "42411"
+    prefectureId: 42
+    municipalityName: 南松浦郡 新上五島町
+  43201:
+    municipalityCd: "43201"
+    prefectureId: 43
+    municipalityName: 熊本市
+  43202:
+    municipalityCd: "43202"
+    prefectureId: 43
+    municipalityName: 八代市
+  43203:
+    municipalityCd: "43203"
+    prefectureId: 43
+    municipalityName: 人吉市
+  43204:
+    municipalityCd: "43204"
+    prefectureId: 43
+    municipalityName: 荒尾市
+  43205:
+    municipalityCd: "43205"
+    prefectureId: 43
+    municipalityName: 水俣市
+  43206:
+    municipalityCd: "43206"
+    prefectureId: 43
+    municipalityName: 玉名市
+  43208:
+    municipalityCd: "43208"
+    prefectureId: 43
+    municipalityName: 山鹿市
+  43210:
+    municipalityCd: "43210"
+    prefectureId: 43
+    municipalityName: 菊池市
+  43211:
+    municipalityCd: "43211"
+    prefectureId: 43
+    municipalityName: 宇土市
+  43212:
+    municipalityCd: "43212"
+    prefectureId: 43
+    municipalityName: 上天草市
+  43213:
+    municipalityCd: "43213"
+    prefectureId: 43
+    municipalityName: 宇城市
+  43214:
+    municipalityCd: "43214"
+    prefectureId: 43
+    municipalityName: 阿蘇市
+  43215:
+    municipalityCd: "43215"
+    prefectureId: 43
+    municipalityName: 天草市
+  43216:
+    municipalityCd: "43216"
+    prefectureId: 43
+    municipalityName: 合志市
+  43348:
+    municipalityCd: "43348"
+    prefectureId: 43
+    municipalityName: 下益城郡 美里町
+  43364:
+    municipalityCd: "43364"
+    prefectureId: 43
+    municipalityName: 玉名郡 玉東町
+  43367:
+    municipalityCd: "43367"
+    prefectureId: 43
+    municipalityName: 玉名郡 南関町
+  43368:
+    municipalityCd: "43368"
+    prefectureId: 43
+    municipalityName: 玉名郡 長洲町
+  43369:
+    municipalityCd: "43369"
+    prefectureId: 43
+    municipalityName: 玉名郡 和水町
+  43403:
+    municipalityCd: "43403"
+    prefectureId: 43
+    municipalityName: 菊池郡 大津町
+  43404:
+    municipalityCd: "43404"
+    prefectureId: 43
+    municipalityName: 菊池郡 菊陽町
+  43423:
+    municipalityCd: "43423"
+    prefectureId: 43
+    municipalityName: 阿蘇郡 南小国町
+  43424:
+    municipalityCd: "43424"
+    prefectureId: 43
+    municipalityName: 阿蘇郡 小国町
+  43425:
+    municipalityCd: "43425"
+    prefectureId: 43
+    municipalityName: 阿蘇郡 産山村
+  43428:
+    municipalityCd: "43428"
+    prefectureId: 43
+    municipalityName: 阿蘇郡 高森町
+  43432:
+    municipalityCd: "43432"
+    prefectureId: 43
+    municipalityName: 阿蘇郡 西原村
+  43433:
+    municipalityCd: "43433"
+    prefectureId: 43
+    municipalityName: 阿蘇郡 南阿蘇村
+  43441:
+    municipalityCd: "43441"
+    prefectureId: 43
+    municipalityName: 上益城郡 御船町
+  43442:
+    municipalityCd: "43442"
+    prefectureId: 43
+    municipalityName: 上益城郡 嘉島町
+  43443:
+    municipalityCd: "43443"
+    prefectureId: 43
+    municipalityName: 上益城郡 益城町
+  43444:
+    municipalityCd: "43444"
+    prefectureId: 43
+    municipalityName: 上益城郡 甲佐町
+  43447:
+    municipalityCd: "43447"
+    prefectureId: 43
+    municipalityName: 上益城郡 山都町
+  43468:
+    municipalityCd: "43468"
+    prefectureId: 43
+    municipalityName: 八代郡 氷川町
+  43482:
+    municipalityCd: "43482"
+    prefectureId: 43
+    municipalityName: 芦北郡 芦北町
+  43484:
+    municipalityCd: "43484"
+    prefectureId: 43
+    municipalityName: 芦北郡 津奈木町
+  43501:
+    municipalityCd: "43501"
+    prefectureId: 43
+    municipalityName: 球磨郡 錦町
+  43505:
+    municipalityCd: "43505"
+    prefectureId: 43
+    municipalityName: 球磨郡 多良木町
+  43506:
+    municipalityCd: "43506"
+    prefectureId: 43
+    municipalityName: 球磨郡 湯前町
+  43507:
+    municipalityCd: "43507"
+    prefectureId: 43
+    municipalityName: 球磨郡 水上村
+  43510:
+    municipalityCd: "43510"
+    prefectureId: 43
+    municipalityName: 球磨郡 相良村
+  43511:
+    municipalityCd: "43511"
+    prefectureId: 43
+    municipalityName: 球磨郡 五木村
+  43512:
+    municipalityCd: "43512"
+    prefectureId: 43
+    municipalityName: 球磨郡 山江村
+  43513:
+    municipalityCd: "43513"
+    prefectureId: 43
+    municipalityName: 球磨郡 球磨村
+  43514:
+    municipalityCd: "43514"
+    prefectureId: 43
+    municipalityName: 球磨郡 あさぎり町
+  43531:
+    municipalityCd: "43531"
+    prefectureId: 43
+    municipalityName: 天草郡 苓北町
+  44201:
+    municipalityCd: "44201"
+    prefectureId: 44
+    municipalityName: 大分市
+  44202:
+    municipalityCd: "44202"
+    prefectureId: 44
+    municipalityName: 別府市
+  44203:
+    municipalityCd: "44203"
+    prefectureId: 44
+    municipalityName: 中津市
+  44204:
+    municipalityCd: "44204"
+    prefectureId: 44
+    municipalityName: 日田市
+  44205:
+    municipalityCd: "44205"
+    prefectureId: 44
+    municipalityName: 佐伯市
+  44206:
+    municipalityCd: "44206"
+    prefectureId: 44
+    municipalityName: 臼杵市
+  44207:
+    municipalityCd: "44207"
+    prefectureId: 44
+    municipalityName: 津久見市
+  44208:
+    municipalityCd: "44208"
+    prefectureId: 44
+    municipalityName: 竹田市
+  44209:
+    municipalityCd: "44209"
+    prefectureId: 44
+    municipalityName: 豊後高田市
+  44210:
+    municipalityCd: "44210"
+    prefectureId: 44
+    municipalityName: 杵築市
+  44211:
+    municipalityCd: "44211"
+    prefectureId: 44
+    municipalityName: 宇佐市
+  44212:
+    municipalityCd: "44212"
+    prefectureId: 44
+    municipalityName: 豊後大野市
+  44213:
+    municipalityCd: "44213"
+    prefectureId: 44
+    municipalityName: 由布市
+  44214:
+    municipalityCd: "44214"
+    prefectureId: 44
+    municipalityName: 国東市
+  44322:
+    municipalityCd: "44322"
+    prefectureId: 44
+    municipalityName: 東国東郡 姫島村
+  44341:
+    municipalityCd: "44341"
+    prefectureId: 44
+    municipalityName: 速見郡 日出町
+  44461:
+    municipalityCd: "44461"
+    prefectureId: 44
+    municipalityName: 玖珠郡 九重町
+  44462:
+    municipalityCd: "44462"
+    prefectureId: 44
+    municipalityName: 玖珠郡 玖珠町
+  45201:
+    municipalityCd: "45201"
+    prefectureId: 45
+    municipalityName: 宮崎市
+  45202:
+    municipalityCd: "45202"
+    prefectureId: 45
+    municipalityName: 都城市
+  45203:
+    municipalityCd: "45203"
+    prefectureId: 45
+    municipalityName: 延岡市
+  45204:
+    municipalityCd: "45204"
+    prefectureId: 45
+    municipalityName: 日南市
+  45205:
+    municipalityCd: "45205"
+    prefectureId: 45
+    municipalityName: 小林市
+  45206:
+    municipalityCd: "45206"
+    prefectureId: 45
+    municipalityName: 日向市
+  45207:
+    municipalityCd: "45207"
+    prefectureId: 45
+    municipalityName: 串間市
+  45208:
+    municipalityCd: "45208"
+    prefectureId: 45
+    municipalityName: 西都市
+  45209:
+    municipalityCd: "45209"
+    prefectureId: 45
+    municipalityName: えびの市
+  45341:
+    municipalityCd: "45341"
+    prefectureId: 45
+    municipalityName: 北諸県郡 三股町
+  45361:
+    municipalityCd: "45361"
+    prefectureId: 45
+    municipalityName: 西諸県郡 高原町
+  45382:
+    municipalityCd: "45382"
+    prefectureId: 45
+    municipalityName: 東諸県郡 国富町
+  45383:
+    municipalityCd: "45383"
+    prefectureId: 45
+    municipalityName: 東諸県郡 綾町
+  45401:
+    municipalityCd: "45401"
+    prefectureId: 45
+    municipalityName: 児湯郡 高鍋町
+  45402:
+    municipalityCd: "45402"
+    prefectureId: 45
+    municipalityName: 児湯郡 新富町
+  45403:
+    municipalityCd: "45403"
+    prefectureId: 45
+    municipalityName: 児湯郡 西米良村
+  45404:
+    municipalityCd: "45404"
+    prefectureId: 45
+    municipalityName: 児湯郡 木城町
+  45405:
+    municipalityCd: "45405"
+    prefectureId: 45
+    municipalityName: 児湯郡 川南町
+  45406:
+    municipalityCd: "45406"
+    prefectureId: 45
+    municipalityName: 児湯郡 都農町
+  45421:
+    municipalityCd: "45421"
+    prefectureId: 45
+    municipalityName: 東臼杵郡 門川町
+  45429:
+    municipalityCd: "45429"
+    prefectureId: 45
+    municipalityName: 東臼杵郡 諸塚村
+  45430:
+    municipalityCd: "45430"
+    prefectureId: 45
+    municipalityName: 東臼杵郡 椎葉村
+  45431:
+    municipalityCd: "45431"
+    prefectureId: 45
+    municipalityName: 東臼杵郡 美郷町
+  45441:
+    municipalityCd: "45441"
+    prefectureId: 45
+    municipalityName: 西臼杵郡 高千穂町
+  45442:
+    municipalityCd: "45442"
+    prefectureId: 45
+    municipalityName: 西臼杵郡 日之影町
+  45443:
+    municipalityCd: "45443"
+    prefectureId: 45
+    municipalityName: 西臼杵郡 五ケ瀬町
+  46201:
+    municipalityCd: "46201"
+    prefectureId: 46
+    municipalityName: 鹿児島市
+  46203:
+    municipalityCd: "46203"
+    prefectureId: 46
+    municipalityName: 鹿屋市
+  46204:
+    municipalityCd: "46204"
+    prefectureId: 46
+    municipalityName: 枕崎市
+  46206:
+    municipalityCd: "46206"
+    prefectureId: 46
+    municipalityName: 阿久根市
+  46208:
+    municipalityCd: "46208"
+    prefectureId: 46
+    municipalityName: 出水市
+  46210:
+    municipalityCd: "46210"
+    prefectureId: 46
+    municipalityName: 指宿市
+  46213:
+    municipalityCd: "46213"
+    prefectureId: 46
+    municipalityName: 西之表市
+  46214:
+    municipalityCd: "46214"
+    prefectureId: 46
+    municipalityName: 垂水市
+  46215:
+    municipalityCd: "46215"
+    prefectureId: 46
+    municipalityName: 薩摩川内市
+  46216:
+    municipalityCd: "46216"
+    prefectureId: 46
+    municipalityName: 日置市
+  46217:
+    municipalityCd: "46217"
+    prefectureId: 46
+    municipalityName: 曽於市
+  46218:
+    municipalityCd: "46218"
+    prefectureId: 46
+    municipalityName: 霧島市
+  46219:
+    municipalityCd: "46219"
+    prefectureId: 46
+    municipalityName: いちき串木野市
+  46220:
+    municipalityCd: "46220"
+    prefectureId: 46
+    municipalityName: 南さつま市
+  46221:
+    municipalityCd: "46221"
+    prefectureId: 46
+    municipalityName: 志布志市
+  46222:
+    municipalityCd: "46222"
+    prefectureId: 46
+    municipalityName: 奄美市
+  46223:
+    municipalityCd: "46223"
+    prefectureId: 46
+    municipalityName: 南九州市
+  46224:
+    municipalityCd: "46224"
+    prefectureId: 46
+    municipalityName: 伊佐市
+  46225:
+    municipalityCd: "46225"
+    prefectureId: 46
+    municipalityName: 姶良市
+  46303:
+    municipalityCd: "46303"
+    prefectureId: 46
+    municipalityName: 鹿児島郡 三島村
+  46304:
+    municipalityCd: "46304"
+    prefectureId: 46
+    municipalityName: 鹿児島郡 十島村
+  46392:
+    municipalityCd: "46392"
+    prefectureId: 46
+    municipalityName: 薩摩郡 さつま町
+  46404:
+    municipalityCd: "46404"
+    prefectureId: 46
+    municipalityName: 出水郡 長島町
+  46452:
+    municipalityCd: "46452"
+    prefectureId: 46
+    municipalityName: 姶良郡 湧水町
+  46468:
+    municipalityCd: "46468"
+    prefectureId: 46
+    municipalityName: 曽於郡 大崎町
+  46482:
+    municipalityCd: "46482"
+    prefectureId: 46
+    municipalityName: 肝属郡 東串良町
+  46490:
+    municipalityCd: "46490"
+    prefectureId: 46
+    municipalityName: 肝属郡 錦江町
+  46491:
+    municipalityCd: "46491"
+    prefectureId: 46
+    municipalityName: 肝属郡 南大隅町
+  46492:
+    municipalityCd: "46492"
+    prefectureId: 46
+    municipalityName: 肝属郡 肝付町
+  46501:
+    municipalityCd: "46501"
+    prefectureId: 46
+    municipalityName: 熊毛郡 中種子町
+  46502:
+    municipalityCd: "46502"
+    prefectureId: 46
+    municipalityName: 熊毛郡 南種子町
+  46505:
+    municipalityCd: "46505"
+    prefectureId: 46
+    municipalityName: 熊毛郡 屋久島町
+  46523:
+    municipalityCd: "46523"
+    prefectureId: 46
+    municipalityName: 大島郡 大和村
+  46524:
+    municipalityCd: "46524"
+    prefectureId: 46
+    municipalityName: 大島郡 宇検村
+  46525:
+    municipalityCd: "46525"
+    prefectureId: 46
+    municipalityName: 大島郡 瀬戸内町
+  46527:
+    municipalityCd: "46527"
+    prefectureId: 46
+    municipalityName: 大島郡 龍郷町
+  46529:
+    municipalityCd: "46529"
+    prefectureId: 46
+    municipalityName: 大島郡 喜界町
+  46530:
+    municipalityCd: "46530"
+    prefectureId: 46
+    municipalityName: 大島郡 徳之島町
+  46531:
+    municipalityCd: "46531"
+    prefectureId: 46
+    municipalityName: 大島郡 天城町
+  46532:
+    municipalityCd: "46532"
+    prefectureId: 46
+    municipalityName: 大島郡 伊仙町
+  46533:
+    municipalityCd: "46533"
+    prefectureId: 46
+    municipalityName: 大島郡 和泊町
+  46534:
+    municipalityCd: "46534"
+    prefectureId: 46
+    municipalityName: 大島郡 知名町
+  46535:
+    municipalityCd: "46535"
+    prefectureId: 46
+    municipalityName: 大島郡 与論町
+  47201:
+    municipalityCd: "47201"
+    prefectureId: 47
+    municipalityName: 那覇市
+  47205:
+    municipalityCd: "47205"
+    prefectureId: 47
+    municipalityName: 宜野湾市
+  47207:
+    municipalityCd: "47207"
+    prefectureId: 47
+    municipalityName: 石垣市
+  47208:
+    municipalityCd: "47208"
+    prefectureId: 47
+    municipalityName: 浦添市
+  47209:
+    municipalityCd: "47209"
+    prefectureId: 47
+    municipalityName: 名護市
+  47210:
+    municipalityCd: "47210"
+    prefectureId: 47
+    municipalityName: 糸満市
+  47211:
+    municipalityCd: "47211"
+    prefectureId: 47
+    municipalityName: 沖縄市
+  47212:
+    municipalityCd: "47212"
+    prefectureId: 47
+    municipalityName: 豊見城市
+  47213:
+    municipalityCd: "47213"
+    prefectureId: 47
+    municipalityName: うるま市
+  47214:
+    municipalityCd: "47214"
+    prefectureId: 47
+    municipalityName: 宮古島市
+  47215:
+    municipalityCd: "47215"
+    prefectureId: 47
+    municipalityName: 南城市
+  47301:
+    municipalityCd: "47301"
+    prefectureId: 47
+    municipalityName: 国頭郡 国頭村
+  47302:
+    municipalityCd: "47302"
+    prefectureId: 47
+    municipalityName: 国頭郡 大宜味村
+  47303:
+    municipalityCd: "47303"
+    prefectureId: 47
+    municipalityName: 国頭郡 東村
+  47306:
+    municipalityCd: "47306"
+    prefectureId: 47
+    municipalityName: 国頭郡 今帰仁村
+  47308:
+    municipalityCd: "47308"
+    prefectureId: 47
+    municipalityName: 国頭郡 本部町
+  47311:
+    municipalityCd: "47311"
+    prefectureId: 47
+    municipalityName: 国頭郡 恩納村
+  47313:
+    municipalityCd: "47313"
+    prefectureId: 47
+    municipalityName: 国頭郡 宜野座村
+  47314:
+    municipalityCd: "47314"
+    prefectureId: 47
+    municipalityName: 国頭郡 金武町
+  47315:
+    municipalityCd: "47315"
+    prefectureId: 47
+    municipalityName: 国頭郡 伊江村
+  47324:
+    municipalityCd: "47324"
+    prefectureId: 47
+    municipalityName: 中頭郡 読谷村
+  47325:
+    municipalityCd: "47325"
+    prefectureId: 47
+    municipalityName: 中頭郡 嘉手納町
+  47326:
+    municipalityCd: "47326"
+    prefectureId: 47
+    municipalityName: 中頭郡 北谷町
+  47327:
+    municipalityCd: "47327"
+    prefectureId: 47
+    municipalityName: 中頭郡 北中城村
+  47328:
+    municipalityCd: "47328"
+    prefectureId: 47
+    municipalityName: 中頭郡 中城村
+  47329:
+    municipalityCd: "47329"
+    prefectureId: 47
+    municipalityName: 中頭郡 西原町
+  47348:
+    municipalityCd: "47348"
+    prefectureId: 47
+    municipalityName: 島尻郡 与那原町
+  47350:
+    municipalityCd: "47350"
+    prefectureId: 47
+    municipalityName: 島尻郡 南風原町
+  47353:
+    municipalityCd: "47353"
+    prefectureId: 47
+    municipalityName: 島尻郡 渡嘉敷村
+  47354:
+    municipalityCd: "47354"
+    prefectureId: 47
+    municipalityName: 島尻郡 座間味村
+  47355:
+    municipalityCd: "47355"
+    prefectureId: 47
+    municipalityName: 島尻郡 粟国村
+  47356:
+    municipalityCd: "47356"
+    prefectureId: 47
+    municipalityName: 島尻郡 渡名喜村
+  47357:
+    municipalityCd: "47357"
+    prefectureId: 47
+    municipalityName: 島尻郡 南大東村
+  47358:
+    municipalityCd: "47358"
+    prefectureId: 47
+    municipalityName: 島尻郡 北大東村
+  47359:
+    municipalityCd: "47359"
+    prefectureId: 47
+    municipalityName: 島尻郡 伊平屋村
+  47360:
+    municipalityCd: "47360"
+    prefectureId: 47
+    municipalityName: 島尻郡 伊是名村
+  47361:
+    municipalityCd: "47361"
+    prefectureId: 47
+    municipalityName: 島尻郡 久米島町
+  47362:
+    municipalityCd: "47362"
+    prefectureId: 47
+    municipalityName: 島尻郡 八重瀬町
+  47375:
+    municipalityCd: "47375"
+    prefectureId: 47
+    municipalityName: 宮古郡 多良間村
+  47381:
+    municipalityCd: "47381"
+    prefectureId: 47
+    municipalityName: 八重山郡 竹富町
+  47382:
+    municipalityCd: "47382"
+    prefectureId: 47
+    municipalityName: 八重山郡 与那国町

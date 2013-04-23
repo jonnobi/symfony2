@@ -5,9 +5,9 @@ namespace Lv\PlatformBundle\Entity;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * Holiday
+ * Business
  */
-class Holiday
+class Business
 {
     /**
      * @var integer
@@ -15,24 +15,14 @@ class Holiday
     protected $id;
 
     /**
-     * @var \DateTime
-     */
-    protected $holiday;
-
-    /**
-     * @var integer
-     */
-    protected $week;
-
-    /**
-     * @var integer
-     */
-    protected $htype;
-
-    /**
      * @var string
      */
-    protected $hname;
+    protected $businessName;
+
+    /**
+     * @var integer
+     */
+    protected $sortNo;
 
     /**
      * @var \DateTime
@@ -50,7 +40,7 @@ class Holiday
     protected $deleted;
 
 
-    public function __construct()
+   	public function __construct()
     {
         $this->created = new \DateTime();
         $this->updated = new \DateTime();
@@ -58,7 +48,7 @@ class Holiday
 
     public function __toString()
     {
-        return $this->getHname();
+        return $this->getBusinessName();
     }
 
     /**
@@ -72,102 +62,56 @@ class Holiday
     }
 
     /**
-     * Set holiday
+     * Set businessName
      *
-     * @param \DateTime $holiday
-     * @return Holiday
+     * @param string $businessName
+     * @return Business
      */
-    public function setHoliday($holiday)
+    public function setBusinessName($businessName)
     {
-        $this->holiday = $holiday;
+        $this->businessName = $businessName;
 
         return $this;
     }
 
     /**
-     * Get holiday
-     *
-     * @return \DateTime
-     */
-    public function getHoliday()
-    {
-        return $this->holiday;
-    }
-
-    /**
-     * Set week
-     *
-     * @param integer $week
-     * @return Holiday
-     */
-    public function setWeek($week)
-    {
-        $this->week = $week;
-
-        return $this;
-    }
-
-    /**
-     * Get week
-     *
-     * @return integer
-     */
-    public function getWeek()
-    {
-        return $this->week;
-    }
-
-    /**
-     * Set htype
-     *
-     * @param integer $htype
-     * @return Holiday
-     */
-    public function setHtype($htype)
-    {
-        $this->htype = $htype;
-
-        return $this;
-    }
-
-    /**
-     * Get htype
-     *
-     * @return integer
-     */
-    public function getHtype()
-    {
-        return $this->htype;
-    }
-
-    /**
-     * Set hname
-     *
-     * @param string $hname
-     * @return Holiday
-     */
-    public function setHname($hname)
-    {
-        $this->hname = $hname;
-
-        return $this;
-    }
-
-    /**
-     * Get hname
+     * Get businessName
      *
      * @return string
      */
-    public function getHname()
+    public function getBusinessName()
     {
-        return $this->hname;
+        return $this->businessName;
+    }
+
+    /**
+     * Set sortNo
+     *
+     * @param integer $sortNo
+     * @return Business
+     */
+    public function setSortNo($sortNo)
+    {
+        $this->sortNo = $sortNo;
+
+        return $this;
+    }
+
+    /**
+     * Get sortNo
+     *
+     * @return integer
+     */
+    public function getSortNo()
+    {
+        return $this->sortNo;
     }
 
     /**
      * Set updated
      *
      * @param \DateTime $updated
-     * @return Holiday
+     * @return Business
      */
     public function setUpdated($updated)
     {
@@ -190,7 +134,7 @@ class Holiday
      * Set created
      *
      * @param \DateTime $created
-     * @return Holiday
+     * @return Business
      */
     public function setCreated($created)
     {
@@ -213,7 +157,7 @@ class Holiday
      * Set deleted
      *
      * @param \DateTime $deleted
-     * @return Holiday
+     * @return Business
      */
     public function setDeleted($deleted)
     {

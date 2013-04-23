@@ -95,7 +95,7 @@ class LoadShopData extends LoadFixtureData implements OrderedFixtureInterface, F
      */
     public function getOrder()
     {
-        return 50;
+        return 2000;
     }
 
 }

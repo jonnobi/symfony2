@@ -5,9 +5,9 @@ namespace Lv\PlatformBundle\Entity;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * Holiday
+ * Area
  */
-class Holiday
+class Area
 {
     /**
      * @var integer
@@ -15,24 +15,9 @@ class Holiday
     protected $id;
 
     /**
-     * @var \DateTime
-     */
-    protected $holiday;
-
-    /**
-     * @var integer
-     */
-    protected $week;
-
-    /**
-     * @var integer
-     */
-    protected $htype;
-
-    /**
      * @var string
      */
-    protected $hname;
+    protected $areaName;
 
     /**
      * @var \DateTime
@@ -50,7 +35,7 @@ class Holiday
     protected $deleted;
 
 
-    public function __construct()
+   	public function __construct()
     {
         $this->created = new \DateTime();
         $this->updated = new \DateTime();
@@ -58,7 +43,7 @@ class Holiday
 
     public function __toString()
     {
-        return $this->getHname();
+        return $this->getAreaName();
     }
 
     /**
@@ -72,102 +57,33 @@ class Holiday
     }
 
     /**
-     * Set holiday
+     * Set areaName
      *
-     * @param \DateTime $holiday
-     * @return Holiday
+     * @param string $areaName
+     * @return Area
      */
-    public function setHoliday($holiday)
+    public function setAreaName($areaName)
     {
-        $this->holiday = $holiday;
+        $this->areaName = $areaName;
 
         return $this;
     }
 
     /**
-     * Get holiday
-     *
-     * @return \DateTime
-     */
-    public function getHoliday()
-    {
-        return $this->holiday;
-    }
-
-    /**
-     * Set week
-     *
-     * @param integer $week
-     * @return Holiday
-     */
-    public function setWeek($week)
-    {
-        $this->week = $week;
-
-        return $this;
-    }
-
-    /**
-     * Get week
-     *
-     * @return integer
-     */
-    public function getWeek()
-    {
-        return $this->week;
-    }
-
-    /**
-     * Set htype
-     *
-     * @param integer $htype
-     * @return Holiday
-     */
-    public function setHtype($htype)
-    {
-        $this->htype = $htype;
-
-        return $this;
-    }
-
-    /**
-     * Get htype
-     *
-     * @return integer
-     */
-    public function getHtype()
-    {
-        return $this->htype;
-    }
-
-    /**
-     * Set hname
-     *
-     * @param string $hname
-     * @return Holiday
-     */
-    public function setHname($hname)
-    {
-        $this->hname = $hname;
-
-        return $this;
-    }
-
-    /**
-     * Get hname
+     * Get areaName
      *
      * @return string
      */
-    public function getHname()
+    public function getAreaName()
     {
-        return $this->hname;
+        return $this->areaName;
     }
 
     /**
      * Set updated
      *
      * @param \DateTime $updated
-     * @return Holiday
+     * @return Area
      */
     public function setUpdated($updated)
     {
@@ -190,7 +106,7 @@ class Holiday
      * Set created
      *
      * @param \DateTime $created
-     * @return Holiday
+     * @return Area
      */
     public function setCreated($created)
     {
@@ -213,7 +129,7 @@ class Holiday
      * Set deleted
      *
      * @param \DateTime $deleted
-     * @return Holiday
+     * @return Area
      */
     public function setDeleted($deleted)
     {
