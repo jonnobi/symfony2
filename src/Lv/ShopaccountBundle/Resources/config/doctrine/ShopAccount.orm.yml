@@ -1,0 +1,30 @@
+Lv\ShopaccountBundle\Entity\ShopAccount:
+  #repositoryClass: Lv\ShopaccontBundle\Repository\ShopAccountRepository
+  type: entity
+  table: shop_account
+  fields:
+    id:
+      id: true
+      type: bigint
+      column: shop_account_id
+      generator:
+        strategy: IDENTITY
+    shopAccountName:
+      type: text
+      nullable: false
+      column: shop_account_name
+    updated:
+      type: datetime
+      nullable: false
+      options: ##Unknown attribute type##
+      options:
+        default: CURRENT_TIMESTAMP
+    created:
+      type: datetime
+      nullable: false
+      options: ##Unknown attribute type##
+      options:
+        default: CURRENT_TIMESTAMP
+    deleted:
+      type: datetime
+      nullable: true
