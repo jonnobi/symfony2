@@ -39,7 +39,7 @@ class ShopRepository extends EntityRepository
                 ->andWhere('p.deleted is null')
                 ->andWhere('b.deleted is null')
 //                ->andWhere('sed.deleted is null')
-                ->orderBy('s.shopId', 'ASC');
+                ->orderBy('s.id', 'ASC');
 
         if ($limit) {
             $qb->setMaxResults($limit);

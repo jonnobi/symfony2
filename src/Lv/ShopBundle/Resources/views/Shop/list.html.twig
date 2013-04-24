@@ -17,8 +17,8 @@
   </tr>
   {% for shop in shops %}
   <tr>
-    <td>{{ shop.shopId }}</td>
-    <td><a href="{{ path('lv_shop_detail', {'shop_id':shop.shopId}) }}">{{ shop.companyName }}</a></td>
+    <td>{{ shop.id }}</td>
+    <td><a href="{{ path('lv_shop_detail', {'shop_id':shop.id}) }}">{{ shop.companyName }}</a></td>
     <td>{{ shop.prefecture.prefectureName }}</td>
     <td>{{ shop.tel }}</td>
     <td>{{ shop.capacity }}</td>
