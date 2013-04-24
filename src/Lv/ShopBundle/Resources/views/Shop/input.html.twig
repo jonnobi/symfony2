@@ -8,7 +8,27 @@
 {% if formErrors %}<p><code>入力内容に不備があります</code></p>{% endif %}
 
 <form action="{{ path('lv_shop_inputpost') }}" method="post" {{ form_enctype(form) }} novalidate>
-    {{ form_widget(form) }}
+    {#{{ form_widget(form) }}#}
+    {% if shop.id %}
+    <div>
+      <label>店舗ID</label>
+      {{ shop.id }}
+    </div>
+    {% endif %}
+
+    {{ form_row(form.id) }}
+    {{ form_row(form.shopAccount) }}
+    {{ form_row(form.business) }}
+    {{ form_row(form.companyName) }}
+    {{ form_row(form.prefecture) }}
+    {{ form_row(form.address) }}
+    {{ form_row(form.buildingName) }}
+    {{ form_row(form.municipalityCd) }}
+    {{ form_row(form.capacity) }}
+    {{ form_row(form.mail) }}
+    {{ form_row(form.tel) }}
+
+    {{ form_rest(form) }}
     <p>
         <button type="submit">登録</button>
     </p>

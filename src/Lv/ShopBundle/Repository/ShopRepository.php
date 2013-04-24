@@ -86,7 +86,7 @@ class ShopRepository extends EntityRepository
                 ->leftJoin('s.business', 'b')
                 //->leftJoin('s.shopExtensionData', 'ext')
                 //->leftJoin('s.shopCreditCards', 'cards')
-                ->where('s.shopId = :id')
+                ->where('s.id = :id')
                 ->andWhere('s.deleted is null')
                 ->andWhere('sa.deleted is null')
                 ->andWhere('p.deleted is null')

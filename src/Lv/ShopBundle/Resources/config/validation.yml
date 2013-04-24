@@ -1,0 +1,21 @@
+# http://symfony.com/doc/2.1/reference/constraints.html
+# Symfony\Component\Validator\Constraints
+Lv\ShopBundle\Entity\Shop:
+  properties:
+    id:
+      - NotBlank: ~
+    shopAccountId:
+      - Valid: ~
+    businessId:
+      - Valid: ~
+    companyName:
+      - NotBlank: ~
+    prefectureId:
+      - Valid: ~
+    address:
+      - NotBlank: ~
+    mail:
+      - Email:
+          #Symfony\Resources\translations で定義.
+          #message: The email "{{ value }}" is not a valid email.
+          checkMX: true

@@ -113,6 +113,9 @@ class ShopController extends Controller
      */
     public function inputViewAction()
     {
+//        echo $this->getRequest()->getPreferredLanguage() . "<br>";
+//        $this->get('session')->set('_locale', $this->getRequest()->getPreferredLanguage());
+
         if (!$this->get('session')->has('state')) {
             $shop = new Shop();
             $this->get('session')->set('shop', $shop);
@@ -132,6 +135,7 @@ class ShopController extends Controller
                 'LvShopBundle:Shop:input.html.twig',
                 array(
                     'form' => $form->createView(),
+                    'shop' => $this->get('session')->get('shop'),
                     'formErrors' => false,
                 )
         );
@@ -144,6 +148,9 @@ class ShopController extends Controller
      */
     public function inputPostAction()
     {
+//        echo $this->getRequest()->getPreferredLanguage() . "<br>";
+//        $this->get('session')->set('_locale', $this->getRequest()->getPreferredLanguage());
+
         if (!($this->get('session')->has('state')
               && $this->get('session')->get('state') == self::STATE_INPUT)) {
             throw $this->createNotFoundException();
@@ -151,10 +158,17 @@ class ShopController extends Controller
 
         $shop = $this->get('session')->get('shop');
 
+        //未入力の場合、nullをpersistしエラーとなるので、コメントアウト.
         $em = $this->getDoctrine()->getManager();
-        $em->persist($shop->getShopAccount());
-        $em->persist($shop->getBusiness());
-        $em->persist($shop->getPrefecture());
+        if ($shop->getShopAccount()) {
+            $em->persist($shop->getShopAccount());
+        }
+        if ($shop->getBusiness()) {
+            $em->persist($shop->getBusiness());
+        }
+        if ($shop->getPrefecture()) {
+            $em->persist($shop->getPrefecture());
+        }
 
         $form = $this->createForm(new ShopType(), $shop);
         $form->bindRequest($this->getRequest());
@@ -170,6 +184,7 @@ class ShopController extends Controller
                 'LvShopBundle:Shop:input.html.twig',
                 array(
                     'form' => $form->createView(),
+                    'shop' => $this->get('session')->get('shop'),
                     'formErrors' => true,
                 ));
     }

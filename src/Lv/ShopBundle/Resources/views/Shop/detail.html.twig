@@ -1,14 +1,14 @@
 {% extends "LvPlatformBundle::layout.html.twig" %}
-
 {% block content %}
-
+<div class="row">
+<div class="span12">
 <h2>店舗詳細</h2>
 
-<table class="record_properties">
+  <table class="table table-striped container">
     <tbody>
         <tr>
-            <th>店舗ID</th>
-            <td>{{ shop.shopId }}</td>
+            <th class="span3">店舗ID</th>
+            <td>{{ shop.id }}</td>
         </tr>
         <tr>
             <th>業態</th>
@@ -43,24 +43,27 @@
             <td>{{ shop.updated|date('Y-m-d H:i:s') }}</td>
         </tr>
     </tbody>
-</table>
+  </table>
 
-<ul class="record_actions">
-  <li>
-    {% set page = app.session.get('page') %}
-    <a href="{{ path('lv_shop_list', {'page': page}) }}">店舗一覧に戻る</a>
-  </li>
-  <li>
-    <a href="{{ path('lv_shop_edit', {'shop_id': shop.shopId}) }}">編集</a>
-  </li>
-{#
-  <li>
-    <form action="{{ path('ens_job_delete', { 'shop_id': shop.shop_id }) }}" method="post">
-      {{ form_widget(delete_form) }}
-      <button type="submit">Delete</button>
-    </form>
-  </li>
-#}
-</ul>
+  <ul class="record_actions">
+    <li>
+      {% set page = app.session.get('page') %}
+      <a href="{{ path('lv_shop_list', {'page': page}) }}">店舗一覧に戻る</a>
+    </li>
+    <li>
+      <a href="{{ path('lv_shop_edit', {'shop_id': shop.id}) }}">編集</a>
+    </li>
+  {#
+    <li>
+      <form action="{{ path('ens_job_delete', { 'shop_id': shop.shop_id }) }}" method="post">
+        {{ form_widget(delete_form) }}
+        <button type="submit">Delete</button>
+      </form>
+    </li>
+  #}
+  </ul>
 
+
+</div><!--/row-->
+</div><!--/span-->
 {% endblock %}
