@@ -1,0 +1,53 @@
+<h1>Municipality</h1>
+
+<table class="record_properties">
+    <tbody>
+        <tr>
+            <th>Id</th>
+            <td>{{ entity.id }}</td>
+        </tr>
+        <tr>
+            <th>Municipalitycd</th>
+            <td>{{ entity.municipalityCd }}</td>
+        </tr>
+        <tr>
+            <th>Prefectureid</th>
+            <td>{{ entity.prefectureId }}</td>
+        </tr>
+        <tr>
+            <th>Municipalityname</th>
+            <td>{{ entity.municipalityName }}</td>
+        </tr>
+        <tr>
+            <th>Updated</th>
+            <td>{{ entity.updated|date('Y-m-d H:i:s') }}</td>
+        </tr>
+        <tr>
+            <th>Created</th>
+            <td>{{ entity.created|date('Y-m-d H:i:s') }}</td>
+        </tr>
+        <tr>
+            <th>Deleted</th>
+            <td>{{ entity.deleted|date('Y-m-d H:i:s') }}</td>
+        </tr>
+    </tbody>
+</table>
+
+<ul class="record_actions">
+    <li>
+        <a href="{{ path('lv_municipality') }}">
+            Back to the list
+        </a>
+    </li>
+    <li>
+        <a href="{{ path('lv_municipality_edit', { 'id': entity.id }) }}">
+            Edit
+        </a>
+    </li>
+    <li>
+        <form action="{{ path('lv_municipality_delete', { 'id': entity.id }) }}" method="post">
+            {{ form_widget(delete_form) }}
+            <button type="submit">Delete</button>
+        </form>
+    </li>
+</ul>

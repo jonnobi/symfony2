@@ -5,3 +5,20 @@ lv_platform_homepage:
 lv_platform_holiday:
   resource: "@LvPlatformBundle/Resources/config/routing/holiday.yml"
   prefix:   /holiday
+
+lv_platform_business:
+  resource: "@LvPlatformBundle/Resources/config/routing/business.yml"
+  prefix:   /business
+
+lv_platform_area:
+  resource: "@LvPlatformBundle/Resources/config/routing/area.yml"
+  prefix:   /area
+
+lv_platform_prefecture:
+  resource: "@LvPlatformBundle/Resources/config/routing/prefecture.yml"
+  prefix:   /prefecture
+
+lv_platform_municipality:
+  resource: "@LvPlatformBundle/Resources/config/routing/municipality.yml"
+  prefix:   /municipality
+

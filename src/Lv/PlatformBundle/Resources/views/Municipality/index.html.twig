@@ -1,0 +1,47 @@
+<h1>Municipality list</h1>
+
+<table class="records_list">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Municipalitycd</th>
+            <th>Prefectureid</th>
+            <th>Municipalityname</th>
+            <th>Updated</th>
+            <th>Created</th>
+            <th>Deleted</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for entity in entities %}
+        <tr>
+            <td><a href="{{ path('lv_municipality_show', { 'id': entity.id }) }}">{{ entity.id }}</a></td>
+            <td>{{ entity.municipalityCd }}</td>
+            <td>{{ entity.prefectureId }}</td>
+            <td>{{ entity.municipalityName }}</td>
+            <td>{% if entity.updated %}{{ entity.updated|date('Y-m-d H:i:s') }}{% endif %}</td>
+            <td>{% if entity.created %}{{ entity.created|date('Y-m-d H:i:s') }}{% endif %}</td>
+            <td>{% if entity.deleted %}{{ entity.deleted|date('Y-m-d H:i:s') }}{% endif %}</td>
+            <td>
+                <ul>
+                    <li>
+                        <a href="{{ path('lv_municipality_show', { 'id': entity.id }) }}">show</a>
+                    </li>
+                    <li>
+                        <a href="{{ path('lv_municipality_edit', { 'id': entity.id }) }}">edit</a>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+
+<ul>
+    <li>
+        <a href="{{ path('lv_municipality_new') }}">
+            Create a new entry
+        </a>
+    </li>
+</ul>

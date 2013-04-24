@@ -1,0 +1,30 @@
+lv_area:
+    pattern:  /
+    defaults: { _controller: "LvPlatformBundle:Area:index" }
+
+lv_area_show:
+    pattern:  /{id}/show
+    defaults: { _controller: "LvPlatformBundle:Area:show" }
+
+lv_area_new:
+    pattern:  /new
+    defaults: { _controller: "LvPlatformBundle:Area:new" }
+
+lv_area_create:
+    pattern:  /create
+    defaults: { _controller: "LvPlatformBundle:Area:create" }
+    requirements: { _method: post }
+
+lv_area_edit:
+    pattern:  /{id}/edit
+    defaults: { _controller: "LvPlatformBundle:Area:edit" }
+
+lv_area_update:
+    pattern:  /{id}/update
+    defaults: { _controller: "LvPlatformBundle:Area:update" }
+    requirements: { _method: post }
+
+lv_area_delete:
+    pattern:  /{id}/delete
+    defaults: { _controller: "LvPlatformBundle:Area:delete" }
+    requirements: { _method: post }

@@ -1,0 +1,30 @@
+lv_municipality:
+    pattern:  /
+    defaults: { _controller: "LvPlatformBundle:Municipality:index" }
+
+lv_municipality_show:
+    pattern:  /{id}/show
+    defaults: { _controller: "LvPlatformBundle:Municipality:show" }
+
+lv_municipality_new:
+    pattern:  /new
+    defaults: { _controller: "LvPlatformBundle:Municipality:new" }
+
+lv_municipality_create:
+    pattern:  /create
+    defaults: { _controller: "LvPlatformBundle:Municipality:create" }
+    requirements: { _method: post }
+
+lv_municipality_edit:
+    pattern:  /{id}/edit
+    defaults: { _controller: "LvPlatformBundle:Municipality:edit" }
+
+lv_municipality_update:
+    pattern:  /{id}/update
+    defaults: { _controller: "LvPlatformBundle:Municipality:update" }
+    requirements: { _method: post }
+
+lv_municipality_delete:
+    pattern:  /{id}/delete
+    defaults: { _controller: "LvPlatformBundle:Municipality:delete" }
+    requirements: { _method: post }

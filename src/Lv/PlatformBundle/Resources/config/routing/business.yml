@@ -1,0 +1,30 @@
+lv_business:
+    pattern:  /
+    defaults: { _controller: "LvPlatformBundle:Business:index" }
+
+lv_business_show:
+    pattern:  /{id}/show
+    defaults: { _controller: "LvPlatformBundle:Business:show" }
+
+lv_business_new:
+    pattern:  /new
+    defaults: { _controller: "LvPlatformBundle:Business:new" }
+
+lv_business_create:
+    pattern:  /create
+    defaults: { _controller: "LvPlatformBundle:Business:create" }
+    requirements: { _method: post }
+
+lv_business_edit:
+    pattern:  /{id}/edit
+    defaults: { _controller: "LvPlatformBundle:Business:edit" }
+
+lv_business_update:
+    pattern:  /{id}/update
+    defaults: { _controller: "LvPlatformBundle:Business:update" }
+    requirements: { _method: post }
+
+lv_business_delete:
+    pattern:  /{id}/delete
+    defaults: { _controller: "LvPlatformBundle:Business:delete" }
+    requirements: { _method: post }
