@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1" />
+<link href="{{ asset('bundles/lvplatform/vendor/bootstrap/css/bootstrap.css') }}" rel="stylesheet">
+<link href="{{ asset('bundles/lvplatform/vendor/bootstrap/css/bootstrap-responsive.css') }}" rel="stylesheet">
+<title>Symfony2.1.9で技術調査{% block title %}: {% endblock %}</title>
+<style type="text/css">
+body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+/* Large desktop */
+@media (min-width: 1200px) {
+    body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px)  {
+    body {
+        padding-top: 0;
+    	padding-bottom: 0;
+    }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px)  {
+    body {
+        padding-top: 0;
+    	padding-bottom: 0;
+    }
+    .carousel-caption {
+        position: absolute;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container-fluid">
+      <a class="brand" href="#">Symfony2.1.9で技術調査</a>
+      <div class="nav-collapse collapse">
+        <ul class="nav">
+          <li class="active"><a href="#">ホーム</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div><!--/.container-fluid -->
+  </div><!--/.navbar-inner -->
+</div><!--/.navbar -->
+
+<div class="container-fluid">
+{% block content %}
+{% endblock %}
+</div><!--/.fluid-container-->
+
+<div class="container-fluid">
+  <footer>
+    <address>
+      <p>Powered by <a href="http://symfony.com/" target="_blank">Symfony</a></p>
+    </address>
+  </footer>
+</div>
+
+</body>
+</html>
