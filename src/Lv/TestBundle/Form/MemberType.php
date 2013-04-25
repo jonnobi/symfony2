@@ -15,6 +15,8 @@ class MemberType extends AbstractType
     {
         $builder
             ->add('name', 'text', array('label' => 'お名前'))
+            ->add('name_eng', 'text', array('label' => 'お名前（ローマ字）'))
+            ->add('address', 'text', array('label' => '住所'))
             ->add('tel', 'number', array('label' => '電話番号'))
             ->add('gender', 'choice', array(
                 'choices' => array(1 => '男性', '2' => '女性'),

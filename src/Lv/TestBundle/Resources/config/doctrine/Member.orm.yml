@@ -9,6 +9,12 @@ Lv\TestBundle\Entity\Member:
     name:
       type: text
       nullable: false
+    name_eng:
+      type: text
+      nullable: false
+    address:
+      type: text
+      nullable: false
     tel:
       type: text
       nullable: false

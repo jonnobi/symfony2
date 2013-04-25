@@ -1,12 +1,16 @@
 parameters:
-#    lv_test.example.class: Lv\TestBundle\Example
+#    lv_test.validator.validaddress.class: Lv\TestBundle\Validator\ValidAddressValidator
+#    lv_shop.example.class: Lv\ShopBundle\Example
 
 services:
-#    lv_test.example:
-#        class: %lv_test.example.class%
-#        arguments: [@service_id, "plain_value", %parameter%]
-
-    validator.unique.your_validator_name:
-        class: Lv\Platform\Validator\Constraints\ContainsAlphanumericValidator
+    lv_test.validator.validaddress:
+        #class: %lv_test.validator.validaddress.class%
+        class: Lv\TestBundle\Validator\ValidAddressValidator
+        arguments:
+            entityManager: "@doctrine.orm.entity_manager"
         tags:
-            - { name: validator.constraint_validator, alias: ContainsAlphanumericValidator }
+            - { name: validator.constraint_validator, alias: lv_test_address_validator }
+
+#    lv_shop.example:
+#        class: %lv_shop.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

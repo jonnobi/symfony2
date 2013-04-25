@@ -22,6 +22,16 @@ class Member
     /**
      * @var string
      */
+    private $name_eng;
+
+    /**
+     * @var string
+     */
+    private $address;
+
+    /**
+     * @var string
+     */
     private $tel;
 
     /**
@@ -231,5 +241,51 @@ class Member
     public function getDeleted()
     {
         return $this->deleted;
+    }
+
+    /**
+     * Set address
+     *
+     * @param string $address
+     * @return Member
+     */
+    public function setAddress($address)
+    {
+        $this->address = $address;
+
+        return $this;
+    }
+
+    /**
+     * Get address
+     *
+     * @return string
+     */
+    public function getAddress()
+    {
+        return $this->address;
+    }
+
+    /**
+     * Set name_eng
+     *
+     * @param string $nameEng
+     * @return Member
+     */
+    public function setNameEng($nameEng)
+    {
+        $this->name_eng = $nameEng;
+
+        return $this;
+    }
+
+    /**
+     * Get name_eng
+     *
+     * @return string
+     */
+    public function getNameEng()
+    {
+        return $this->name_eng;
     }
 }

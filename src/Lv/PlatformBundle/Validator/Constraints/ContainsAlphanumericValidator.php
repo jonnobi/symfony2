@@ -14,11 +14,4 @@ class ContainsAlphanumericValidator extends ConstraintValidator
         }
     }
 
-    /**
-     * {@inheritDoc}
-     */
-    public function validatedBy()
-    {
-        return 'ContainsAlphanumericValidator';
-    }
 }
