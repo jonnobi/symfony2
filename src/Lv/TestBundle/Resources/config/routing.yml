@@ -1,0 +1,7 @@
+lv_test_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: LvTestBundle:Default:index }
+
+lv_test_member:
+  resource: "@LvTestBundle/Resources/config/routing/member.yml"
+  prefix:   /member

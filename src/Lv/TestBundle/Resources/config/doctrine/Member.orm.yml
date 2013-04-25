@@ -1,0 +1,33 @@
+Lv\TestBundle\Entity\Member:
+  type: entity
+  table: member
+  id:
+    id:
+      type: bigint
+      generator: { strategy: IDENTITY }
+  fields:
+    firstName:
+      type: text
+      nullable: false
+    lastName:
+      type: text
+      nullable: false
+    tel:
+      type: text
+      nullable: false
+    email:
+      type: text
+      nullable: false
+    updated:
+      type: datetime
+      nullable: false
+      options:
+        default: CURRENT_TIMESTAMP
+    created:
+      type: datetime
+      nullable: false
+      options:
+        default: CURRENT_TIMESTAMP
+    deleted:
+      type: datetime
+      nullable: true

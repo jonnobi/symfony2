@@ -25,6 +25,7 @@ class AppKernel extends Kernel
             new Lv\PlatformBundle\LvPlatformBundle(),
             new Lv\ShopaccountBundle\LvShopaccountBundle(),
             new Lv\ShopBundle\LvShopBundle(),
+            new Lv\TestBundle\LvTestBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

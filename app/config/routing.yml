@@ -1,3 +1,7 @@
+lv_test:
+    resource: "@LvTestBundle/Resources/config/routing.yml"
+    prefix:   /test
+
 lv_platform:
     resource: "@LvPlatformBundle/Resources/config/routing.yml"
     prefix:   /platform

@@ -1,0 +1,30 @@
+lv_test_member:
+    pattern:  /
+    defaults: { _controller: "LvTestBundle:Member:index" }
+
+lv_test_member_show:
+    pattern:  /{id}/show
+    defaults: { _controller: "LvTestBundle:Member:show" }
+
+lv_test_member_new:
+    pattern:  /new
+    defaults: { _controller: "LvTestBundle:Member:new" }
+
+lv_test_member_create:
+    pattern:  /create
+    defaults: { _controller: "LvTestBundle:Member:create" }
+    requirements: { _method: post }
+
+lv_test_member_edit:
+    pattern:  /{id}/edit
+    defaults: { _controller: "LvTestBundle:Member:edit" }
+
+lv_test_member_update:
+    pattern:  /{id}/update
+    defaults: { _controller: "LvTestBundle:Member:update" }
+    requirements: { _method: post }
+
+lv_test_member_delete:
+    pattern:  /{id}/delete
+    defaults: { _controller: "LvTestBundle:Member:delete" }
+    requirements: { _method: post }
