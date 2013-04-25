@@ -6,10 +6,7 @@ Lv\TestBundle\Entity\Member:
       type: bigint
       generator: { strategy: IDENTITY }
   fields:
-    firstName:
-      type: text
-      nullable: false
-    lastName:
+    name:
       type: text
       nullable: false
     tel:
@@ -17,6 +14,9 @@ Lv\TestBundle\Entity\Member:
       nullable: false
     email:
       type: text
+      nullable: false
+    gender:
+      type: integer
       nullable: false
     updated:
       type: datetime

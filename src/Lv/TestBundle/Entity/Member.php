@@ -17,12 +17,7 @@ class Member
     /**
      * @var string
      */
-    private $firstName;
-
-    /**
-     * @var string
-     */
-    private $lastName;
+    private $name;
 
     /**
      * @var string
@@ -33,6 +28,11 @@ class Member
      * @var string
      */
     private $email;
+
+    /**
+     * @var integer
+     */
+    private $gender;
 
     /**
      * @var \DateTime
@@ -61,49 +61,26 @@ class Member
     }
 
     /**
-     * Set firstName
+     * Set name
      *
-     * @param string $firstName
+     * @param string $name
      * @return Member
      */
-    public function setFirstName($firstName)
+    public function setName($name)
     {
-        $this->firstName = $firstName;
+        $this->name = $name;
     
         return $this;
     }
 
     /**
-     * Get firstName
+     * Get name
      *
      * @return string 
      */
-    public function getFirstName()
+    public function getName()
     {
-        return $this->firstName;
-    }
-
-    /**
-     * Set lastName
-     *
-     * @param string $lastName
-     * @return Member
-     */
-    public function setLastName($lastName)
-    {
-        $this->lastName = $lastName;
-    
-        return $this;
-    }
-
-    /**
-     * Get lastName
-     *
-     * @return string 
-     */
-    public function getLastName()
-    {
-        return $this->lastName;
+        return $this->name;
     }
 
     /**
@@ -150,6 +127,29 @@ class Member
     public function getEmail()
     {
         return $this->email;
+    }
+
+    /**
+     * Set gender
+     *
+     * @param integer $gender
+     * @return Member
+     */
+    public function setGender($gender)
+    {
+        $this->gender = $gender;
+    
+        return $this;
+    }
+
+    /**
+     * Get gender
+     *
+     * @return integer 
+     */
+    public function getGender()
+    {
+        return $this->gender;
     }
 
     /**
