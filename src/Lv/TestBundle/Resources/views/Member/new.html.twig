@@ -1,16 +1,28 @@
-<h1>Member creation</h1>
+{% extends "LvPlatformBundle::layout.html.twig" %}
+{% block content %}
 
-<form action="{{ path('lv_test_member_create') }}" method="post" {{ form_enctype(form) }}>
-    {{ form_widget(form) }}
-    <p>
-        <button type="submit">Create</button>
-    </p>
-</form>
+<div class="row">
+  <div class="span12">
+    <h2>会員登録</h2>
 
-<ul class="record_actions">
-    <li>
+    {% if formErrors %}<p><code>入力内容に不備があります</code></p>{% endif %}
+
+    <form action="{{ path('lv_test_member_create') }}" method="post" {{ form_enctype(form) }} novalidate>
+      {{ form_widget(form) }}
+
+      <p>
+        <button type="submit">登録</button>
+      </p>
+    </form>
+
+    <ul class="record_actions">
+      <li>
         <a href="{{ path('lv_test_member') }}">
-            Back to the list
+          一覧に戻る
         </a>
-    </li>
-</ul>
+      </li>
+    </ul>
+
+  </div><!--/row-->
+</div><!--/span-->
+{% endblock %}

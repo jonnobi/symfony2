@@ -1,0 +1,13 @@
+# src/Lv/TestBundle/Resources/config/validation.yml
+#Lv\TestBundle\Entity\Member:
+#    constraints:
+#        - Callback:
+#            methods:
+#              - [Lv\TestBundle\validator\MemberValidator, isAgreementValid]
+
+
+Lv\TestBundle\Entity\Member:
+    properties:
+        name:
+            - NotBlank: ~
+            - Lv\PlatformBundle\Validator\Constraints\ContainsAlphanumeric: ~

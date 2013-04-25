@@ -62,6 +62,7 @@ class MemberController extends Controller
         return $this->render('LvTestBundle:Member:new.html.twig', array(
             'entity' => $entity,
             'form'   => $form->createView(),
+            'formErrors' => false,
         ));
     }
 
@@ -86,6 +87,7 @@ class MemberController extends Controller
         return $this->render('LvTestBundle:Member:new.html.twig', array(
             'entity' => $entity,
             'form'   => $form->createView(),
+            'formErrors' => true,
         ));
     }
 

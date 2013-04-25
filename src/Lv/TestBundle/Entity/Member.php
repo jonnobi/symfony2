@@ -50,10 +50,22 @@ class Member
     private $deleted;
 
 
+    public function __construct()
+    {
+        $this->created = new \DateTime();
+        $this->updated = new \DateTime();
+    }
+
+    public function __toString()
+    {
+        return $this->getName();
+    }
+
+
     /**
      * Get id
      *
-     * @return integer 
+     * @return integer
      */
     public function getId()
     {
@@ -69,14 +81,14 @@ class Member
     public function setName($name)
     {
         $this->name = $name;
-    
+
         return $this;
     }
 
     /**
      * Get name
      *
-     * @return string 
+     * @return string
      */
     public function getName()
     {
@@ -92,14 +104,14 @@ class Member
     public function setTel($tel)
     {
         $this->tel = $tel;
-    
+
         return $this;
     }
 
     /**
      * Get tel
      *
-     * @return string 
+     * @return string
      */
     public function getTel()
     {
@@ -115,14 +127,14 @@ class Member
     public function setEmail($email)
     {
         $this->email = $email;
-    
+
         return $this;
     }
 
     /**
      * Get email
      *
-     * @return string 
+     * @return string
      */
     public function getEmail()
     {
@@ -138,14 +150,14 @@ class Member
     public function setGender($gender)
     {
         $this->gender = $gender;
-    
+
         return $this;
     }
 
     /**
      * Get gender
      *
-     * @return integer 
+     * @return integer
      */
     public function getGender()
     {
@@ -161,14 +173,14 @@ class Member
     public function setUpdated($updated)
     {
         $this->updated = $updated;
-    
+
         return $this;
     }
 
     /**
      * Get updated
      *
-     * @return \DateTime 
+     * @return \DateTime
      */
     public function getUpdated()
     {
@@ -184,14 +196,14 @@ class Member
     public function setCreated($created)
     {
         $this->created = $created;
-    
+
         return $this;
     }
 
     /**
      * Get created
      *
-     * @return \DateTime 
+     * @return \DateTime
      */
     public function getCreated()
     {
@@ -207,14 +219,14 @@ class Member
     public function setDeleted($deleted)
     {
         $this->deleted = $deleted;
-    
+
         return $this;
     }
 
     /**
      * Get deleted
      *
-     * @return \DateTime 
+     * @return \DateTime
      */
     public function getDeleted()
     {

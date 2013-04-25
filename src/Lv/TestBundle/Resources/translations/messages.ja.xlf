@@ -3,8 +3,8 @@
     <file source-language="en" datatype="plaintext" original="file.ext">
         <body>
             <trans-unit id="1">
-                <source>Symfony2 is great</source>
-                <target>J'aime Symfony2</target>
+                <source>The string {{ string }} contains an illegal character: it can only contain letters or numbers.</source>
+                <target>不正な文字が含まれています。半角英数字のみで入力してください。</target>
             </trans-unit>
         </body>
     </file>
